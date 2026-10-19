@@ -26,6 +26,7 @@
     "verify:mp": "node apps/miniprogram/scripts/check-miniprogram.mjs",
     "verify:e2e": "node scripts/e2e-check.mjs",
     "docs:capture": "node scripts/capture-docs.mjs",
+    "docs:image-handoff": "node scripts/generate-image-handoff.mjs",
     "verify": "npm run data:validate && npm test && npm run typecheck && npm run verify:mp",
     "check": "npm run data:validate && npm run typecheck && npm test && npm run verify:mp"
   },

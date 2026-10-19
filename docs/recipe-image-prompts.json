@@ -1,0 +1,508 @@
+{
+  "project": "daily-menu / 今天吃什么",
+  "generatedAt": "2026-10-19T09:17:46.236Z",
+  "purpose": "为 25 道菜生成成品图，替换项目中的示意图",
+  "size": "1200x800",
+  "aspectRatio": "3:2",
+  "styleGuide": [
+    "**统一风格**：真实、温暖的家庭餐桌食物摄影；暖白自然光从左侧来；浅色橡木桌面；陶瓷器皿；45° 微俯拍；浅景深；不过度饱和。",
+    "**画面只出现这一道菜**：可以有一小碟蘸料、筷子、餐巾作为点缀，但不要出现其他主菜、人物、手、品牌包装。",
+    "**不要生成文字**：模型很容易把中文写错；菜名、标签由网页叠加，不要画进图里。",
+    "**食材必须与菜谱一致**：以 JSON 中的 `mainIngredients` 为准，不添加菜谱里没有的食材（尤其是肉类、海鲜、花生等过敏原）。",
+    "**尺寸**：GPT 图像通常输出 1536×1024（3:2）。下载后缩放到 **1200×800**，或按 3:2 居中裁切；文件保存为 PNG。",
+    "**图片性质**：AI 生成图必须标注「AI 生成示意图，非实拍」，不得标成 `photo`，也不得声称是真实拍摄。"
+  ],
+  "negative": "Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish.",
+  "images": [
+    {
+      "index": 1,
+      "id": "scallion-oil-noodles",
+      "name": "葱油拌面",
+      "en": "scallion oil noodles",
+      "cuisine": "江浙",
+      "tastes": [
+        "咸鲜",
+        "酱香"
+      ],
+      "mainIngredients": [
+        "面条",
+        "小葱",
+        "生抽"
+      ],
+      "filename": "scallion-oil-noodles.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of scallion oil noodles (葱油拌面), thin noodles coated in dark scallion oil, crispy fried scallions on top, chopsticks lifting a few strands. Served in a white ceramic bowl, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade Jiangnan cooking, accurate ingredients (面条, 小葱, 生抽), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 2,
+      "id": "winter-melon-meatball-soup",
+      "name": "冬瓜丸子汤",
+      "en": "winter melon meatball soup",
+      "cuisine": "家常菜",
+      "tastes": [
+        "清淡",
+        "咸鲜"
+      ],
+      "mainIngredients": [
+        "冬瓜",
+        "猪肉馅",
+        "鸡蛋",
+        "姜",
+        "小葱"
+      ],
+      "filename": "winter-melon-meatball-soup.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of winter melon meatball soup (冬瓜丸子汤), clear broth with tender pork meatballs, translucent winter melon chunks and scallion. Served in a white ceramic bowl, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade home-style Chinese cooking, accurate ingredients (冬瓜, 猪肉馅, 鸡蛋, 姜, 小葱), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 3,
+      "id": "tomato-scrambled-egg",
+      "name": "番茄炒蛋",
+      "en": "tomato scrambled eggs",
+      "cuisine": "家常菜",
+      "tastes": [
+        "咸鲜",
+        "微甜"
+      ],
+      "mainIngredients": [
+        "番茄",
+        "鸡蛋"
+      ],
+      "filename": "tomato-scrambled-egg.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of tomato scrambled eggs (番茄炒蛋), soft golden scrambled eggs with bright red tomato chunks in a glossy sauce, scallion garnish. Served in a white ceramic plate, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade home-style Chinese cooking, accurate ingredients (番茄, 鸡蛋), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 4,
+      "id": "tomato-beef-brisket",
+      "name": "番茄牛腩",
+      "en": "tomato beef brisket stew",
+      "cuisine": "家常菜",
+      "tastes": [
+        "酸甜",
+        "咸鲜"
+      ],
+      "mainIngredients": [
+        "牛腩",
+        "番茄",
+        "洋葱",
+        "姜"
+      ],
+      "filename": "tomato-beef-brisket.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of tomato beef brisket stew (番茄牛腩), chunks of tender beef brisket and tomato in a rich red-orange broth, scallion garnish. Served in a white ceramic bowl, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade home-style Chinese cooking, accurate ingredients (牛腩, 番茄, 洋葱, 姜), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 5,
+      "id": "tomato-beef-noodle",
+      "name": "番茄牛肉面",
+      "en": "tomato beef noodle soup",
+      "cuisine": "家常菜",
+      "tastes": [
+        "酸甜",
+        "咸鲜"
+      ],
+      "mainIngredients": [
+        "牛腩",
+        "番茄",
+        "面条",
+        "小葱"
+      ],
+      "filename": "tomato-beef-noodle.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of tomato beef noodle soup (番茄牛肉面), wheat noodles in a tomato beef broth, sliced beef, fresh tomato chunks and scallion. Served in a white ceramic bowl, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade home-style Chinese cooking, accurate ingredients (牛腩, 番茄, 面条, 小葱), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 6,
+      "id": "kung-pao-chicken",
+      "name": "宫保鸡丁",
+      "en": "kung pao chicken",
+      "cuisine": "川湘",
+      "tastes": [
+        "香辣",
+        "酸甜"
+      ],
+      "mainIngredients": [
+        "鸡腿肉",
+        "花生米",
+        "干辣椒",
+        "大葱"
+      ],
+      "filename": "kung-pao-chicken.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of kung pao chicken (宫保鸡丁), diced chicken, roasted peanuts, dried red chilies and scallion pieces in a dark glossy sauce. Served in a white ceramic plate, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade Sichuan-Hunan cooking, accurate ingredients (鸡腿肉, 花生米, 干辣椒, 大葱), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 7,
+      "id": "oyster-sauce-lettuce",
+      "name": "蚝油生菜",
+      "en": "lettuce with oyster sauce",
+      "cuisine": "粤式",
+      "tastes": [
+        "咸鲜",
+        "蒜香"
+      ],
+      "mainIngredients": [
+        "生菜",
+        "大蒜"
+      ],
+      "filename": "oyster-sauce-lettuce.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of lettuce with oyster sauce (蚝油生菜), bright green blanched lettuce leaves with glossy oyster sauce, minced garlic and a light shine. Served in a white ceramic plate, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade Cantonese cooking, accurate ingredients (生菜, 大蒜), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 8,
+      "id": "braised-pork",
+      "name": "红烧肉",
+      "en": "braised pork belly",
+      "cuisine": "家常菜",
+      "tastes": [
+        "酱香",
+        "微甜"
+      ],
+      "mainIngredients": [
+        "带皮五花肉",
+        "姜",
+        "大葱",
+        "八角",
+        "桂皮"
+      ],
+      "filename": "braised-pork.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of braised pork belly (红烧肉), glossy caramelized pork belly cubes in a rich dark soy glaze, scallion garnish, a few pieces of star anise. Served in a white ceramic bowl, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade home-style Chinese cooking, accurate ingredients (带皮五花肉, 姜, 大葱, 八角, 桂皮), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 9,
+      "id": "ham-cheese-sandwich",
+      "name": "火腿芝士三明治",
+      "en": "ham and cheese sandwich",
+      "cuisine": "西式",
+      "tastes": [
+        "奶香",
+        "咸鲜"
+      ],
+      "mainIngredients": [
+        "吐司",
+        "火腿片",
+        "芝士片",
+        "生菜",
+        "番茄"
+      ],
+      "filename": "ham-cheese-sandwich.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of ham and cheese sandwich (火腿芝士三明治), toasted bread cut diagonally, melted cheese, folded ham, crisp lettuce and tomato slices, a few potato chips on the side. Served in a wooden serving board, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade Western cooking, accurate ingredients (吐司, 火腿片, 芝士片, 生菜, 番茄), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 10,
+      "id": "mapo-tofu",
+      "name": "麻婆豆腐",
+      "en": "mapo tofu",
+      "cuisine": "川湘",
+      "tastes": [
+        "香辣",
+        "咸鲜"
+      ],
+      "mainIngredients": [
+        "嫩豆腐",
+        "猪肉末",
+        "蒜苗"
+      ],
+      "filename": "mapo-tofu.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of mapo tofu (麻婆豆腐), soft white tofu cubes in bright red chili oil with minced pork, chopped garlic sprouts and Sichuan pepper. Served in a white ceramic bowl, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade Sichuan-Hunan cooking, accurate ingredients (嫩豆腐, 猪肉末, 蒜苗), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 11,
+      "id": "century-egg-pork-porridge",
+      "name": "皮蛋瘦肉粥",
+      "en": "century egg and pork congee",
+      "cuisine": "粤式",
+      "tastes": [
+        "咸鲜",
+        "鲜香"
+      ],
+      "mainIngredients": [
+        "大米",
+        "猪里脊",
+        "皮蛋",
+        "姜"
+      ],
+      "filename": "century-egg-pork-porridge.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of century egg and pork congee (皮蛋瘦肉粥), creamy rice congee with dark century egg pieces, tender pork slivers, julienned ginger and scallion. Served in a white ceramic bowl, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade Cantonese cooking, accurate ingredients (大米, 猪里脊, 皮蛋, 姜), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 12,
+      "id": "green-pepper-pork",
+      "name": "青椒肉丝",
+      "en": "stir-fried pork with green peppers",
+      "cuisine": "家常菜",
+      "tastes": [
+        "咸鲜",
+        "鲜香"
+      ],
+      "mainIngredients": [
+        "猪里脊",
+        "青椒",
+        "大蒜"
+      ],
+      "filename": "green-pepper-pork.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of stir-fried pork with green peppers (青椒肉丝), tender pork shreds and bright green pepper strips in a glossy savory sauce, garlic slices. Served in a white ceramic plate, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade home-style Chinese cooking, accurate ingredients (猪里脊, 青椒, 大蒜), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 13,
+      "id": "steamed-seabass",
+      "name": "清蒸鲈鱼",
+      "en": "steamed sea bass",
+      "cuisine": "粤式",
+      "tastes": [
+        "清淡",
+        "咸鲜"
+      ],
+      "mainIngredients": [
+        "鲈鱼",
+        "姜",
+        "小葱",
+        "红椒"
+      ],
+      "filename": "steamed-seabass.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of steamed sea bass (清蒸鲈鱼), whole steamed sea bass with julienned ginger, scallion and red chili, light soy sauce pooled around. Served in a oval white plate, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade Cantonese cooking, accurate ingredients (鲈鱼, 姜, 小葱, 红椒), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 14,
+      "id": "three-fresh-dumplings",
+      "name": "三鲜水饺",
+      "en": "boiled dumplings",
+      "cuisine": "北方",
+      "tastes": [
+        "咸鲜",
+        "鲜香"
+      ],
+      "mainIngredients": [
+        "猪肉馅",
+        "虾仁",
+        "鸡蛋",
+        "韭菜",
+        "饺子皮"
+      ],
+      "filename": "three-fresh-dumplings.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of boiled dumplings (三鲜水饺), plump boiled dumplings with pleated edges, a small dish of black vinegar and chili oil, chopsticks. Served in a white ceramic plate, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade northern Chinese cooking, accurate ingredients (猪肉馅, 虾仁, 鸡蛋, 韭菜, 饺子皮), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 15,
+      "id": "hand-torn-cabbage",
+      "name": "手撕包菜",
+      "en": "hand-torn stir-fried cabbage",
+      "cuisine": "家常菜",
+      "tastes": [
+        "蒜香",
+        "香辣"
+      ],
+      "mainIngredients": [
+        "包菜",
+        "大蒜",
+        "干辣椒"
+      ],
+      "filename": "hand-torn-cabbage.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of hand-torn stir-fried cabbage (手撕包菜), charred hand-torn cabbage leaves with dried red chilies, garlic slices and a glossy sauce. Served in a rustic white plate, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade home-style Chinese cooking, accurate ingredients (包菜, 大蒜, 干辣椒), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 16,
+      "id": "egg-veggie-pancake",
+      "name": "蔬菜鸡蛋饼",
+      "en": "vegetable egg pancake",
+      "cuisine": "家常菜",
+      "tastes": [
+        "咸鲜",
+        "鲜香"
+      ],
+      "mainIngredients": [
+        "鸡蛋",
+        "面粉",
+        "胡萝卜",
+        "小葱"
+      ],
+      "filename": "egg-veggie-pancake.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of vegetable egg pancake (蔬菜鸡蛋饼), golden pan-fried egg pancake cut into wedges, visible shredded carrot and green scallion, small dipping sauce dish. Served in a white round plate, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade home-style Chinese cooking, accurate ingredients (鸡蛋, 面粉, 胡萝卜, 小葱), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 17,
+      "id": "yogurt-fruit-bowl",
+      "name": "酸奶水果燕麦碗",
+      "en": "yogurt fruit and granola bowl",
+      "cuisine": "轻食",
+      "tastes": [
+        "酸甜",
+        "奶香"
+      ],
+      "mainIngredients": [
+        "无糖酸奶",
+        "燕麦片",
+        "蓝莓",
+        "香蕉"
+      ],
+      "filename": "yogurt-fruit-bowl.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of yogurt fruit and granola bowl (酸奶水果燕麦碗), thick white yogurt topped with blueberries, banana slices, crunchy granola and a drizzle of honey. Served in a clear glass bowl, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade light and healthy cooking, accurate ingredients (无糖酸奶, 燕麦片, 蓝莓, 香蕉), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 18,
+      "id": "garlic-vermicelli-shrimp",
+      "name": "蒜蓉粉丝蒸虾",
+      "en": "steamed garlic shrimp with vermicelli",
+      "cuisine": "粤式",
+      "tastes": [
+        "蒜香",
+        "咸鲜"
+      ],
+      "mainIngredients": [
+        "大虾",
+        "龙口粉丝",
+        "大蒜",
+        "小米辣"
+      ],
+      "filename": "garlic-vermicelli-shrimp.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of steamed garlic shrimp with vermicelli (蒜蓉粉丝蒸虾), butterflied large shrimp on a bed of translucent glass noodles, topped with minced garlic, scallion and red chili. Served in a oval white plate, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade Cantonese cooking, accurate ingredients (大虾, 龙口粉丝, 大蒜, 小米辣), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 19,
+      "id": "garlic-broccoli",
+      "name": "蒜蓉西兰花",
+      "en": "garlic stir-fried broccoli",
+      "cuisine": "家常菜",
+      "tastes": [
+        "清淡",
+        "蒜香"
+      ],
+      "mainIngredients": [
+        "西兰花",
+        "大蒜"
+      ],
+      "filename": "garlic-broccoli.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of garlic stir-fried broccoli (蒜蓉西兰花), vibrant green broccoli florets with golden garlic bits and a light glossy sauce. Served in a white ceramic plate, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade home-style Chinese cooking, accurate ingredients (西兰花, 大蒜), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 20,
+      "id": "potato-rib-stew",
+      "name": "土豆炖排骨",
+      "en": "potato and pork rib stew",
+      "cuisine": "北方",
+      "tastes": [
+        "酱香",
+        "咸鲜"
+      ],
+      "mainIngredients": [
+        "猪肋排",
+        "土豆",
+        "姜",
+        "大葱",
+        "八角"
+      ],
+      "filename": "potato-rib-stew.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of potato and pork rib stew (土豆炖排骨), tender pork ribs and golden potato chunks in a savory braising sauce, scallion garnish. Served in a white ceramic bowl, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade northern Chinese cooking, accurate ingredients (猪肋排, 土豆, 姜, 大葱, 八角), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 21,
+      "id": "pan-seared-salmon",
+      "name": "香煎三文鱼",
+      "en": "pan-seared salmon fillet",
+      "cuisine": "西式",
+      "tastes": [
+        "清淡",
+        "鲜香"
+      ],
+      "mainIngredients": [
+        "三文鱼排",
+        "柠檬",
+        "芦笋",
+        "大蒜"
+      ],
+      "filename": "pan-seared-salmon.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of pan-seared salmon fillet (香煎三文鱼), crispy-skinned salmon fillet with charred asparagus, a lemon wedge and cracked black pepper. Served in a white ceramic plate, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade Western cooking, accurate ingredients (三文鱼排, 柠檬, 芦笋, 大蒜), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 22,
+      "id": "millet-pumpkin-porridge",
+      "name": "小米南瓜粥",
+      "en": "millet and pumpkin porridge",
+      "cuisine": "家常菜",
+      "tastes": [
+        "清淡",
+        "微甜"
+      ],
+      "mainIngredients": [
+        "小米",
+        "南瓜"
+      ],
+      "filename": "millet-pumpkin-porridge.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of millet and pumpkin porridge (小米南瓜粥), golden-yellow millet porridge with soft pumpkin cubes, gentle steam, a small spoon beside. Served in a white ceramic bowl, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade home-style Chinese cooking, accurate ingredients (小米, 南瓜), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 23,
+      "id": "oat-milk-porridge",
+      "name": "燕麦牛奶粥",
+      "en": "oatmeal milk porridge",
+      "cuisine": "轻食",
+      "tastes": [
+        "奶香",
+        "微甜"
+      ],
+      "mainIngredients": [
+        "即食燕麦片",
+        "牛奶",
+        "香蕉"
+      ],
+      "filename": "oat-milk-porridge.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of oatmeal milk porridge (燕麦牛奶粥), creamy oat porridge with banana slices, a milk swirl and a few oats on top. Served in a white ceramic bowl, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade light and healthy cooking, accurate ingredients (即食燕麦片, 牛奶, 香蕉), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 24,
+      "id": "fish-fragrant-eggplant",
+      "name": "鱼香茄子",
+      "en": "fish-fragrant eggplant",
+      "cuisine": "川湘",
+      "tastes": [
+        "酸甜",
+        "香辣"
+      ],
+      "mainIngredients": [
+        "长茄子",
+        "猪肉末",
+        "泡椒"
+      ],
+      "filename": "fish-fragrant-eggplant.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of fish-fragrant eggplant (鱼香茄子), glossy purple eggplant strips in a red garlic chili sauce with minced pork, pickled red chilies and scallion. Served in a white ceramic plate, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade Sichuan-Hunan cooking, accurate ingredients (长茄子, 猪肉末, 泡椒), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    },
+    {
+      "index": 25,
+      "id": "teriyaki-chicken-rice",
+      "name": "照烧鸡腿饭",
+      "en": "teriyaki chicken rice bowl",
+      "cuisine": "日韩",
+      "tastes": [
+        "咸鲜",
+        "微甜"
+      ],
+      "mainIngredients": [
+        "鸡腿肉",
+        "米饭",
+        "西兰花"
+      ],
+      "filename": "teriyaki-chicken-rice.png",
+      "size": "1200x800 (3:2)",
+      "prompt": "Realistic editorial food photography of teriyaki chicken rice bowl (照烧鸡腿饭), sliced glazed teriyaki chicken thigh over steamed rice, broccoli florets, sesame seeds. Served in a white ceramic bowl, on a light oak table with a linen napkin and chopsticks, warm natural window light from the left, soft shadows. 45-degree angle, shallow depth of field, appetizing homemade Japanese-Korean cooking, accurate ingredients (鸡腿肉, 米饭, 西兰花), 3:2 landscape, high detail. Avoid text, Chinese characters, watermarks, logos, people, hands, cartoon or 3D-render style, plastic-looking food, oversaturated colors, duplicated utensils, and ingredients that are not in the dish."
+    }
+  ]
+}

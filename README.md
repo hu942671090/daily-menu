@@ -324,7 +324,21 @@ npm run typecheck        # 类型检查
 npm run verify:mp        # 小程序工程与页面逻辑检查
 npm run verify:e2e       # 浏览器端到端检查（需先启动服务）
 npm run docs:capture     # 重新生成 H5 视口截图（需先启动服务）
+npm run docs:image-handoff  # 生成给 GPT 的菜谱图片交接文档与提示词
 npm run build:static     # 生成可直接上传静态托管的版本
 npm run build            # 全量构建
 npm start                # 启动生产服务
 ```
+
+---
+
+## 十四、相关文档
+
+- [架构与数据设计](docs/architecture.md)
+- [内容规范](docs/content-schema.md)
+- [平台能力与视频接入](docs/platform-and-video.md)
+- [验证报告](docs/verification.md)
+- [视频核验报告](docs/video-verification.md)
+- [静态发布指南（GitHub Pages / Netlify / Cloudflare）](docs/deploy-static.md)
+- [菜谱图片 GPT 交接文档与 25 条提示词](docs/recipe-image-handoff.md)
+- [关键假设与待办](docs/assumptions-and-todo.md)
