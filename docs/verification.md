@@ -32,6 +32,7 @@ npm run verify:e2e
 | 视频核验 | `npm run videos:verify` | ✅ 24 条已核验，覆盖 24 / 25 道菜谱 |
 | 图片生成 | `npm run data:images` | ✅ 158 张（25 张成品 + 133 张步骤） |
 | 静态发布构建 | `npm run build:static` | ✅ 10.3 MB，含 158 张图；hash 路由、无 `/api` 请求、图片可加载 |
+| GitHub Pages 公网部署 | GitHub Pages / `gh-pages` | ✅ <https://hu942671090.github.io/daily-menu/> 返回 200，图片 0 失败，刷新子路由正常 |
 
 ## 二、内容数据
 
@@ -141,7 +142,7 @@ npm run videos:verify
 
 1. 未在微信开发者工具中编译预览，未真机运行；未验证 iOS/Android 微信内的图片域名、字体与滚动表现。
 2. 未在 Safari/iOS 浏览器验证；本轮仅 Chromium（Edge）。
-3. 未部署公网，未验证 HTTPS、CDN、跨域白名单与小程序合法域名。
+3. Web 静态站已部署到 GitHub Pages 并验证（图片、hash 路由、移动端无溢出）；Node 数据服务未部署，未验证自定义域名、CDN、跨域白名单与小程序合法域名。
 4. 视频只做「链接可访问 + 标题含菜名」核验，没有逐帧核对做法；建议上线前人工抽检。
 5. 图片全部为示意图，未验证实拍图替换后的裁切与加载性能。
 6. 未做无障碍（屏幕阅读器）与低端机性能测试。
