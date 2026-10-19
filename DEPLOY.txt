@@ -1,0 +1,8 @@
+今天吃什么 · 静态演示版
+
+上传整个 dist-static 目录到任意静态托管即可：
+- Netlify：直接拖拽本目录到 app.netlify.com/drop
+- Cloudflare Pages：Create project → Direct Upload → 上传本目录
+- GitHub Pages：把本目录内容推到 gh-pages 分支，或作为 Pages 的发布目录
+
+数据全部内置，无需后端；用户偏好/菜单/收藏保存在各自浏览器 localStorage。
