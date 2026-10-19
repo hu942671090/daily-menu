@@ -1,0 +1,7 @@
+{
+  "name": "daily-menu-miniprogram",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "今天吃什么 · 微信小程序工程（原生）"
+}

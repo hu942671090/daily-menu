@@ -1,0 +1,7 @@
+.chip-toggle {
+  display: inline-block;
+}
+
+.input {
+  width: 100%;
+}

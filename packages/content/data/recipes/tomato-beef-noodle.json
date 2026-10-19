@@ -1,0 +1,158 @@
+{
+  "id": "tomato-beef-noodle",
+  "name": "番茄牛肉面",
+  "subtitle": "酸甜汤底配软烂牛肉",
+  "intro": "番茄先炒成沙再加水，汤色红亮、酸味柔和，牛肉在这锅汤里炖到能用筷子轻松插入。煮好的面条直接放进汤里，吸饱汤汁后比干拌更顺口，天冷的时候连汤一起吃完很舒服。",
+  "cuisine": "家常菜",
+  "tastes": ["酸甜", "咸鲜"],
+  "mealTypes": ["lunch"],
+  "baseServings": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 40,
+  "difficulty": 2,
+  "image": {
+    "src": "/images/recipes/tomato-beef-noodle.png",
+    "alt": "番茄牛肉面成品示意图：白碗中面条浸在红色汤里，表面铺牛肉块与葱花",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["牛腩", "番茄", "面条", "小葱"],
+  "allergenTags": ["牛肉", "麸质", "大豆"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "beef-brisket", "name": "牛腩", "amount": 300, "unit": "克", "scalable": true, "note": "切 2 厘米块" },
+        { "id": "tomato", "name": "番茄", "amount": 400, "unit": "克", "scalable": true, "note": "约 3 个，去皮" },
+        { "id": "noodle", "name": "面条", "amount": 200, "unit": "克", "scalable": true, "note": "鲜面或挂面均可" },
+        { "id": "scallion", "name": "小葱", "amount": 2, "unit": "根", "scalable": true, "note": "切葱花" },
+        { "id": "ginger", "name": "姜", "amount": 3, "unit": "片", "scalable": true }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "tomato-paste", "name": "番茄酱", "amount": 30, "unit": "克", "scalable": true, "note": "增加汤色和浓度" },
+        { "id": "light-soy", "name": "生抽", "amount": 20, "unit": "毫升", "scalable": true },
+        { "id": "cooking-wine", "name": "料酒", "amount": 15, "unit": "毫升", "scalable": true, "note": "焯水用" },
+        { "id": "sugar", "name": "白糖", "amount": 5, "unit": "克", "scalable": true, "note": "平衡番茄酸味" },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "", "display": "约 3 克（按口味调整）", "scalable": false },
+        { "id": "cooking-oil", "name": "食用油", "amount": 20, "unit": "毫升", "scalable": true },
+        { "id": "water", "name": "清水", "amount": 1200, "unit": "毫升", "scalable": true, "note": "炖汤用" }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "牛肉切块泡血水",
+      "text": "牛腩逆着纹理切成两厘米见方的块，放进冷水里泡二十分钟，中途换一次水，把血水泡出来。姜切片，小葱切成葱花备用。",
+      "image": {
+        "src": "/images/recipes/tomato-beef-noodle-step-1.png",
+        "alt": "步骤 1 示意图：砧板上切好的牛肉块，旁边一碗清水泡着牛肉",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 20 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 2,
+      "title": "番茄烫皮切小块",
+      "text": "番茄在顶部划十字，用开水烫三十秒后撕掉外皮，去蒂切块。其中一半再切碎一些，方便炒出沙；另一半切成大块，留到后面下锅。",
+      "image": {
+        "src": "/images/recipes/tomato-beef-noodle-step-2.png",
+        "alt": "步骤 2 示意图：烫过开水的番茄正在去皮，砧板上有切好的番茄块",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 5 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 3,
+      "title": "牛肉焯水撇浮沫",
+      "text": "牛腩冷水下锅，加姜片和料酒，大火煮开后撇净浮沫，再煮两分钟捞出，用温水冲掉表面附着的杂质。",
+      "image": {
+        "src": "/images/recipes/tomato-beef-noodle-step-3.png",
+        "alt": "步骤 3 示意图：锅中牛肉焯水，水面浮着灰白色浮沫，勺子正在撇沫",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 6 分钟",
+      "heat": "大火"
+    },
+    {
+      "index": 4,
+      "title": "炒出番茄浓汤底",
+      "text": "锅中倒油，中火下番茄碎翻炒，用铲子按压到变成糊状、锅底渗出红汁，加番茄酱再炒半分钟，油色变红即可。",
+      "image": {
+        "src": "/images/recipes/tomato-beef-noodle-step-4.png",
+        "alt": "步骤 4 示意图：锅中番茄炒成糊状，油色泛红，铲子正在按压",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 4 分钟",
+      "heat": "中火"
+    },
+    {
+      "index": 5,
+      "title": "下牛肉小火慢炖",
+      "text": "下牛腩翻匀，加生抽和清水，大火烧开后转小火盖盖炖二十五分钟，再放入留下的大块番茄，继续炖五分钟至牛肉软烂。",
+      "image": {
+        "src": "/images/recipes/tomato-beef-noodle-step-5.png",
+        "alt": "步骤 5 示意图：砂锅中红色汤汁微微冒泡，牛肉块浸在汤里",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 30 分钟",
+      "heat": "小火"
+    },
+    {
+      "index": 6,
+      "title": "煮面浇汤撒葱花",
+      "text": "另起锅煮面条，按包装时间少煮半分钟。汤里加盐和白糖调味，面条捞入碗中，浇上牛肉和热汤，撒葱花即可。",
+      "image": {
+        "src": "/images/recipes/tomato-beef-noodle-step-6.png",
+        "alt": "步骤 6 示意图：面条盛入碗中，正被浇上红色牛肉汤并撒葱花",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 5 分钟",
+      "heat": "中火"
+    }
+  ],
+  "tips": [
+    "番茄要炒到完全散开再加水，汤色才红亮，酸味也更柔和。",
+    "牛腩用小火保持水面微微冒泡，大火翻滚会让肉变柴。",
+    "面条单独煮，直接放进牛肉汤里煮会让整锅汤变浑浊。"
+  ],
+  "substitutions": [
+    "牛腩可换成牛腱或牛肋条，炖煮时间需延长十到十五分钟。",
+    "面条可换成刀削面、乌冬或米粉，米粉本身不含麸质。",
+    "番茄酱可以省略，需多加一个番茄并把底炒得更久。"
+  ],
+  "failures": [
+    "汤色寡淡：番茄没炒出沙就加水；要炒到番茄化成糊、油色发红再加水。",
+    "牛肉嚼不动：炖煮时间不够或火太大；小火炖到筷子能轻松插入为止。",
+    "汤发酸：番茄酱过多或糖不足；先加糖尝味，再决定是否补番茄酱。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

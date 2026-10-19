@@ -1,0 +1,163 @@
+<view class="container" wx:if="{{ready && !missing}}">
+  <image class="detail-img" src="{{recipe.image}}" mode="aspectFill" />
+  <view class="detail-body" style="padding: 0; margin-top: 20rpx;">
+    <view class="row">
+      <text class="badge badge-soft">{{recipe.cuisine}}</text>
+      <text class="badge badge-warn">{{recipe.imageNote}}</text>
+      <text wx:if="{{verifiedCount > 0}}" class="badge badge-green">已核验视频 {{verifiedCount}}</text>
+    </view>
+    <text class="detail-title" style="display: block; margin-top: 14rpx;">{{recipe.name}}</text>
+    <text class="muted" style="display: block; margin-top: 4rpx;">{{recipe.subtitle}}</text>
+    <text style="display: block; margin-top: 14rpx; font-size: 25rpx; color: #4c473e; line-height: 1.8;">{{recipe.intro}}</text>
+
+    <view class="detail-meta">
+      <text class="meta-pill">准备 {{recipe.prepMinutes}} 分钟</text>
+      <text class="meta-pill">烹饪 {{recipe.cookMinutes}} 分钟</text>
+      <text class="meta-pill">{{recipe.difficultyLabel}}</text>
+      <text class="meta-pill">{{recipe.baseServings}} 人份基准</text>
+    </view>
+
+    <view class="row" style="margin-top: 8rpx;">
+      <button class="btn btn-accent" bindtap="onFavorite">{{isFavorite ? '已收藏' : '收藏这道菜'}}</button>
+      <button class="btn btn-ghost" bindtap="onAddToMenu">加入今天菜单</button>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="card card-pad">
+      <view class="row row-between">
+        <text class="section-title">食材与调料</text>
+        <view class="stepper">
+          <text class="stepper-btn" bindtap="onDecServings">−</text>
+          <text class="stepper-value">{{servings}} 人</text>
+          <text class="stepper-btn" bindtap="onIncServings">+</text>
+        </view>
+      </view>
+      <text class="tiny" style="display: block; margin-top: 8rpx;">
+        用量已按 {{servings}} 人换算（原菜谱 {{recipe.baseServings}} 人份）；「少许 / 适量」保留原文。
+      </text>
+      <block wx:for="{{groups}}" wx:key="id" wx:for-item="group">
+        <view style="margin-top: 18rpx;">
+          <text class="tiny" style="display: block; margin-bottom: 6rpx;">{{group.title}}</text>
+          <view class="list-item" wx:for="{{group.items}}" wx:key="id" wx:for-item="item">
+            <view style="flex: 1; min-width: 0;">
+              <text style="font-size: 26rpx;">{{item.name}}</text>
+              <text wx:if="{{item.note}}" class="tiny" style="display: block;">{{item.note}}</text>
+            </view>
+            <text class="{{item.textMode ? 'muted' : 'strong'}}" style="font-size: 25rpx;">{{item.amountText}}</text>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section-head">
+      <text class="section-title">做法步骤</text>
+      <text class="section-sub">{{steps.length}} 步 · 图片为示意图</text>
+    </view>
+    <block wx:for="{{steps}}" wx:key="index">
+      <view class="step-card">
+        <view class="step-number">{{item.index}}</view>
+        <view class="step-content">
+          <view class="row" style="flex-wrap: wrap;">
+            <text class="step-title">{{item.title}}</text>
+            <text wx:if="{{item.heat}}" class="chip chip-orange">{{item.heat}}</text>
+            <text wx:if="{{item.timeHint}}" class="chip">{{item.timeHint}}</text>
+          </view>
+          <text class="step-text">{{item.text}}</text>
+          <image class="step-img" src="{{item.image}}" mode="aspectFill" lazy-load="{{true}}" />
+          <text class="step-caption">步骤 {{item.index}} · {{item.imageNote}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+
+  <view class="section">
+    <view class="card card-pad">
+      <text class="section-title">做菜提示</text>
+      <view style="margin-top: 14rpx;">
+        <view class="tip-item" wx:for="{{recipe.tips}}" wx:key="*this">
+          <text>💡</text>
+          <text style="flex: 1;">{{item}}</text>
+        </view>
+      </view>
+      <text class="small strong" style="display: block; margin-top: 18rpx;">可替换食材</text>
+      <view class="tip-item" wx:for="{{recipe.substitutions}}" wx:key="*this" style="margin-top: 10rpx;">
+        <text>🔁</text>
+        <text style="flex: 1;">{{item}}</text>
+      </view>
+      <text class="small strong" style="display: block; margin-top: 18rpx;">常见失败原因</text>
+      <view class="tip-item" wx:for="{{recipe.failures}}" wx:key="*this" style="margin-top: 10rpx;">
+        <text>⚠️</text>
+        <text style="flex: 1;">{{item}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="card card-pad">
+      <view class="row row-between">
+        <text class="section-title">视频教程</text>
+        <text class="tiny">{{videos.length > 0 ? videos.length + ' 条关联' : '暂无已核验视频'}}</text>
+      </view>
+
+      <block wx:if="{{videos.length > 0}}">
+        <view class="video-card" wx:for="{{videos}}" wx:key="id" style="margin-top: 16rpx;">
+          <view style="flex: 1; min-width: 0;">
+            <view class="row">
+              <text class="badge badge-green">{{item.platformLabel}}</text>
+              <text class="badge {{item.verified ? 'badge-green' : 'badge-warn'}}">{{item.statusLabel}}</text>
+            </view>
+            <text class="video-title" style="margin-top: 8rpx;">{{item.title}}</text>
+            <text class="video-meta">UP：{{item.author}} · {{item.duration}} · 核验于 {{item.checkedAt}}</text>
+            <text wx:if="{{item.note}}" class="tiny" style="display: block; margin-top: 4rpx;">{{item.note}}</text>
+            <button class="btn btn-soft btn-sm" style="margin-top: 10rpx;" data-url="{{item.url}}" bindtap="onCopyVideo">复制视频链接</button>
+          </view>
+        </view>
+      </block>
+      <view wx:else class="empty-box" style="margin-top: 16rpx;">
+        <text class="strong" style="display: block;">暂无已核验视频</text>
+        <text class="tiny">没有找到链接可访问且与菜谱匹配的教程，这里不使用编造或占位视频。</text>
+      </view>
+
+      <text class="tiny" style="display: block; margin-top: 14rpx; line-height: 1.8;">
+        小程序内无法直接内嵌播放 bilibili / 抖音视频（web-view 需要配置业务域名并完成校验）。
+        点击「复制视频链接」后到浏览器打开即可观看。
+      </text>
+
+      <view style="margin-top: 16rpx;">
+        <text class="tiny" style="display: block; margin-bottom: 8rpx;">自己搜索（打开的是平台搜索页，不是已匹配的教程）</text>
+        <view wx:for="{{searchLinks}}" wx:key="platform" class="row row-between" style="padding: 12rpx 0; border-top: 1rpx dashed #ece2d4;">
+          <text class="small">{{item.label}}</text>
+          <text class="link-btn" data-url="{{item.url}}" bindtap="onCopySearch">复制搜索链接</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="card card-pad">
+      <text class="section-title">内容来源</text>
+      <text class="tiny" style="display: block; margin-top: 10rpx; line-height: 1.8;">
+        {{recipe.sourceLabel}}{{recipe.sourceLicense ? ' · ' + recipe.sourceLicense : ''}}
+      </text>
+      <text class="tiny" style="display: block; line-height: 1.8;">{{recipe.sourceNote}}</text>
+      <text wx:if="{{recipe.completeness === 'partial'}}" class="badge badge-warn" style="margin-top: 10rpx;">内容待完善</text>
+      <text wx:if="{{recipe.completenessNote}}" class="tiny" style="display: block; margin-top: 6rpx;">{{recipe.completenessNote}}</text>
+    </view>
+  </view>
+
+  <view class="footnote">
+    本页配图为脚本生成的示意图（非实拍），用于演示图文步骤结构；正式上线前需替换为有授权的实拍图。
+  </view>
+</view>
+
+<view class="container" wx:elif="{{ready && missing}}">
+  <view class="empty-state">
+    <text class="empty-emoji">🥣</text>
+    <text class="empty-title">没有找到这道菜</text>
+    <text class="empty-desc">菜谱可能已更新或链接有误，可以去发现页继续浏览。</text>
+    <button class="btn btn-primary" style="margin-top: 22rpx;" bindtap="goDiscover">去发现菜谱</button>
+  </view>
+</view>

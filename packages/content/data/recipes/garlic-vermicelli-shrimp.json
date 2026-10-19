@@ -1,0 +1,142 @@
+{
+  "id": "garlic-vermicelli-shrimp",
+  "name": "蒜蓉粉丝蒸虾",
+  "subtitle": "金银蒜配弹牙大虾",
+  "intro": "这道菜的灵魂是蒜蓉：一半蒜末用小火炸到金黄，另一半保持生蒜的辛辣，混在一起既有焦香又不冲。粉丝垫在盘底吸饱虾汁和蒜油，蒸六分钟就够，虾肉紧实弹牙，适合当晚餐的主菜。",
+  "cuisine": "粤式",
+  "tastes": ["蒜香", "咸鲜"],
+  "mealTypes": ["dinner"],
+  "baseServings": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 12,
+  "difficulty": 2,
+  "image": {
+    "src": "/images/recipes/garlic-vermicelli-shrimp.png",
+    "alt": "蒜蓉粉丝蒸虾成品示意图：圆盘中大虾开背铺满蒜蓉，底下垫着半透明粉丝",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["大虾", "龙口粉丝", "大蒜", "小米辣"],
+  "allergenTags": ["甲壳类", "大豆", "贝类"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "prawn", "name": "大虾", "amount": 10, "unit": "只", "scalable": true, "note": "约 400 克，开背去虾线" },
+        { "id": "vermicelli", "name": "龙口粉丝", "amount": 1, "unit": "把", "scalable": true, "note": "约 60 克，温水泡软" },
+        { "id": "garlic", "name": "大蒜", "amount": 40, "unit": "克", "scalable": true, "note": "约 1 头，剁成末" },
+        { "id": "scallion", "name": "小葱", "amount": 2, "unit": "根", "scalable": true, "note": "切葱花" },
+        { "id": "chili", "name": "小米辣", "amount": 1, "unit": "个", "scalable": true, "note": "切圈，怕辣可去籽" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "light-soy", "name": "生抽", "amount": 20, "unit": "毫升", "scalable": true },
+        { "id": "oyster-sauce", "name": "蚝油", "amount": 10, "unit": "克", "scalable": true },
+        { "id": "sugar", "name": "白糖", "amount": 3, "unit": "克", "scalable": true, "note": "提鲜" },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "", "display": "约 1 克（按口味）", "scalable": false },
+        { "id": "cooking-oil", "name": "食用油", "amount": 30, "unit": "毫升", "scalable": true, "note": "一半炸蒜，一半最后泼" }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "粉丝泡软虾开背",
+      "text": "粉丝用温水泡十五分钟，泡到能用指甲掐断，剪成两段铺在盘底。大虾剪去虾枪和虾须，从背部剪开，挑出虾线。",
+      "image": {
+        "src": "/images/recipes/garlic-vermicelli-shrimp-step-1.png",
+        "alt": "步骤 1 示意图：碗中泡软的粉丝，旁边是剪开背部的大虾和挑出的虾线",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 20 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 2,
+      "title": "炒制金银蒜蓉",
+      "text": "蒜剁成末，分成两半。锅中倒一半食用油，小火下其中一半蒜末，慢慢炸到浅金黄立刻关火，连油一起倒进生蒜末里拌匀。",
+      "image": {
+        "src": "/images/recipes/garlic-vermicelli-shrimp-step-2.png",
+        "alt": "步骤 2 示意图：小锅中蒜末在油里炸至浅金黄，旁边碗里是生蒜末",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 4 分钟",
+      "heat": "小火"
+    },
+    {
+      "index": 3,
+      "title": "铺盘摆虾淋蒜蓉",
+      "text": "蒜蓉里加生抽、蚝油、白糖和盐拌匀。把虾背朝上摆在粉丝上，用勺子把蒜蓉填进虾背的开口，剩下的蒜蓉铺在粉丝上。",
+      "image": {
+        "src": "/images/recipes/garlic-vermicelli-shrimp-step-3.png",
+        "alt": "步骤 3 示意图：圆盘中粉丝垫底，开背大虾整齐排列，蒜蓉正被填入虾背",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 5 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 4,
+      "title": "大火足汽蒸六分",
+      "text": "蒸锅水烧开上汽，放入盘子，盖盖大火蒸六分钟。看到虾身变红卷曲、粉丝呈半透明，就可以关火取出。",
+      "image": {
+        "src": "/images/recipes/garlic-vermicelli-shrimp-step-4.png",
+        "alt": "步骤 4 示意图：蒸锅上汽，盘中虾已变红卷曲，粉丝变得半透明",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 6 分钟",
+      "heat": "大火"
+    },
+    {
+      "index": 5,
+      "title": "淋热油激出蒜香",
+      "text": "撒上葱花和小米辣圈，另起锅把剩下的油烧到微微冒烟，均匀浇在蒜蓉上激出香味，趁热上桌。",
+      "image": {
+        "src": "/images/recipes/garlic-vermicelli-shrimp-step-5.png",
+        "alt": "步骤 5 示意图：热油浇在蒜蓉和葱花上冒出白烟，虾身油亮",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 2 分钟",
+      "heat": "大火"
+    }
+  ],
+  "tips": [
+    "炸蒜末时油温不能高，下锅后不停搅动，颜色一黄就关火，余温还会加深。",
+    "虾背剪得深一点才好装蒜蓉，但别剪断，蒸的时候虾身会自然张开。",
+    "粉丝泡到能掐断就够，泡太久蒸完会烂成一坨。"
+  ],
+  "substitutions": [
+    "大虾可换成开背的虾仁或小青龙，蒸制时间相应缩短。",
+    "粉丝可换成泡软的粉条或金针菇，吸汁效果同样好。",
+    "不吃蚝油可只放生抽，另加 2 克白糖补味。"
+  ],
+  "failures": [
+    "蒜蓉发苦：炸蒜时油温过高或炸过头；浅金黄立刻离火，别等变深黄。",
+    "虾肉发柴：蒸的时间超过八分钟；水开上汽后再计时六分钟。",
+    "粉丝夹生或糊烂：泡发时间不对；温水十五分钟，能掐断且无硬芯即可。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

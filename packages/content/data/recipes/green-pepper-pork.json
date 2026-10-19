@@ -1,0 +1,154 @@
+{
+  "id": "green-pepper-pork",
+  "name": "青椒肉丝",
+  "subtitle": "肉丝滑嫩的快手小炒",
+  "intro": "里脊逆纹切丝，用生抽和淀粉抓匀上浆，热锅滑到变色先盛出；青椒大火炒到断生再回锅，肉丝不老、青椒还脆。全程不到十分钟，很适合工作日晚餐配一碗米饭。",
+  "cuisine": "家常菜",
+  "tastes": ["咸鲜", "鲜香"],
+  "mealTypes": ["lunch", "dinner"],
+  "baseServings": 2,
+  "prepMinutes": 18,
+  "cookMinutes": 4,
+  "difficulty": 2,
+  "image": {
+    "src": "/images/recipes/green-pepper-pork.png",
+    "alt": "青椒肉丝成品示意图：白盘中青椒丝与肉丝交错，泛着酱色油光",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["猪里脊", "青椒", "大蒜"],
+  "allergenTags": ["猪肉", "大豆"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "pork-tenderloin", "name": "猪里脊", "amount": 200, "unit": "克", "scalable": true, "note": "逆纹切 3 毫米粗的丝" },
+        { "id": "green-pepper", "name": "青椒", "amount": 2, "unit": "个", "scalable": true, "note": "去籽切丝" },
+        { "id": "garlic", "name": "大蒜", "amount": 3, "unit": "瓣", "scalable": true, "note": "去皮切片" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "light-soy", "name": "生抽", "amount": 2, "unit": "茶匙", "scalable": true, "note": "1 茶匙腌肉，1 茶匙调味" },
+        { "id": "cooking-wine", "name": "料酒", "amount": 1, "unit": "茶匙", "scalable": true, "note": "腌肉去腥" },
+        { "id": "starch", "name": "淀粉", "amount": 1, "unit": "茶匙", "scalable": true, "note": "上浆，锁住肉汁" },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "克", "display": "约 2 克（按口味）", "scalable": false },
+        { "id": "cooking-oil", "name": "食用油", "amount": 30, "unit": "毫升", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "里脊逆纹切细丝",
+      "text": "里脊放冰箱冷冻 20 分钟再切，肉更硬实。顺着纹理找到方向，垂直下刀切成 3 毫米粗的丝，粗细一致受热才均匀。",
+      "image": {
+        "src": "/images/recipes/green-pepper-pork-step-1.png",
+        "alt": "步骤 1 示意图：案板上逆纹切好的肉丝整齐排开，旁边放着刀",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 8 分钟"
+    },
+    {
+      "index": 2,
+      "title": "上浆腌制十分钟",
+      "text": "肉丝加 1 茶匙生抽、1 茶匙料酒和 1 茶匙淀粉，再分两次加一勺清水，用手抓到发黏，最后淋半勺油封住，腌 10 分钟。",
+      "image": {
+        "src": "/images/recipes/green-pepper-pork-step-2.png",
+        "alt": "步骤 2 示意图：碗中肉丝被手抓拌上浆，表面泛着水光",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 10 分钟"
+    },
+    {
+      "index": 3,
+      "title": "青椒去籽切丝",
+      "text": "青椒对半切开，用刀背轻轻拍一下，刮掉籽和内侧白筋，再切成和肉丝差不多粗的丝；大蒜去皮切片备用。",
+      "image": {
+        "src": "/images/recipes/green-pepper-pork-step-3.png",
+        "alt": "步骤 3 示意图：案板上青椒剖开去籽，旁边是切好的青椒丝与蒜片",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 4 分钟"
+    },
+    {
+      "index": 4,
+      "title": "热锅滑炒肉丝",
+      "text": "锅烧到微微冒烟，倒 20 毫升油晃匀，油温五成热时下肉丝，用筷子快速划散，肉丝变白立刻盛出，锅里留底油。",
+      "image": {
+        "src": "/images/recipes/green-pepper-pork-step-4.png",
+        "alt": "步骤 4 示意图：锅中肉丝正被筷子划散，部分已变白",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "大火",
+      "timeHint": "约 1 分钟"
+    },
+    {
+      "index": 5,
+      "title": "大火炒青椒断生",
+      "text": "补 10 毫升油，下蒜片爆香，倒入青椒丝大火翻炒 1 分钟，炒到颜色变深、边缘略软，撒盐炒匀。",
+      "image": {
+        "src": "/images/recipes/green-pepper-pork-step-5.png",
+        "alt": "步骤 5 示意图：青椒丝在锅中大火翻炒，蒜片散在四周",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "大火",
+      "timeHint": "约 1 分钟"
+    },
+    {
+      "index": 6,
+      "title": "回锅合炒调味",
+      "text": "把肉丝倒回锅里，加 1 茶匙生抽，大火快速翻炒 30 秒，让酱汁裹匀；尝味后补少许盐，出锅装盘。",
+      "image": {
+        "src": "/images/recipes/green-pepper-pork-step-6.png",
+        "alt": "步骤 6 示意图：肉丝回锅与青椒同炒，酱色均匀裹在食材上",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "大火",
+      "timeHint": "约 1 分钟"
+    }
+  ],
+  "tips": [
+    "肉丝逆纹切、上浆后冷藏，炒出来才嫩；顺纹切会又柴又塞牙。",
+    "锅要烧到冒烟再下油，肉丝下锅后先别翻，等底面变白再划散。",
+    "青椒炒到断生就回锅，炒久了会发黄出水。"
+  ],
+  "substitutions": [
+    "猪里脊可换成鸡胸肉或牛里脊，鸡肉切丝后上浆时间缩短到 5 分钟。",
+    "青椒可换成彩椒或尖椒，尖椒辣度高，盐要少放一点。",
+    "不吃大豆可用盐和少许白胡椒粉替代生抽，颜色会偏白。"
+  ],
+  "failures": [
+    "肉丝粘锅成团：锅不够热或油太少；锅冒烟再下油，肉丝分散下锅。",
+    "肉丝发柴：炒的时间太长；变色即盛出，回锅只翻 30 秒。",
+    "青椒出水发黄：火小或炒得太久；全程大火，断生就回锅。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

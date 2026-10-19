@@ -1,0 +1,138 @@
+{
+  "id": "tomato-scrambled-egg",
+  "name": "番茄炒蛋",
+  "subtitle": "十分钟出锅的国民下饭菜",
+  "intro": "番茄先炒出沙、鸡蛋回锅裹汁，是这道菜好吃的关键。全程大火快炒，十几分钟就能端上桌，适合工作日晚餐，也适合刚开始学做饭的人。",
+  "cuisine": "家常菜",
+  "tastes": ["咸鲜", "微甜"],
+  "mealTypes": ["lunch", "dinner"],
+  "baseServings": 2,
+  "prepMinutes": 8,
+  "cookMinutes": 7,
+  "difficulty": 1,
+  "image": {
+    "src": "/images/recipes/tomato-scrambled-egg.png",
+    "alt": "番茄炒蛋成品示意图：红色番茄块与金黄色鸡蛋盛在白盘中",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["番茄", "鸡蛋"],
+  "allergenTags": ["鸡蛋"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "tomato", "name": "番茄", "amount": 300, "unit": "克", "scalable": true, "note": "约 2 个中等大小，切滚刀块" },
+        { "id": "egg", "name": "鸡蛋", "amount": 3, "unit": "个", "scalable": true, "note": "打散" },
+        { "id": "scallion", "name": "小葱", "amount": 1, "unit": "根", "scalable": true, "note": "切葱花" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "salt", "name": "盐", "amount": null, "unit": "", "display": "约 2 克（按口味调整）", "scalable": false },
+        { "id": "sugar", "name": "白糖", "amount": 5, "unit": "克", "scalable": true, "note": "平衡番茄酸味" },
+        { "id": "cooking-oil", "name": "食用油", "amount": 20, "unit": "毫升", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "番茄切块、鸡蛋打散",
+      "text": "番茄洗净去蒂，切成滚刀块；鸡蛋磕入碗中，加一小撮盐打散至蛋液均匀起小泡。小葱切成葱花备用。",
+      "image": {
+        "src": "/images/recipes/tomato-scrambled-egg-step-1.png",
+        "alt": "步骤 1 示意图：番茄块、蛋液与葱花分装在碗中",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 3 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 2,
+      "title": "热锅炒蛋，七成熟盛出",
+      "text": "锅烧热后倒一半食用油，油温五成热（筷子插入周围冒小泡）倒入蛋液。等底部凝固后用铲子从边缘向中间推，炒到七成熟、表面还有一点湿润时立刻盛出。",
+      "image": {
+        "src": "/images/recipes/tomato-scrambled-egg-step-2.png",
+        "alt": "步骤 2 示意图：锅中蛋液凝固成块，铲子正从边缘推起",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 1 分钟",
+      "heat": "中大火"
+    },
+    {
+      "index": 3,
+      "title": "炒出番茄沙",
+      "text": "原锅补入剩下的油，下番茄块中火翻炒，用铲子轻轻按压，炒到番茄边缘变软、锅底出现红色汤汁。加白糖继续翻炒半分钟。",
+      "image": {
+        "src": "/images/recipes/tomato-scrambled-egg-step-3.png",
+        "alt": "步骤 3 示意图：锅中番茄炒软出汁，铲子按压番茄块",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 3 分钟",
+      "heat": "中火"
+    },
+    {
+      "index": 4,
+      "title": "鸡蛋回锅裹汁",
+      "text": "把炒好的鸡蛋倒回锅中，转大火快速翻炒，让蛋块均匀裹上番茄汁。尝味后补盐，撒葱花翻两下即可关火。",
+      "image": {
+        "src": "/images/recipes/tomato-scrambled-egg-step-4.png",
+        "alt": "步骤 4 示意图：蛋块与番茄在锅中翻炒裹汁",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 1 分钟",
+      "heat": "大火"
+    },
+    {
+      "index": 5,
+      "title": "装盘",
+      "text": "盛出后把锅底的番茄汁淋在表面，趁热配米饭食用。喜欢汤汁多的，可以在步骤 3 加两勺清水一起炒。",
+      "image": {
+        "src": "/images/recipes/tomato-scrambled-egg-step-5.png",
+        "alt": "步骤 5 示意图：番茄炒蛋盛盘并淋上汤汁",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 1 分钟",
+      "heat": "关火"
+    }
+  ],
+  "tips": [
+    "鸡蛋只炒到七成熟就盛出，回锅后还会继续受热，这样口感更嫩。",
+    "番茄要炒到出沙再放鸡蛋，汤汁才会挂在蛋块上。",
+    "番茄偏酸时可把白糖加到 8 克，但不要省略，糖的作用是平衡酸味而不是让菜变甜。"
+  ],
+  "substitutions": [
+    "没有小葱可以不放，或换成 1/4 个洋葱切碎同炒。",
+    "不吃鸡蛋可换成 200 克嫩豆腐，先煎至两面微黄再按同样步骤回锅。",
+    "番茄可用同等重量的圣女果替代，需对半切开并适当延长翻炒时间。"
+  ],
+  "failures": [
+    "出水太多：番茄没炒出沙就放蛋，或火太小导致番茄慢慢渗水；应中火炒到锅底见红汁再回锅。",
+    "鸡蛋发老：炒蛋时间过长或油温过高；蛋液下锅后凝固即推散，七成熟盛出。",
+    "味道寡淡：盐分两次放（蛋液一次、出锅一次），比一次放更均匀。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

@@ -1,0 +1,138 @@
+{
+  "id": "garlic-broccoli",
+  "name": "蒜蓉西兰花",
+  "subtitle": "脆嫩清爽的一盘绿",
+  "intro": "西兰花掰成小朵，用淡盐水泡出缝隙里的杂质，焯水时加几滴油和一点盐，颜色会更绿。蒜末分两次下锅，一半炒香、一半出锅前拌入，蒜味有层次又不冲。适合搭配大鱼大肉的晚餐，做法清淡快手。",
+  "cuisine": "家常菜",
+  "tastes": ["清淡", "蒜香"],
+  "mealTypes": ["lunch", "dinner"],
+  "baseServings": 2,
+  "prepMinutes": 12,
+  "cookMinutes": 4,
+  "difficulty": 1,
+  "image": {
+    "src": "/images/recipes/garlic-broccoli.png",
+    "alt": "蒜蓉西兰花成品示意图：白盘中的深绿色西兰花朵，表面泛着油光与蒜末",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["西兰花", "大蒜"],
+  "allergenTags": [],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "broccoli", "name": "西兰花", "amount": 400, "unit": "克", "scalable": true, "note": "约 1 颗，掰成小朵" },
+        { "id": "garlic", "name": "大蒜", "amount": 5, "unit": "瓣", "scalable": true, "note": "一半切末、一半切片" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "salt", "name": "盐", "amount": null, "unit": "克", "display": "约 2 克（焯水与调味各一半）", "scalable": false },
+        { "id": "cooking-oil", "name": "食用油", "amount": 15, "unit": "毫升", "scalable": true },
+        { "id": "starch", "name": "淀粉", "amount": 1, "unit": "茶匙", "scalable": true, "note": "兑 2 勺水，让蒜末挂住菜" },
+        { "id": "white-pepper", "name": "白胡椒粉", "amount": null, "unit": "克", "display": "一小撮", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "西兰花掰成小朵",
+      "text": "西兰花倒过来，用刀从粗梗处切下整朵，再顺着小梗掰成均匀的小朵；梗不要扔，削去外层老皮，切成 3 毫米厚的片一起炒。",
+      "image": {
+        "src": "/images/recipes/garlic-broccoli-step-1.png",
+        "alt": "步骤 1 示意图：案板上掰好的西兰花小朵与切成片的菜梗",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 5 分钟"
+    },
+    {
+      "index": 2,
+      "title": "淡盐水浸泡冲洗",
+      "text": "盆里放一升清水加半勺盐，把西兰花放进去泡 5 分钟，再用手在水里晃动两遍，让缝隙里的灰尘浮出来；捞出沥干水。",
+      "image": {
+        "src": "/images/recipes/garlic-broccoli-step-2.png",
+        "alt": "步骤 2 示意图：盐水中浸泡的西兰花，水面浮着细小杂质",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 6 分钟"
+    },
+    {
+      "index": 3,
+      "title": "水开焯烫一分钟",
+      "text": "锅里水烧开，加几滴油和一小撮盐，放入西兰花焯 1 分钟，颜色变成深绿立刻捞出，摊在漏勺里沥干，不要过凉水。",
+      "image": {
+        "src": "/images/recipes/garlic-broccoli-step-3.png",
+        "alt": "步骤 3 示意图：沸水中的西兰花颜色转深，旁边放着漏勺",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "大火",
+      "timeHint": "约 2 分钟"
+    },
+    {
+      "index": 4,
+      "title": "蒜末分两次爆香",
+      "text": "锅烧热倒 15 毫升油，先下一半蒜末，小火炒到边缘微黄、香味出来，立刻转大火，倒入西兰花快速翻炒。",
+      "image": {
+        "src": "/images/recipes/garlic-broccoli-step-4.png",
+        "alt": "步骤 4 示意图：蒜末在油中微微变黄，西兰花正倒入锅中",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "小火转大火",
+      "timeHint": "约 1 分钟"
+    },
+    {
+      "index": 5,
+      "title": "调味勾薄芡出锅",
+      "text": "加盐和白胡椒粉翻匀，淋入 2 勺水淀粉，快速翻炒到菜叶表面发亮，关火后拌入剩下的生蒜末，装盘。",
+      "image": {
+        "src": "/images/recipes/garlic-broccoli-step-5.png",
+        "alt": "步骤 5 示意图：锅中西兰花裹上薄芡发亮，生蒜末正拌入",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "大火",
+      "timeHint": "约 1 分钟"
+    }
+  ],
+  "tips": [
+    "焯水时加几滴油，西兰花表面会形成一层薄油膜，颜色更绿。",
+    "焯好不要过凉水，直接摊开沥水，炒的时候才不会出水。",
+    "蒜末第二次要在关火后拌入，生蒜香才明显，早了会炒糊发苦。"
+  ],
+  "substitutions": [
+    "西兰花可换成芥蓝或菜花，菜花焯水时间延长到 2 分钟。",
+    "大蒜可换成蒜苗 2 根，切段在出锅前下锅。",
+    "不吃蒜可省略蒜末，改成姜丝 5 克，风味会清淡一些。"
+  ],
+  "failures": [
+    "颜色发黄：焯水时间太长或没加油；水开下锅 1 分钟内捞出。",
+    "口感软烂：焯完又回锅久炒；焯水后大火快炒 1 分钟就出锅。",
+    "盘底出水：菜没沥干或勾芡太稀；焯后摊开晾，水淀粉按 1:2 调。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

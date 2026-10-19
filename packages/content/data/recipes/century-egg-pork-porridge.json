@@ -1,0 +1,157 @@
+{
+  "id": "century-egg-pork-porridge",
+  "name": "皮蛋瘦肉粥",
+  "subtitle": "米粒开花的广式咸粥",
+  "intro": "大米提前泡过，用少许油盐拌一拌再煮，米粒更容易开花。猪里脊切细丝滑熟，皮蛋分两次下锅，一半煮化进粥里、一半最后放保留口感。适合周末早晨慢慢煮一锅，也可以提前一晚把料备好。",
+  "cuisine": "粤式",
+  "tastes": ["咸鲜", "鲜香"],
+  "mealTypes": ["breakfast"],
+  "baseServings": 2,
+  "prepMinutes": 25,
+  "cookMinutes": 50,
+  "difficulty": 2,
+  "image": {
+    "src": "/images/recipes/century-egg-pork-porridge.png",
+    "alt": "皮蛋瘦肉粥成品示意图：白粥中可见皮蛋块、肉丝与姜丝，撒有葱花",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["大米", "猪里脊", "皮蛋", "姜"],
+  "allergenTags": ["猪肉", "鸡蛋"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "rice", "name": "大米", "amount": 100, "unit": "克", "scalable": true, "note": "提前浸泡 30 分钟" },
+        { "id": "pork-tenderloin", "name": "猪里脊", "amount": 120, "unit": "克", "scalable": true, "note": "逆纹切细丝" },
+        { "id": "century-egg", "name": "皮蛋", "amount": 2, "unit": "个", "scalable": true, "note": "去壳切小块" },
+        { "id": "ginger", "name": "姜", "amount": 1, "unit": "块", "scalable": true, "note": "一半切丝、一半切片" },
+        { "id": "water", "name": "清水", "amount": 1200, "unit": "毫升", "scalable": true, "note": "煮粥用" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "salt", "name": "盐", "amount": null, "unit": "克", "display": "约 3 克（分两次放）", "scalable": false },
+        { "id": "light-soy", "name": "生抽", "amount": 1, "unit": "茶匙", "scalable": true, "note": "腌肉丝用" },
+        { "id": "starch", "name": "淀粉", "amount": 1, "unit": "茶匙", "scalable": true, "note": "腌肉丝，让肉丝滑嫩" },
+        { "id": "white-pepper", "name": "白胡椒粉", "amount": null, "unit": "克", "display": "少许", "scalable": false },
+        { "id": "sesame-oil", "name": "香油", "amount": 1, "unit": "茶匙", "scalable": true, "note": "出锅前淋" },
+        { "id": "cooking-oil", "name": "食用油", "amount": 1, "unit": "茶匙", "scalable": true, "note": "拌米用" }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "大米浸泡后拌油盐",
+      "text": "大米淘洗两遍，加清水浸泡 30 分钟，沥干后拌入 1 茶匙食用油和一小撮盐，静置 10 分钟。米粒裹上油，煮的时候更容易开花。",
+      "image": {
+        "src": "/images/recipes/century-egg-pork-porridge-step-1.png",
+        "alt": "步骤 1 示意图：碗中泡好的大米正被拌入食用油与盐",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 40 分钟"
+    },
+    {
+      "index": 2,
+      "title": "肉丝上浆、皮蛋切块",
+      "text": "里脊逆纹切细丝，加生抽、淀粉和两勺清水抓匀，腌 10 分钟；皮蛋去壳切成小块，姜一半切丝、一半切片。",
+      "image": {
+        "src": "/images/recipes/century-egg-pork-porridge-step-2.png",
+        "alt": "步骤 2 示意图：碗中腌好的肉丝、案板上切好的皮蛋块与姜丝",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 12 分钟"
+    },
+    {
+      "index": 3,
+      "title": "大火煮开转小火",
+      "text": "锅中放 1200 毫升水和姜片，大火烧开后倒入大米，用勺子搅散，再次沸腾后转小火，锅盖留缝，煮 30 分钟。",
+      "image": {
+        "src": "/images/recipes/century-egg-pork-porridge-step-3.png",
+        "alt": "步骤 3 示意图：锅中米粒翻滚，锅盖斜留一条缝隙",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "大火转小火",
+      "timeHint": "约 35 分钟"
+    },
+    {
+      "index": 4,
+      "title": "下皮蛋煮化一半",
+      "text": "把一半皮蛋放进粥里，用勺子背轻轻压碎，让它在小火上滚 10 分钟，香味会慢慢融进粥底；期间每 5 分钟搅一次锅底。",
+      "image": {
+        "src": "/images/recipes/century-egg-pork-porridge-step-4.png",
+        "alt": "步骤 4 示意图：勺子背正把锅中的皮蛋块压碎进粥里",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "小火",
+      "timeHint": "约 10 分钟"
+    },
+    {
+      "index": 5,
+      "title": "分散下肉丝滑熟",
+      "text": "转中火，把腌好的肉丝抖散、一缕一缕下锅，下完等 10 秒再搅动，肉丝定型后推散，煮到完全变色即可。",
+      "image": {
+        "src": "/images/recipes/century-egg-pork-porridge-step-5.png",
+        "alt": "步骤 5 示意图：筷子把肉丝一缕缕抖散放入微沸的粥中",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "中火",
+      "timeHint": "约 2 分钟"
+    },
+    {
+      "index": 6,
+      "title": "调味撒皮蛋姜丝",
+      "text": "加盐和白胡椒粉调味，关火后放入剩下的皮蛋和姜丝，淋香油，盖盖焖 2 分钟，盛碗时再撒一点葱花。",
+      "image": {
+        "src": "/images/recipes/century-egg-pork-porridge-step-6.png",
+        "alt": "步骤 6 示意图：粥面摆着皮蛋块与姜丝，香油正沿碗边淋下",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "关火",
+      "timeHint": "约 3 分钟"
+    }
+  ],
+  "tips": [
+    "大米泡过再拌油，煮出来米粒完整、粥体绵滑，不容易糊成一团。",
+    "皮蛋分两次放：先放的一半压碎煮化提味，后放的一半保留块状口感。",
+    "肉丝下锅后先别搅，等表面变白再推散，否则容易脱浆、粥变浑。"
+  ],
+  "substitutions": [
+    "猪里脊可换成鸡胸肉或瘦牛肉，切丝后同样上浆，煮的时间缩短 30 秒。",
+    "没有皮蛋可用 1 个咸鸭蛋替代，蛋黄压碎入粥，盐量要相应减少。",
+    "想更省事可用电饭煲的煮粥档，米水比例不变，最后 10 分钟开盖加料。"
+  ],
+  "failures": [
+    "粥不稠、米是米水是水：米没泡或一直大火；泡 30 分钟并转小火慢煮。",
+    "肉丝发柴、粘成团：下锅前没抖散，或煮得太久；一缕一缕下，变色就关火。",
+    "皮蛋味发涩：皮蛋放太早、煮得过久；留一半关火后再放。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

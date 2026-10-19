@@ -1,0 +1,126 @@
+{
+  "id": "hand-torn-cabbage",
+  "name": "手撕包菜",
+  "subtitle": "手撕更入味的大火快炒",
+  "intro": "包菜用手撕比刀切更入味，粗糙的断面更容易挂住酱汁。全程大火快炒，蒜片和干辣椒先爆香，出锅前沿着锅边淋一勺香醋，脆、香、带一点辣。配米饭或面条都合适，十几分钟就能上桌。",
+  "cuisine": "家常菜",
+  "tastes": ["蒜香", "香辣"],
+  "mealTypes": ["lunch", "dinner"],
+  "baseServings": 2,
+  "prepMinutes": 8,
+  "cookMinutes": 6,
+  "difficulty": 1,
+  "image": {
+    "src": "/images/recipes/hand-torn-cabbage.png",
+    "alt": "手撕包菜成品示意图：白盘中翠绿菜叶与红色干辣椒段，蒜片点缀",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["包菜", "大蒜", "干辣椒"],
+  "allergenTags": ["大豆"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "cabbage", "name": "包菜", "amount": 400, "unit": "克", "scalable": true, "note": "约半颗，手撕成大片" },
+        { "id": "garlic", "name": "大蒜", "amount": 4, "unit": "瓣", "scalable": true, "note": "切片" },
+        { "id": "dried-chili", "name": "干辣椒", "amount": 5, "unit": "个", "scalable": true, "note": "剪段，怕辣可不剪开" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "light-soy", "name": "生抽", "amount": 15, "unit": "毫升", "scalable": true },
+        { "id": "black-vinegar", "name": "香醋", "amount": 10, "unit": "毫升", "scalable": true, "note": "出锅前沿锅边淋入" },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "", "display": "约 2 克（按口味调整）", "scalable": false },
+        { "id": "sugar", "name": "白糖", "amount": 3, "unit": "克", "scalable": true, "note": "提鲜，吃不出甜味" },
+        { "id": "cooking-oil", "name": "食用油", "amount": 20, "unit": "毫升", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "手撕包菜洗净沥干",
+      "text": "包菜从根部整颗掰开，去掉硬芯，用手顺着纹理撕成巴掌大的片。撕好的菜叶放进清水里淘洗两遍，捞出沥干，水越干炒出来越脆。",
+      "image": {
+        "src": "/images/recipes/hand-torn-cabbage-step-1.png",
+        "alt": "步骤 1 示意图：双手撕开包菜叶，沥水篮中堆着撕好的菜片",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 5 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 2,
+      "title": "爆香蒜片干辣椒",
+      "text": "蒜去皮切片，干辣椒剪成两段并抖掉部分辣椒籽。锅烧到微微冒烟再倒油，下蒜片和干辣椒，小火爆到蒜片边缘发黄、闻到香味。",
+      "image": {
+        "src": "/images/recipes/hand-torn-cabbage-step-2.png",
+        "alt": "步骤 2 示意图：炒锅中蒜片与干辣椒段在油里冒小泡",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 1 分钟",
+      "heat": "小火"
+    },
+    {
+      "index": 3,
+      "title": "大火快炒至断生",
+      "text": "转大火，把沥干的包菜全部倒入锅中，用铲子快速翻炒，让每片叶子都沾上油。炒到菜叶边缘变透明、体积明显缩小，大约两分钟。",
+      "image": {
+        "src": "/images/recipes/hand-torn-cabbage-step-3.png",
+        "alt": "步骤 3 示意图：大火中包菜在锅里翻动，菜叶边缘变得透亮",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 2 分钟",
+      "heat": "大火"
+    },
+    {
+      "index": 4,
+      "title": "沿锅边淋醋调味",
+      "text": "沿锅边淋入生抽，撒盐和白糖，继续翻炒十几下。最后把香醋沿着锅边一圈淋入，快速翻两下立刻关火装盘，醋香会留在菜叶上。",
+      "image": {
+        "src": "/images/recipes/hand-torn-cabbage-step-4.png",
+        "alt": "步骤 4 示意图：锅边冒着醋香白气，包菜叶上挂着油亮的酱汁",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 1 分钟",
+      "heat": "大火"
+    }
+  ],
+  "tips": [
+    "包菜洗完一定要沥干，带水下锅就变成水煮，炒不出脆感。",
+    "香醋最后沿锅边淋，遇热瞬间挥发才香，早放只会发酸。",
+    "全程保持在两到三分钟之内，锅要烧到冒烟再下菜。"
+  ],
+  "substitutions": [
+    "没有干辣椒可用 1 茶匙辣椒面，在淋醋前撒入锅中。",
+    "包菜可换成同等重量的紫甘蓝，炒制时间略短一些。",
+    "不吃蒜可省略蒜片，改用两片姜爆锅。"
+  ],
+  "failures": [
+    "出水塌软：火不够大或菜没沥干；锅烧到冒烟再下菜，全程不超过三分钟。",
+    "味道发苦：蒜片和干辣椒爆过头焦糊；小火爆香，蒜片刚变黄就下菜。",
+    "咸味不均：生抽直接浇在菜上容易局部过咸；沿锅边淋，再用铲子翻匀。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

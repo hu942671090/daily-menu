@@ -1,0 +1,158 @@
+{
+  "id": "braised-pork",
+  "name": "红烧肉",
+  "subtitle": "冰糖炒色，小火慢焖",
+  "intro": "红烧肉好吃在于糖色炒得匀、火候压得住。五花肉先煸出油，再用冰糖炒出的琥珀色裹住每块肉，加热水小火焖足一小时，最后大火收汁，肉皮发亮、入口软糯，适合周末慢慢做上一锅。",
+  "cuisine": "家常菜",
+  "tastes": ["酱香", "微甜"],
+  "mealTypes": ["dinner"],
+  "baseServings": 3,
+  "prepMinutes": 15,
+  "cookMinutes": 80,
+  "difficulty": 3,
+  "image": {
+    "src": "/images/recipes/braised-pork.png",
+    "alt": "红烧肉成品示意图：砂锅中酱红色肉块泛着油光，表面撒白芝麻",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["带皮五花肉", "姜", "大葱", "八角", "桂皮"],
+  "allergenTags": ["猪肉", "大豆"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "pork-belly", "name": "带皮五花肉", "amount": 750, "unit": "克", "scalable": true, "note": "切 3 厘米见方的块" },
+        { "id": "ginger", "name": "姜", "amount": 4, "unit": "片", "scalable": true },
+        { "id": "scallion", "name": "大葱", "amount": 1, "unit": "段", "scalable": true, "note": "切两段即可" },
+        { "id": "star-anise", "name": "八角", "amount": 2, "unit": "个", "scalable": true },
+        { "id": "cinnamon", "name": "桂皮", "amount": 1, "unit": "块", "scalable": true, "note": "约 3 厘米长" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "rock-sugar", "name": "冰糖", "amount": 40, "unit": "克", "scalable": true, "note": "炒糖色用" },
+        { "id": "light-soy", "name": "生抽", "amount": 30, "unit": "毫升", "scalable": true },
+        { "id": "dark-soy", "name": "老抽", "amount": 10, "unit": "毫升", "scalable": true, "note": "补色，不要多放" },
+        { "id": "cooking-wine", "name": "料酒", "amount": 30, "unit": "毫升", "scalable": true },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "", "display": "约 3 克（按口味添加）", "scalable": false },
+        { "id": "cooking-oil", "name": "食用油", "amount": 15, "unit": "毫升", "scalable": true },
+        { "id": "hot-water", "name": "热水", "amount": 900, "unit": "毫升", "scalable": true, "note": "必须用热水" }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "五花肉切块焯水",
+      "text": "五花肉用温水冲洗，刮净皮上的杂质，切成三厘米见方的块。冷水下锅，加两片姜和一半料酒，大火煮开撇去浮沫，再煮三分钟捞出。",
+      "image": {
+        "src": "/images/recipes/braised-pork-step-1.png",
+        "alt": "步骤 1 示意图：锅中五花肉块焯水，表面浮着浮沫，旁边是切好的肉块",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 8 分钟",
+      "heat": "大火"
+    },
+    {
+      "index": 2,
+      "title": "干煸逼出油脂",
+      "text": "锅烧干，把肉块皮朝下码入锅中，中小火慢慢煸，把肥肉里的油逼出来。煸到四面微黄、锅底积出一层油，盛出肉块，多余的油倒掉。",
+      "image": {
+        "src": "/images/recipes/braised-pork-step-2.png",
+        "alt": "步骤 2 示意图：铁锅中肉块皮朝下贴着锅底，边缘已被煸成金黄",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 5 分钟",
+      "heat": "中小火"
+    },
+    {
+      "index": 3,
+      "title": "小火炒出糖色",
+      "text": "锅里留少许底油，转小火放入冰糖，用铲子不停搅动。糖先结块再融化，等颜色变成枣红、表面冒起细密小泡时立刻下肉。",
+      "image": {
+        "src": "/images/recipes/braised-pork-step-3.png",
+        "alt": "步骤 3 示意图：锅底糖浆融化成枣红色并冒小泡，铲子正在搅动",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 3 分钟",
+      "heat": "小火"
+    },
+    {
+      "index": 4,
+      "title": "肉块裹匀糖色",
+      "text": "把肉块倒回锅中快速翻炒，让每一面都裹上糖色，再加姜片、葱段、八角和桂皮，炒到香味出来、肉块表面收紧。",
+      "image": {
+        "src": "/images/recipes/braised-pork-step-4.png",
+        "alt": "步骤 4 示意图：肉块在锅中翻炒并裹上红亮糖色，旁边有八角桂皮",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 2 分钟",
+      "heat": "中火"
+    },
+    {
+      "index": 5,
+      "title": "加热水小火慢焖",
+      "text": "沿锅边淋入料酒，加生抽、老抽翻匀，倒入没过肉块的热水。大火烧开后转最小火，盖盖焖六十分钟，中途翻动一次。",
+      "image": {
+        "src": "/images/recipes/braised-pork-step-5.png",
+        "alt": "步骤 5 示意图：砂锅中肉块浸在深色汤汁里，水面微微冒泡",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 60 分钟",
+      "heat": "小火"
+    },
+    {
+      "index": 6,
+      "title": "大火收汁亮油",
+      "text": "挑出葱姜和香料，尝味后补盐。转中大火收汁，边收边翻动，等汤汁变浓、能挂在肉上并泛出亮光时关火。",
+      "image": {
+        "src": "/images/recipes/braised-pork-step-6.png",
+        "alt": "步骤 6 示意图：锅中汤汁收浓挂在肉块上，肉皮泛出油亮的红光",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 10 分钟",
+      "heat": "中大火"
+    }
+  ],
+  "tips": [
+    "炖煮时一定加热水，冷水会让肉块骤然收缩，炖出来发硬。",
+    "炒糖色宁浅勿深，枣红色就下肉，再炒几秒就会发苦。",
+    "焖煮全程保持水面微微冒泡，火太大肉容易散，汤也容易干。"
+  ],
+  "substitutions": [
+    "冰糖可换成等量白糖，但炒色速度更快，要更早下肉。",
+    "没有桂皮可以省略，换成一小块陈皮也别有风味。",
+    "五花肉可换成梅花肉，油脂少一些，煸油时间相应缩短。"
+  ],
+  "failures": [
+    "糖色发苦：冰糖炒过头焦化；颜色变枣红立刻下肉，动作要快。",
+    "肉质发柴：中途加了冷水或一直大火翻滚；用热水并保持小火微沸。",
+    "颜色发黑不发亮：老抽放多或收汁太久；老抽只用来补色，收汁到挂勺即可。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

@@ -1,0 +1,151 @@
+{
+  "id": "millet-pumpkin-porridge",
+  "name": "小米南瓜粥",
+  "subtitle": "南瓜自然甜的绵软早餐",
+  "intro": "小米淘洗后先泡一会儿，再和南瓜一起小火慢熬，粥体浓稠、入口带一点南瓜的自然甜味。做法不挑锅具，电饭煲或普通煮锅都能完成，适合周末早晨一次煮两碗，配一碟小咸菜就是很舒服的一顿早餐。",
+  "cuisine": "家常菜",
+  "tastes": ["清淡", "微甜"],
+  "mealTypes": ["breakfast"],
+  "baseServings": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 40,
+  "difficulty": 1,
+  "image": {
+    "src": "/images/recipes/millet-pumpkin-porridge.png",
+    "alt": "小米南瓜粥成品示意图：浅金黄色粥盛在碗中，表面浮着南瓜块",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["小米", "南瓜"],
+  "allergenTags": [],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "millet", "name": "小米", "amount": 80, "unit": "克", "scalable": true, "note": "约半碗，淘洗后浸泡" },
+        { "id": "pumpkin", "name": "南瓜", "amount": 250, "unit": "克", "scalable": true, "note": "去皮去瓤，切 2 厘米小块" },
+        { "id": "water", "name": "清水", "amount": 900, "unit": "毫升", "scalable": true, "note": "煮粥用，中途可补热水" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "rock-sugar", "name": "冰糖", "amount": 10, "unit": "克", "scalable": true, "note": "南瓜较甜时可减到 5 克" },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "克", "display": "一小撮（可选，约 1 克）", "scalable": false, "note": "提一点底味，不加也可以" }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "小米淘洗后浸泡",
+      "text": "小米倒进碗里，加清水没过，用手指轻轻搅动淘洗两遍，倒掉浑水；再换清水浸泡 10 分钟，煮的时候更容易出米油。",
+      "image": {
+        "src": "/images/recipes/millet-pumpkin-porridge-step-1.png",
+        "alt": "步骤 1 示意图：碗中清水里的小米正被手指轻轻搅动",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 10 分钟"
+    },
+    {
+      "index": 2,
+      "title": "南瓜去皮切小块",
+      "text": "南瓜对半切开，用勺子刮掉瓜瓤和籽，削去外皮，切成 2 厘米见方的小块。块切得大小一致，煮的时候熟度才均匀。",
+      "image": {
+        "src": "/images/recipes/millet-pumpkin-porridge-step-2.png",
+        "alt": "步骤 2 示意图：案板上摆着去皮的南瓜与切好的南瓜块",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 5 分钟"
+    },
+    {
+      "index": 3,
+      "title": "水开后再下小米",
+      "text": "锅中倒入 900 毫升清水，大火烧到锅底冒密集小泡、水面明显翻动，再倒入沥干的小米，用勺子搅两圈，防止米粒沉底粘锅。",
+      "image": {
+        "src": "/images/recipes/millet-pumpkin-porridge-step-3.png",
+        "alt": "步骤 3 示意图：沸水中倒入小米，勺子正沿锅底搅动",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "大火",
+      "timeHint": "约 5 分钟"
+    },
+    {
+      "index": 4,
+      "title": "转小火慢熬出米油",
+      "text": "水再次沸腾后转小火，锅盖留一条缝，每隔 5 分钟用勺子沿锅底推搅一次；熬到米粒开花、汤汁明显变稠，大约 20 分钟。",
+      "image": {
+        "src": "/images/recipes/millet-pumpkin-porridge-step-4.png",
+        "alt": "步骤 4 示意图：盖着留缝锅盖的小锅，锅内粥面微微冒泡",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "小火",
+      "timeHint": "约 20 分钟"
+    },
+    {
+      "index": 5,
+      "title": "下南瓜煮至软糯",
+      "text": "把南瓜块放进锅里推匀，保持小火再煨 10 分钟，直到南瓜用勺子一压就碎、粥色变成浅金黄。中途太稠就补少量热水。",
+      "image": {
+        "src": "/images/recipes/millet-pumpkin-porridge-step-5.png",
+        "alt": "步骤 5 示意图：南瓜块在粥中煮软，勺子正按压南瓜",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "小火",
+      "timeHint": "约 10 分钟"
+    },
+    {
+      "index": 6,
+      "title": "调甜味再焖一会儿",
+      "text": "按口味放入冰糖，搅到完全化开，尝一下甜度；关火后盖盖焖 5 分钟，表面会结出一层细腻的米油，再盛碗。",
+      "image": {
+        "src": "/images/recipes/millet-pumpkin-porridge-step-6.png",
+        "alt": "步骤 6 示意图：冰糖落入粥中，碗边放着盛粥的勺子",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "关火",
+      "timeHint": "约 5 分钟"
+    }
+  ],
+  "tips": [
+    "小米淘洗两遍就够，反复搓洗会把表层的米油洗掉，粥不容易浓。",
+    "水开再下米，米粒不容易粘锅底；如果冷水下米，前 5 分钟要一直搅动。",
+    "南瓜分两次放：一半先煮化进粥里增稠，一半后放保留块状口感。"
+  ],
+  "substitutions": [
+    "没有小米可用等量小米面或玉米糁替代，煮的时间缩短到 20 分钟左右。",
+    "冰糖可以换成 2 颗红枣或半根切段的红薯，甜味更自然。",
+    "南瓜可用等重量的贝贝南瓜或老南瓜，老南瓜水分少，清水可多加 100 毫升。"
+  ],
+  "failures": [
+    "粥有生米味：小米没泡透或全程大火，外层糊了里面还硬；淘洗后泡 10 分钟，水开后立刻转小火。",
+    "糊底：下米后没有搅动，或锅底太薄受热不均；前 10 分钟每 3 分钟沿锅底推一次。",
+    "稠得像米饭：水放少了或煮过头；补热水调到能流动的稠度，不要直接加冷水。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

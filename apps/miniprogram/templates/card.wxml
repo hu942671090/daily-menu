@@ -1,0 +1,45 @@
+<template name="recipeCard">
+  <view class="recipe-card">
+    <image class="recipe-img" src="{{image}}" mode="aspectFill" lazy-load="{{true}}" data-id="{{id}}" bindtap="onOpen" />
+    <view class="recipe-body">
+      <view class="row row-between">
+        <text class="recipe-title">{{name}}</text>
+        <text class="badge badge-soft">{{cuisine}}</text>
+      </view>
+      <text class="recipe-sub">{{subtitle}}</text>
+      <text class="recipe-meta">{{metaText}}</text>
+      <text class="recipe-ing">主要食材：{{ingredientsText}}</text>
+      <view class="tag-row">
+        <text class="tag" wx:for="{{tastes}}" wx:key="*this">{{item}}</text>
+        <text wx:if="{{hasVideo}}" class="tag">有视频</text>
+      </view>
+      <view class="card-actions">
+        <button class="btn btn-soft btn-sm" data-id="{{id}}" bindtap="onOpen">查看做法</button>
+        <button wx:if="{{showSwap}}" class="btn btn-ghost btn-sm" data-date="{{date}}" data-meal="{{meal}}" data-index="{{index}}" bindtap="onSwap">换一道</button>
+        <button class="btn btn-ghost btn-sm btn-fav" data-id="{{id}}" bindtap="onFavorite">{{isFavorite ? '已收藏' : '收藏'}}</button>
+      </view>
+    </view>
+  </view>
+</template>
+
+<template name="dishRow">
+  <view class="dish-row {{locked ? 'dish-locked' : ''}}">
+    <image class="dish-img" src="{{image}}" mode="aspectFill" lazy-load="{{true}}" data-id="{{recipeId}}" bindtap="onOpenDish" />
+    <view class="dish-main" data-id="{{recipeId}}" bindtap="onOpenDish">
+      <text class="dish-name">{{locked ? '🔒 ' : ''}}{{name}}</text>
+      <text class="dish-meta">{{metaText}}</text>
+    </view>
+    <view class="dish-tools">
+      <text class="tool" data-date="{{date}}" data-meal="{{meal}}" data-index="{{index}}" bindtap="onToggleLock">{{locked ? '解锁' : '锁定'}}</text>
+      <text class="tool" data-date="{{date}}" data-meal="{{meal}}" data-index="{{index}}" bindtap="onSwapDish">换一道</text>
+    </view>
+  </view>
+</template>
+
+<template name="emptyState">
+  <view class="empty-state">
+    <text class="empty-emoji">{{emoji}}</text>
+    <text class="empty-title">{{title}}</text>
+    <text class="empty-desc">{{desc}}</text>
+  </view>
+</template>

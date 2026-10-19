@@ -1,0 +1,144 @@
+{
+  "id": "mapo-tofu",
+  "name": "麻婆豆腐",
+  "subtitle": "一勺红油拌两碗饭",
+  "intro": "嫩豆腐先用淡盐水焯一下，去豆味也不容易碎；肉末炒散后加豆瓣酱炒出红油，再下豆腐小火煨几分钟，分两次勾芡让汤汁挂在豆腐上。出锅前撒花椒粉和蒜苗，麻辣鲜香，做起来比想象中简单。",
+  "cuisine": "川湘",
+  "tastes": ["香辣", "咸鲜"],
+  "mealTypes": ["lunch", "dinner"],
+  "baseServings": 2,
+  "prepMinutes": 8,
+  "cookMinutes": 11,
+  "difficulty": 1,
+  "image": {
+    "src": "/images/recipes/mapo-tofu.png",
+    "alt": "麻婆豆腐成品示意图：红亮汤汁中的豆腐块，表面撒有花椒粉与蒜苗",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["嫩豆腐", "猪肉末", "蒜苗"],
+  "allergenTags": ["大豆", "猪肉"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "silken-tofu", "name": "嫩豆腐", "amount": 400, "unit": "克", "scalable": true, "note": "切 2 厘米见方的块" },
+        { "id": "minced-pork", "name": "猪肉末", "amount": 100, "unit": "克", "scalable": true, "note": "肥瘦三七" },
+        { "id": "garlic-sprout", "name": "蒜苗", "amount": 2, "unit": "根", "scalable": true, "note": "斜切段，蒜白蒜叶分开" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "doubanjiang", "name": "郫县豆瓣酱", "amount": 1, "unit": "勺", "scalable": true, "note": "剁细" },
+        { "id": "sichuan-pepper-powder", "name": "花椒粉", "amount": null, "unit": "克", "display": "约 1 克（按口味）", "scalable": false },
+        { "id": "light-soy", "name": "生抽", "amount": 1, "unit": "茶匙", "scalable": true },
+        { "id": "starch", "name": "淀粉", "amount": 1, "unit": "茶匙", "scalable": true, "note": "兑 3 勺水成水淀粉" },
+        { "id": "sugar", "name": "白糖", "amount": 0.5, "unit": "茶匙", "scalable": true, "note": "中和豆瓣酱的咸" },
+        { "id": "ginger", "name": "姜", "amount": 1, "unit": "块", "scalable": true, "note": "切末" },
+        { "id": "garlic", "name": "大蒜", "amount": 2, "unit": "瓣", "scalable": true, "note": "切末" },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "克", "display": "少许（焯豆腐用）", "scalable": false },
+        { "id": "cooking-oil", "name": "食用油", "amount": 30, "unit": "毫升", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "豆腐切块盐水焯",
+      "text": "豆腐切成 2 厘米见方的块，锅中水烧开加一小撮盐，下豆腐小火焯 1 分钟，捞出沥水；盐水能让豆腐更紧实，炒的时候不易碎。",
+      "image": {
+        "src": "/images/recipes/mapo-tofu-step-1.png",
+        "alt": "步骤 1 示意图：豆腐块在淡盐水中微微翻动，漏勺靠在锅边",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "小火",
+      "timeHint": "约 3 分钟"
+    },
+    {
+      "index": 2,
+      "title": "姜蒜切末调水淀粉",
+      "text": "姜蒜去皮切成细末，蒜苗斜切成段，蒜白和蒜叶分开放；1 茶匙淀粉加 3 勺清水搅匀，等会儿要分两次用。",
+      "image": {
+        "src": "/images/recipes/mapo-tofu-step-2.png",
+        "alt": "步骤 2 示意图：案板上姜蒜末与蒜苗段，小碗中水淀粉静置",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 2 分钟"
+    },
+    {
+      "index": 3,
+      "title": "炒肉末出油下豆瓣",
+      "text": "锅烧热放 30 毫升油，下猪肉末中火炒散，炒到肉末发白、边缘微焦，拨到一边，下豆瓣酱和姜蒜末炒出红油。",
+      "image": {
+        "src": "/images/recipes/mapo-tofu-step-3.png",
+        "alt": "步骤 3 示意图：锅中肉末被拨到一侧，豆瓣酱在油中炒出红色",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "中火",
+      "timeHint": "约 3 分钟"
+    },
+    {
+      "index": 4,
+      "title": "下豆腐小火慢煨",
+      "text": "加入 200 毫升热水和 1 茶匙生抽、半茶匙白糖，汤开后轻轻推入豆腐，转小火煨 3 分钟，期间用铲背推锅底，不要翻搅。",
+      "image": {
+        "src": "/images/recipes/mapo-tofu-step-4.png",
+        "alt": "步骤 4 示意图：红汤中豆腐块微微颤动，铲背贴着锅底推动",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "小火",
+      "timeHint": "约 4 分钟"
+    },
+    {
+      "index": 5,
+      "title": "分两次勾芡收汁",
+      "text": "转中火，淋一半水淀粉，等汤汁变稠再淋剩下的一半，用铲背推匀；撒蒜苗段和花椒粉，出锅装盘。",
+      "image": {
+        "src": "/images/recipes/mapo-tofu-step-5.png",
+        "alt": "步骤 5 示意图：汤汁收浓裹住豆腐，蒜苗段与花椒粉正撒入锅中",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "中火",
+      "timeHint": "约 2 分钟"
+    }
+  ],
+  "tips": [
+    "豆腐焯水时水要开、火要小，水滚得太厉害会把豆腐冲散。",
+    "豆瓣酱一定要炒出红油再下豆腐，颜色和香味都靠这一步。",
+    "勾芡分两次，第一次让汤汁变稠，第二次才能挂住豆腐表面。"
+  ],
+  "substitutions": [
+    "猪肉末可换成牛肉末，风味更浓；素食版本可省略肉末，多加 1 茶匙豆瓣酱。",
+    "嫩豆腐可换成内酯豆腐，口感更滑，焯水时间缩短到 30 秒。",
+    "不吃辣可把豆瓣酱减到半勺，花椒粉换成熟白芝麻。"
+  ],
+  "failures": [
+    "豆腐碎成渣：下锅后翻炒或水滚太大；用铲背推，保持小火。",
+    "只有咸味没有香味：豆瓣酱没炒出红油；中火炒到油色发红再下豆腐。",
+    "汤汁澥掉：只勾了一次芡或水淀粉太稀；分两次勾，淀粉与水按 1:3 调。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

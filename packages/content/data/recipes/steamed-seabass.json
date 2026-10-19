@@ -1,0 +1,140 @@
+{
+  "id": "steamed-seabass",
+  "name": "清蒸鲈鱼",
+  "subtitle": "八分钟蒸出蒜瓣肉",
+  "intro": "清蒸最考验火候，鲈鱼背厚肉嫩，水开后大火八分钟刚好，鱼肉一拨就成蒜瓣状。蒸出的腥水倒掉，换上新的葱丝，淋豉油、泼一勺热油，香味一下就起来了，适合晚餐配一碗白粥。",
+  "cuisine": "粤式",
+  "tastes": ["清淡", "咸鲜"],
+  "mealTypes": ["dinner"],
+  "baseServings": 2,
+  "prepMinutes": 12,
+  "cookMinutes": 15,
+  "difficulty": 2,
+  "image": {
+    "src": "/images/recipes/steamed-seabass.png",
+    "alt": "清蒸鲈鱼成品示意图：长盘中整条鲈鱼淋着豉油，铺着葱丝和红椒丝",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["鲈鱼", "姜", "小葱", "红椒"],
+  "allergenTags": ["鱼", "大豆"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "seabass", "name": "鲈鱼", "amount": 600, "unit": "克", "scalable": true, "note": "1 条，已去鳞去内脏" },
+        { "id": "ginger", "name": "姜", "amount": 1, "unit": "块", "scalable": true, "note": "一半切片一半切丝" },
+        { "id": "scallion", "name": "小葱", "amount": 3, "unit": "根", "scalable": true, "note": "2 根垫底，1 根切细丝" },
+        { "id": "red-chili", "name": "红椒", "amount": 1, "unit": "个", "scalable": true, "note": "四分之一个，切细丝" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "steamed-fish-soy", "name": "蒸鱼豉油", "amount": 30, "unit": "毫升", "scalable": true },
+        { "id": "cooking-wine", "name": "料酒", "amount": 10, "unit": "毫升", "scalable": true, "note": "抹鱼身去腥" },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "", "display": "约 2 克（薄薄一层）", "scalable": false },
+        { "id": "cooking-oil", "name": "食用油", "amount": 25, "unit": "毫升", "scalable": true, "note": "最后泼油用" }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "鲈鱼清理改花刀",
+      "text": "鲈鱼去鳞、去鳃和内脏，刮净腹腔里的黑膜，用流动水冲干净。两面各斜划三刀，刀口深至鱼骨，让厚的地方也能均匀受热。",
+      "image": {
+        "src": "/images/recipes/steamed-seabass-step-1.png",
+        "alt": "步骤 1 示意图：水槽中冲洗干净的鲈鱼，鱼身两侧已划出斜刀口",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 8 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 2,
+      "title": "抹料酒垫姜葱",
+      "text": "鱼身内外抹一层薄盐，淋料酒腌十分钟去腥。盘底横放两根葱段和几片姜，把鱼架在上面，鱼腹里也塞两片姜。",
+      "image": {
+        "src": "/images/recipes/steamed-seabass-step-2.png",
+        "alt": "步骤 2 示意图：鱼盘底部垫着葱段姜片，鲈鱼被架空摆好",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 10 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 3,
+      "title": "水开上锅大火蒸",
+      "text": "蒸锅加水大火烧到上汽，把鱼盘放进去，盖严锅盖大火蒸八分钟。关火后不要开盖，利用余温再虚蒸两分钟。",
+      "image": {
+        "src": "/images/recipes/steamed-seabass-step-3.png",
+        "alt": "步骤 3 示意图：蒸锅上汽，锅盖边缘冒出白色蒸汽，鱼盘放在蒸架上",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 10 分钟",
+      "heat": "大火"
+    },
+    {
+      "index": 4,
+      "title": "倒腥水换新葱丝",
+      "text": "端出鱼盘，倒掉盘里的汤水，夹走蒸过的姜葱。重新铺上细葱丝和红椒丝，葱丝尽量切得细而长，铺满鱼身。",
+      "image": {
+        "src": "/images/recipes/steamed-seabass-step-4.png",
+        "alt": "步骤 4 示意图：蒸好的鲈鱼上铺满细葱丝和红椒丝，盘中汤汁已倒空",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 2 分钟",
+      "heat": "关火"
+    },
+    {
+      "index": 5,
+      "title": "淋豉油泼热油",
+      "text": "沿盘边淋入蒸鱼豉油，不要直接浇在鱼身上。另起锅把食用油烧到微微冒烟，趁热浇在葱丝上，听到滋啦声即可上桌。",
+      "image": {
+        "src": "/images/recipes/steamed-seabass-step-5.png",
+        "alt": "步骤 5 示意图：热油浇在葱丝上冒出白烟，豉油在盘底显出深色",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 2 分钟",
+      "heat": "大火"
+    }
+  ],
+  "tips": [
+    "鱼一定要等水开上汽后再入锅，冷水上锅蒸出来肉会散。",
+    "蒸出来的汤水腥味最重，必须倒掉，再沿盘边淋新的豉油。",
+    "一斤左右的鱼蒸八分钟，每增加二两多蒸一分钟。"
+  ],
+  "substitutions": [
+    "鲈鱼可换成鳜鱼、黄鱼或多宝鱼，按鱼身厚度调整蒸制时间。",
+    "没有蒸鱼豉油，可用生抽加少量白糖和清水调开代替。",
+    "红椒丝只为配色，换成胡萝卜丝或不放都可以。"
+  ],
+  "failures": [
+    "鱼肉发老：蒸的时间过长或没虚蒸就开盖；八分钟加两分钟虚蒸足够。",
+    "腥味重：腹腔黑膜没刮净，或蒸出的汤水没倒掉；这两步都不能省。",
+    "鱼皮破损：火太小或鱼身没擦干；大火足汽、盘底垫葱姜把鱼架空。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

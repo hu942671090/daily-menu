@@ -1,0 +1,76 @@
+<import src="/templates/card.wxml" />
+
+<view class="container">
+  <view class="card card-pad">
+    <view class="row row-between">
+      <view class="col">
+        <text class="section-title">{{weekLabel}}</text>
+        <text class="tiny">{{isCurrentWeek ? '本周菜单' : '查看其他周'}} · 早餐 1 道 / 午晚餐各 2 道</text>
+      </view>
+      <view class="row">
+        <text class="tool" bindtap="onPrevWeek">上一周</text>
+        <text class="tool" bindtap="onNextWeek">下一周</text>
+      </view>
+    </view>
+    <view wx:if="{{hasMenu}}" class="row" style="margin-top: 16rpx;">
+      <text class="chip">{{summary.dishCount}} 道菜</text>
+      <text class="chip">{{summary.uniqueRecipeCount}} 种</text>
+      <text class="chip chip-orange">锁定 {{lockedCount}}</text>
+    </view>
+    <view wx:if="{{!isCurrentWeek}}" class="row" style="margin-top: 14rpx;">
+      <text class="link-btn" bindtap="onTodayWeek">回到本周</text>
+    </view>
+  </view>
+
+  <view class="date-strip">
+    <view
+      wx:for="{{days}}"
+      wx:key="date"
+      class="date-item {{item.date === selectedDate ? 'active' : ''}} {{item.isToday ? 'today' : ''}}"
+      data-date="{{item.date}}"
+      bindtap="onSelectDay"
+    >
+      <text class="date-weekday">{{item.weekday}}</text>
+      <text class="date-number">{{item.dayNumber}}</text>
+    </view>
+  </view>
+
+  <block wx:if="{{hasMenu}}">
+    <view class="row row-between" style="margin: 12rpx 0 16rpx;">
+      <text class="small strong">{{selectedLabel}}</text>
+      <text class="tiny link-btn" bindtap="onSave">保存菜单</text>
+    </view>
+
+    <block wx:for="{{meals}}" wx:key="key">
+      <view class="meal-card">
+        <view class="meal-head">
+          <text>{{item.emoji}}</text>
+          <text class="meal-title">{{item.label}}</text>
+          <text class="meal-time">{{item.dishes.length}} 道</text>
+          <view class="meal-actions">
+            <text class="tool" data-date="{{selectedDate}}" data-meal="{{item.key}}" bindtap="onRegenerateMeal">换一餐</text>
+          </view>
+        </view>
+        <block wx:if="{{item.dishes.length > 0}}">
+          <block wx:for="{{item.dishes}}" wx:for-item="dish" wx:key="recipeId">
+            <template is="dishRow" data="{{...dish}}" />
+          </block>
+        </block>
+        <view wx:else class="empty-box">这一餐还没有安排，点「换一餐」生成</view>
+      </view>
+    </block>
+
+    <button class="btn btn-primary btn-block" style="margin-top: 10rpx;" bindtap="onRegenerateWeek">重新生成本周（保留锁定）</button>
+    <button class="btn btn-ghost btn-block" style="margin-top: 14rpx;" bindtap="goShopping">按本周生成购物清单</button>
+    <view class="footnote">
+      修改会自动保存到本机。锁定的菜在「换一餐 / 重新生成本周」时都会保留。
+    </view>
+  </block>
+
+  <view wx:else class="empty-state" style="margin-top: 24rpx;">
+    <text class="empty-emoji">🗓️</text>
+    <text class="empty-title">这一周还没有菜单</text>
+    <text class="empty-desc">按当前偏好生成后会自动保存，下次进入这一周可直接恢复。</text>
+    <button class="btn btn-primary" style="margin-top: 24rpx;" bindtap="onGenerate">生成这一周菜单</button>
+  </view>
+</view>

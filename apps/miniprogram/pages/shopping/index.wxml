@@ -1,0 +1,65 @@
+<view class="container">
+  <view class="card card-pad">
+    <view class="row row-between">
+      <view class="col">
+        <text class="section-title">{{weekLabel}}</text>
+        <text class="tiny">{{servings}} 人份 · {{days}} 天 · {{stats.total}} 项</text>
+      </view>
+      <text class="badge badge-green">已购 {{stats.checked}} / {{stats.total}}</text>
+    </view>
+    <view class="progress-track" style="margin-top: 16rpx;">
+      <view class="progress-bar" style="width: {{stats.completion}}%;"></view>
+    </view>
+    <view class="row" style="margin-top: 16rpx;">
+      <button class="btn btn-ghost btn-sm" bindtap="onCopy">复制清单</button>
+      <button class="btn btn-ghost btn-sm" bindtap="onResetChecks">清空勾选</button>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section-head">
+      <text class="section-title">主料</text>
+      <text class="section-sub">{{mainItems.length}} 项</text>
+    </view>
+    <view class="card card-pad">
+      <block wx:if="{{mainItems.length > 0}}">
+        <view class="list-item" wx:for="{{mainItems}}" wx:key="key" data-key="{{item.key}}" bindtap="onToggle">
+          <text style="width: 44rpx; font-size: 30rpx;">{{item.checked ? '✅' : '⬜'}}</text>
+          <view style="flex: 1; min-width: 0;">
+            <text style="font-size: 26rpx;">{{item.name}}</text>
+            <text class="tiny" style="display: block;">{{item.recipeCount}} 道菜需要</text>
+          </view>
+          <text class="strong" style="font-size: 25rpx;">{{item.amountText}}</text>
+        </view>
+      </block>
+      <view wx:else class="empty-box">菜单还没有主料需要采购</view>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section-head">
+      <text class="section-title">调料</text>
+      <text class="section-sub">{{seasoningItems.length}} 项</text>
+    </view>
+    <view class="card card-pad">
+      <block wx:if="{{seasoningItems.length > 0}}">
+        <view class="list-item" wx:for="{{seasoningItems}}" wx:key="key" data-key="{{item.key}}" bindtap="onToggle">
+          <text style="width: 44rpx; font-size: 30rpx;">{{item.checked ? '✅' : '⬜'}}</text>
+          <view style="flex: 1; min-width: 0;">
+            <text style="font-size: 26rpx;">{{item.name}}</text>
+            <text class="tiny" style="display: block;">{{item.recipeCount}} 道菜需要</text>
+          </view>
+          <text class="strong" style="font-size: 25rpx;">{{item.amountText}}</text>
+        </view>
+      </block>
+      <view wx:else class="empty-box">菜单还没有调料需要采购</view>
+    </view>
+  </view>
+
+  <view class="footnote">
+    同名同单位的食材会合并数量；「少许 / 适量」保留文字提示，不参与求和。
+    勾选状态会按周保存在本机缓存中。
+  </view>
+
+  <button class="btn btn-primary btn-block" style="margin-top: 24rpx;" bindtap="goWeek">回到本周菜单</button>
+</view>

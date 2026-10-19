@@ -1,0 +1,139 @@
+{
+  "id": "yogurt-fruit-bowl",
+  "name": "酸奶水果燕麦碗",
+  "subtitle": "不用开火的酸甜早餐",
+  "intro": "浓稠的无糖酸奶铺底，撒上烤得微脆的燕麦片，再码一层水果，最后淋一点蜂蜜。吃的时候从底下往上舀，酸、甜、脆三种口感都在一勺里。适合夏天没胃口或想吃得清爽的早晨，提前烤好燕麦能连做几天。",
+  "cuisine": "轻食",
+  "tastes": ["酸甜", "奶香"],
+  "mealTypes": ["breakfast"],
+  "baseServings": 1,
+  "prepMinutes": 8,
+  "cookMinutes": 4,
+  "difficulty": 1,
+  "image": {
+    "src": "/images/recipes/yogurt-fruit-bowl.png",
+    "alt": "酸奶水果燕麦碗成品示意图：白碗中酸奶上铺着蓝莓、香蕉片与燕麦脆",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["无糖酸奶", "燕麦片", "蓝莓", "香蕉"],
+  "allergenTags": ["乳制品", "坚果"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "yogurt", "name": "无糖酸奶", "amount": 200, "unit": "克", "scalable": true, "note": "选浓稠型，希腊酸奶更好" },
+        { "id": "oats", "name": "即食燕麦片", "amount": 30, "unit": "克", "scalable": true, "note": "平底锅烤香" },
+        { "id": "blueberry", "name": "蓝莓", "amount": 60, "unit": "克", "scalable": true, "note": "洗净沥干" },
+        { "id": "banana", "name": "香蕉", "amount": 0.5, "unit": "根", "scalable": true, "note": "斜切薄片" },
+        { "id": "mixed-nuts", "name": "混合坚果", "amount": 10, "unit": "克", "scalable": true, "note": "掰碎，可省略" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "honey", "name": "蜂蜜", "amount": 1, "unit": "茶匙", "scalable": true, "note": "按水果甜度增减" },
+        { "id": "cinnamon", "name": "肉桂粉", "amount": null, "unit": "克", "display": "一小撮（可省略）", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "干锅烤香燕麦片",
+      "text": "平底锅不放油，中小火烧热后倒入 30 克燕麦片，摊平烘 2 分钟，闻到麦香、边缘微微发黄就盛出摊凉，凉了才会脆。",
+      "image": {
+        "src": "/images/recipes/yogurt-fruit-bowl-step-1.png",
+        "alt": "步骤 1 示意图：干锅中燕麦片微微发黄，木铲正在翻动",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "中小火",
+      "timeHint": "约 4 分钟"
+    },
+    {
+      "index": 2,
+      "title": "水果洗净切好",
+      "text": "蓝莓放滤网里用流水冲一遍，沥干水；香蕉剥皮斜切成 5 毫米厚的片，切好马上用，放久了会发黑。",
+      "image": {
+        "src": "/images/recipes/yogurt-fruit-bowl-step-2.png",
+        "alt": "步骤 2 示意图：滤网中的蓝莓沥水，案板上摆着香蕉片",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "关火",
+      "timeHint": "约 3 分钟"
+    },
+    {
+      "index": 3,
+      "title": "酸奶铺底压平",
+      "text": "取一个宽口碗，倒入 200 克酸奶，用勺背轻轻压平，中间稍微凹下去一点，方便后面堆水果和燕麦。",
+      "image": {
+        "src": "/images/recipes/yogurt-fruit-bowl-step-3.png",
+        "alt": "步骤 3 示意图：宽口碗中酸奶被勺背压平，表面留出浅窝",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 1 分钟"
+    },
+    {
+      "index": 4,
+      "title": "分层铺燕麦与水果",
+      "text": "先撒一半烤燕麦，再沿碗边摆蓝莓、中间叠香蕉片，剩下的燕麦撒在中间；坚果掰碎后点缀在表面。",
+      "image": {
+        "src": "/images/recipes/yogurt-fruit-bowl-step-4.png",
+        "alt": "步骤 4 示意图：酸奶碗中蓝莓沿边排开，香蕉片叠在中央",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 2 分钟"
+    },
+    {
+      "index": 5,
+      "title": "淋蜂蜜即刻开吃",
+      "text": "吃之前淋 1 茶匙蜂蜜，撒一小撮肉桂粉。燕麦的脆度只能保持 5 分钟，想留脆口感就把燕麦单独装小碟。",
+      "image": {
+        "src": "/images/recipes/yogurt-fruit-bowl-step-5.png",
+        "alt": "步骤 5 示意图：蜂蜜正淋在水果燕麦碗上，碗边放着勺子",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "关火",
+      "timeHint": "约 1 分钟"
+    }
+  ],
+  "tips": [
+    "燕麦片一定要摊凉再铺，热的会把酸奶烫稀、水果出水。",
+    "酸奶选配料表只有生牛乳和菌种的，水果本身够甜就不必多加蜂蜜。",
+    "想第二天省事，燕麦可以前一晚烤好，密封罐常温放 2 天。"
+  ],
+  "substitutions": [
+    "无糖酸奶可换成希腊酸奶或椰子酸奶，后者不含乳制品，奶香偏淡。",
+    "蓝莓可换成草莓丁或猕猴桃丁，酸度高的水果多淋半茶匙蜂蜜。",
+    "坚果可以省略，或换成南瓜籽、椰片，同样有脆度。"
+  ],
+  "failures": [
+    "出水变稀：水果没沥干或提前几小时拌好；吃之前再组装。",
+    "燕麦不脆：烤完没摊凉就盖盖子，水汽把它闷软了；摊在盘里晾 5 分钟再装罐。",
+    "整体太酸：用了风味酸奶又搭配酸水果；换成无糖酸奶并补一点蜂蜜。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

@@ -1,0 +1,144 @@
+{
+  "id": "winter-melon-meatball-soup",
+  "name": "冬瓜丸子汤",
+  "subtitle": "清汤丸子，鲜而不腻",
+  "intro": "汤清、丸嫩、冬瓜透亮，是这道汤的三个标准。肉馅顺一个方向打到上劲，丸子下锅才不会散；冬瓜最后放，煮到边缘透明就关火，久煮会化成水。晚餐配一小碗米饭，喝完全身都松快。",
+  "cuisine": "家常菜",
+  "tastes": ["清淡", "咸鲜"],
+  "mealTypes": ["dinner"],
+  "baseServings": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "difficulty": 2,
+  "image": {
+    "src": "/images/recipes/winter-melon-meatball-soup.png",
+    "alt": "冬瓜丸子汤成品示意图：白瓷碗中清汤里浮着肉丸与半透明冬瓜块，撒葱花",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["冬瓜", "猪肉馅", "鸡蛋", "姜", "小葱"],
+  "allergenTags": ["猪肉", "鸡蛋", "大豆"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "winter-melon", "name": "冬瓜", "amount": 400, "unit": "克", "scalable": true, "note": "去皮去瓤，切厚块" },
+        { "id": "pork-mince", "name": "猪肉馅", "amount": 250, "unit": "克", "scalable": true, "note": "肥三瘦七" },
+        { "id": "egg", "name": "鸡蛋", "amount": 1, "unit": "个", "scalable": true, "note": "只取蛋清" },
+        { "id": "ginger", "name": "姜", "amount": 2, "unit": "片", "scalable": true, "note": "一片切末，一片煮汤" },
+        { "id": "scallion", "name": "小葱", "amount": 2, "unit": "根", "scalable": true, "note": "一半切段一半切葱花" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "light-soy", "name": "生抽", "amount": 10, "unit": "毫升", "scalable": true },
+        { "id": "cooking-wine", "name": "料酒", "amount": 10, "unit": "毫升", "scalable": true },
+        { "id": "cornstarch", "name": "玉米淀粉", "amount": 15, "unit": "克", "scalable": true, "note": "让丸子更嫩" },
+        { "id": "sesame-oil", "name": "香油", "amount": 5, "unit": "毫升", "scalable": true, "note": "出锅前淋入" },
+        { "id": "white-pepper", "name": "白胡椒粉", "amount": null, "unit": "", "display": "少许", "scalable": false },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "", "display": "约 3 克（分两次用）", "scalable": false },
+        { "id": "water", "name": "清水", "amount": 900, "unit": "毫升", "scalable": true, "note": "煮汤用" }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "冬瓜去皮切厚块",
+      "text": "冬瓜削皮去瓤，切成两厘米厚的块，块大一点煮完不容易碎。姜切细末，小葱一半切段，另一半切成葱花备用。",
+      "image": {
+        "src": "/images/recipes/winter-melon-meatball-soup-step-1.png",
+        "alt": "步骤 1 示意图：砧板上切好的冬瓜厚块，旁边是姜末和葱段",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 6 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 2,
+      "title": "肉馅搅打上劲",
+      "text": "猪肉馅里加盐、生抽、料酒、姜末、白胡椒粉和一个蛋清，顺一个方向搅打三分钟，再加玉米淀粉搅到发黏抱团。",
+      "image": {
+        "src": "/images/recipes/winter-melon-meatball-soup-step-2.png",
+        "alt": "步骤 2 示意图：碗中肉馅被筷子搅出明显纹路，表面有光泽",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 6 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 3,
+      "title": "虎口挤丸入温水",
+      "text": "锅中加清水和姜片，烧到锅底冒小泡、水面将开未开时转最小火。左手虎口挤出丸子，右手用蘸过水的勺子刮入锅中。",
+      "image": {
+        "src": "/images/recipes/winter-melon-meatball-soup-step-3.png",
+        "alt": "步骤 3 示意图：虎口挤出的肉丸正被勺子刮入微沸的水中",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 6 分钟",
+      "heat": "小火"
+    },
+    {
+      "index": 4,
+      "title": "丸子浮起撇沫",
+      "text": "全部丸子下锅后转中火，水微微沸腾时撇去表面浮沫，煮三分钟到丸子全部浮起，用勺子按一下有弹性。",
+      "image": {
+        "src": "/images/recipes/winter-melon-meatball-soup-step-4.png",
+        "alt": "步骤 4 示意图：丸子全部浮在水面，汤面飘着少许浮沫被撇走",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 4 分钟",
+      "heat": "中火"
+    },
+    {
+      "index": 5,
+      "title": "下冬瓜煮至透明",
+      "text": "下冬瓜块煮六到八分钟，煮到边缘透明。加盐和白胡椒粉调味，淋香油，撒葱花和葱段，关火即可。",
+      "image": {
+        "src": "/images/recipes/winter-melon-meatball-soup-step-5.png",
+        "alt": "步骤 5 示意图：冬瓜块在汤中煮至边缘透明，葱花撒在汤面",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 8 分钟",
+      "heat": "中火"
+    }
+  ],
+  "tips": [
+    "肉馅要搅到上劲，筷子插进去能立住，丸子下锅才不散。",
+    "下丸子时水不能大滚，否则丸子会被冲散，保持微沸即可。",
+    "冬瓜煮到边缘透明就关火，余温还会继续加热，久煮会化。"
+  ],
+  "substitutions": [
+    "猪肉馅可换成鸡肉馅或现成虾滑，口感更清爽。",
+    "冬瓜可换成丝瓜或白萝卜，萝卜需多煮五分钟。",
+    "玉米淀粉可换成等量土豆淀粉，用量一致。"
+  ],
+  "failures": [
+    "丸子散在汤里：肉馅没上劲或水太滚；顺一个方向搅打，微沸下锅。",
+    "汤浑浊发腥：浮沫没撇净或一直大火滚煮；撇沫后保持中小火。",
+    "丸子发硬：淀粉加太多或煮过头；淀粉不超过肉馅的十分之一。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

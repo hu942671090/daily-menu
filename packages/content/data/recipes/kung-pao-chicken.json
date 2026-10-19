@@ -1,0 +1,160 @@
+{
+  "id": "kung-pao-chicken",
+  "name": "宫保鸡丁",
+  "subtitle": "酸甜微辣的经典川味",
+  "intro": "鸡腿肉切丁上浆，干辣椒和花椒小火焙出香味，倒入糖醋调成的宫保汁，最后放一把酥花生。鸡肉滑嫩、花生脆香，汁水收得亮而不腻，是餐桌上很讨喜的一道菜，配米饭尤其合适。",
+  "cuisine": "川湘",
+  "tastes": ["香辣", "酸甜"],
+  "mealTypes": ["lunch", "dinner"],
+  "baseServings": 2,
+  "prepMinutes": 20,
+  "cookMinutes": 7,
+  "difficulty": 2,
+  "image": {
+    "src": "/images/recipes/kung-pao-chicken.png",
+    "alt": "宫保鸡丁成品示意图：白盘中鸡丁裹着亮红酱汁，间杂花生米与干辣椒段",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["鸡腿肉", "花生米", "干辣椒", "大葱"],
+  "allergenTags": ["花生", "鸡肉", "大豆"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "chicken-thigh", "name": "鸡腿肉", "amount": 300, "unit": "克", "scalable": true, "note": "去骨切 1.5 厘米见方的丁" },
+        { "id": "peanuts", "name": "花生米", "amount": 50, "unit": "克", "scalable": true, "note": "生花生，冷油酥" },
+        { "id": "dried-chili", "name": "干辣椒", "amount": 8, "unit": "个", "scalable": true, "note": "剪段去籽" },
+        { "id": "scallion", "name": "大葱", "amount": 1, "unit": "根", "scalable": true, "note": "切 1 厘米长的段" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "light-soy", "name": "生抽", "amount": 2, "unit": "茶匙", "scalable": true, "note": "1 茶匙腌鸡丁，1 茶匙调汁" },
+        { "id": "black-vinegar", "name": "香醋", "amount": 2, "unit": "茶匙", "scalable": true },
+        { "id": "sugar", "name": "白糖", "amount": 2, "unit": "茶匙", "scalable": true },
+        { "id": "starch", "name": "淀粉", "amount": 2, "unit": "茶匙", "scalable": true, "note": "1 茶匙上浆，1 茶匙调汁" },
+        { "id": "cooking-wine", "name": "料酒", "amount": 1, "unit": "茶匙", "scalable": true },
+        { "id": "sichuan-pepper", "name": "花椒", "amount": 1, "unit": "茶匙", "scalable": true },
+        { "id": "ginger", "name": "姜", "amount": 1, "unit": "块", "scalable": true, "note": "切末" },
+        { "id": "garlic", "name": "大蒜", "amount": 3, "unit": "瓣", "scalable": true, "note": "切末" },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "克", "display": "约 1 克", "scalable": false },
+        { "id": "cooking-oil", "name": "食用油", "amount": 60, "unit": "毫升", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "鸡腿去骨切丁",
+      "text": "鸡腿肉皮朝下放在案板上，用刀尖沿着骨头划开，剔出整块肉，再切成 1.5 厘米见方的丁；鸡皮可以去掉，也可以留着增香。",
+      "image": {
+        "src": "/images/recipes/kung-pao-chicken-step-1.png",
+        "alt": "步骤 1 示意图：案板上剔下的鸡腿肉与切成方丁的鸡肉",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 8 分钟"
+    },
+    {
+      "index": 2,
+      "title": "鸡丁上浆腌十分钟",
+      "text": "鸡丁加 1 茶匙生抽、1 茶匙料酒、1 茶匙淀粉和一小撮盐，抓匀后加半勺清水再抓，最后淋一点油，腌 10 分钟。",
+      "image": {
+        "src": "/images/recipes/kung-pao-chicken-step-2.png",
+        "alt": "步骤 2 示意图：碗中鸡丁上浆，旁边放着生抽与淀粉小碟",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 10 分钟"
+    },
+    {
+      "index": 3,
+      "title": "提前兑好宫保汁",
+      "text": "取一只小碗，先放 2 茶匙白糖和 2 茶匙香醋搅到糖化，再加 2 茶匙生抽、1 茶匙淀粉和 3 勺清水，调匀备用。",
+      "image": {
+        "src": "/images/recipes/kung-pao-chicken-step-3.png",
+        "alt": "步骤 3 示意图：小碗中酱汁被筷子搅动，碗边摆着糖与醋",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 2 分钟"
+    },
+    {
+      "index": 4,
+      "title": "冷油酥花生米",
+      "text": "锅里放 30 毫升油，冷油下花生米，开小火慢慢加热，用铲子不停翻动，听到噼啪声、花生皮微微开裂就捞出，摊在盘里晾凉。",
+      "image": {
+        "src": "/images/recipes/kung-pao-chicken-step-4.png",
+        "alt": "步骤 4 示意图：冷油锅中花生米冒小泡，铲子正在翻动",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "小火",
+      "timeHint": "约 4 分钟"
+    },
+    {
+      "index": 5,
+      "title": "焙香辣椒炒鸡丁",
+      "text": "锅里留 30 毫升油，小火下干辣椒段和花椒，炒到辣椒变暗红、香味出来，转大火下鸡丁，摊平煎 20 秒再翻炒至变色。",
+      "image": {
+        "src": "/images/recipes/kung-pao-chicken-step-5.png",
+        "alt": "步骤 5 示意图：锅中干辣椒与花椒焙出香味，鸡丁正下锅",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "小火转大火",
+      "timeHint": "约 2 分钟"
+    },
+    {
+      "index": 6,
+      "title": "烹汁收稠下花生",
+      "text": "倒入葱段和姜蒜末炒香，把宫保汁再搅一下沿锅边淋入，大火翻炒到汁水变亮、裹住鸡丁，关火后倒入花生米翻两下。",
+      "image": {
+        "src": "/images/recipes/kung-pao-chicken-step-6.png",
+        "alt": "步骤 6 示意图：酱汁在锅中收亮裹住鸡丁，花生米刚撒入",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "大火",
+      "timeHint": "约 1 分钟"
+    }
+  ],
+  "tips": [
+    "花生米冷油下锅、小火慢炸，出锅后还会继续变深，颜色浅一点就要捞。",
+    "宫保汁下锅前一定再搅一次，淀粉沉底会让汁结块。",
+    "干辣椒只用小火焙，油温高了立刻发黑发苦，整锅都会带苦味。"
+  ],
+  "substitutions": [
+    "鸡腿肉可换成鸡胸肉，上浆时多加半茶匙淀粉，炒的时间缩短 30 秒。",
+    "花生米可换成腰果或炸过的黄豆，坚果过敏者请省略。",
+    "香醋可换成陈醋，酸味更重，糖可以加到 2.5 茶匙平衡。"
+  ],
+  "failures": [
+    "鸡丁发柴：炒太久或没上浆；变色后立刻倒汁，全程不超过 2 分钟。",
+    "汁太稀裹不住：淀粉放少了或没搅匀；1 茶匙淀粉配 3 勺水，下锅前再搅。",
+    "整体发苦：辣椒或花椒炒糊；小火焙香，颜色一变深就下鸡丁。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

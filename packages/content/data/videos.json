@@ -1,0 +1,578 @@
+[
+  {
+    "id": "bili-BV1Tf4y1q7gW",
+    "platform": "bilibili",
+    "recipeId": "braised-pork",
+    "title": "终于等到你，颤悠的红烧肉！国宴大厨揭秘家常版做法~",
+    "author": "老饭骨",
+    "authorId": "419872064",
+    "url": "https://www.bilibili.com/video/BV1Tf4y1q7gW",
+    "platformVideoId": "BV1Tf4y1q7gW",
+    "durationSec": 211,
+    "coverUrl": "https://i0.hdslb.com/bfs/archive/0b8fda7a0715e30223b52e65ce94bd6e57231d27.jpg",
+    "publishedAt": "2020-11-11T13:35:08.000Z",
+    "stats": {
+      "view": 3697766,
+      "like": 80425
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:27:45.222Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「红烧肉」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1FV4y1c77K",
+    "platform": "bilibili",
+    "recipeId": "century-egg-pork-porridge",
+    "title": "这才是皮蛋瘦肉粥的家常做法，浓稠香滑，鲜香味美喝它养胃又解馋",
+    "author": "品味厨记",
+    "authorId": "2060598540",
+    "url": "https://www.bilibili.com/video/BV1FV4y1c77K",
+    "platformVideoId": "BV1FV4y1c77K",
+    "durationSec": 439,
+    "coverUrl": "https://i0.hdslb.com/bfs/archive/0ac6e3a851bea52fc107969ad3b211e6f4499ee2.jpg",
+    "publishedAt": "2022-12-28T15:24:31.000Z",
+    "stats": {
+      "view": 761094,
+      "like": 11602
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:27:46.838Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「皮蛋瘦肉粥」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1ZQAheJENh",
+    "platform": "bilibili",
+    "recipeId": "egg-veggie-pancake",
+    "title": "妈妈们学会这个蔬菜鸡蛋饼！孩子一周的早餐都搞定！做法食材都很简单，营养也特别丰富！#蔬菜鸡蛋饼 #早餐吃什么 #早餐饼",
+    "author": "夏叔有好货",
+    "authorId": "294675407",
+    "url": "https://www.bilibili.com/video/BV1ZQAheJENh",
+    "platformVideoId": "BV1ZQAheJENh",
+    "durationSec": 74,
+    "coverUrl": "https://i0.hdslb.com/bfs/archive/d9b72c976496f42472e3f99b7b79d495a700d15a.jpg",
+    "publishedAt": "2025-02-18T10:32:18.000Z",
+    "stats": {
+      "view": 112326,
+      "like": 12477
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:27:48.461Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「蔬菜鸡蛋饼」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1p6VZ6MEGm",
+    "platform": "bilibili",
+    "recipeId": "fish-fragrant-eggplant",
+    "title": "鱼香茄子",
+    "author": "阿虎美食记",
+    "authorId": "3546952784415319",
+    "url": "https://www.bilibili.com/video/BV1p6VZ6MEGm",
+    "platformVideoId": "BV1p6VZ6MEGm",
+    "durationSec": 180,
+    "coverUrl": "https://i1.hdslb.com/bfs/archive/51eb990aaf7d9c2e33fc006b1171881582e91d06.jpg",
+    "publishedAt": "2026-06-01T11:00:41.000Z",
+    "stats": {
+      "view": 36179,
+      "like": 1417
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:27:03.796Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「鱼香茄子」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1K3411J7cj",
+    "platform": "bilibili",
+    "recipeId": "garlic-broccoli",
+    "title": "蒜蓉西兰花，炒之前多加一个步骤，做出来脆嫩入味，营养不流失",
+    "author": "超子美食",
+    "authorId": "403940805",
+    "url": "https://www.bilibili.com/video/BV1K3411J7cj",
+    "platformVideoId": "BV1K3411J7cj",
+    "durationSec": 182,
+    "coverUrl": "https://i0.hdslb.com/bfs/archive/3e38345c570477a5a3627d9a4a185ec30860d7d3.jpg",
+    "publishedAt": "2022-02-08T02:04:35.000Z",
+    "stats": {
+      "view": 415416,
+      "like": 8552
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:27:50.012Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「蒜蓉西兰花」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1sP6SYREpE",
+    "platform": "bilibili",
+    "recipeId": "garlic-vermicelli-shrimp",
+    "title": "蒜蓉粉丝蒸虾 | 新年简单硬菜、零难度、超好吃！",
+    "author": "何时下厨",
+    "authorId": "280429232",
+    "url": "https://www.bilibili.com/video/BV1sP6SYREpE",
+    "platformVideoId": "BV1sP6SYREpE",
+    "durationSec": 96,
+    "coverUrl": "https://i1.hdslb.com/bfs/archive/58f539846fea0abc2823d240c508fd1ba27d2b38.jpg",
+    "publishedAt": "2025-01-03T13:00:00.000Z",
+    "stats": {
+      "view": 87027,
+      "like": 2540
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:27:51.661Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「蒜蓉粉丝蒸虾」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1xS4y167Qe",
+    "platform": "bilibili",
+    "recipeId": "green-pepper-pork",
+    "title": "我做的“青椒肉丝”很好吃！步骤清晰详细、做法易学接地气",
+    "author": "美食强",
+    "authorId": "240869947",
+    "url": "https://www.bilibili.com/video/BV1xS4y167Qe",
+    "platformVideoId": "BV1xS4y167Qe",
+    "durationSec": 144,
+    "coverUrl": "https://i2.hdslb.com/bfs/archive/25048ce03005b80b42bfafb51afd959065b7387d.jpg",
+    "publishedAt": "2022-02-28T10:51:08.000Z",
+    "stats": {
+      "view": 2653826,
+      "like": 54550
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:27:53.194Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「青椒肉丝」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV14xHz65Eww",
+    "platform": "bilibili",
+    "recipeId": "ham-cheese-sandwich",
+    "title": "法国人把火腿芝士三明治，做成了百年经典",
+    "author": "奥路北山",
+    "authorId": "11703549",
+    "url": "https://www.bilibili.com/video/BV14xHz65Eww",
+    "platformVideoId": "BV14xHz65Eww",
+    "durationSec": 71,
+    "coverUrl": "https://i0.hdslb.com/bfs/archive/b7add4b90d1c5063bd85524d94f6768028d26ce5.jpg",
+    "publishedAt": "2026-10-04T02:23:31.000Z",
+    "stats": {
+      "view": 12495,
+      "like": 458
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:27:54.758Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「火腿芝士三明治」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1KiMB6rERm",
+    "platform": "bilibili",
+    "recipeId": "hand-torn-cabbage",
+    "title": "手撕包菜",
+    "author": "跟着伯通吃好饭",
+    "authorId": "3707033844976356",
+    "url": "https://www.bilibili.com/video/BV1KiMB6rERm",
+    "platformVideoId": "BV1KiMB6rERm",
+    "durationSec": 325,
+    "coverUrl": "https://i1.hdslb.com/bfs/archive/546de9f850e415533c6da373a7c6952173115f45.jpg",
+    "publishedAt": "2026-08-04T15:48:26.000Z",
+    "stats": {
+      "view": 9149,
+      "like": 568
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:27:56.332Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「手撕包菜」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1ai4y1o7EL",
+    "platform": "bilibili",
+    "recipeId": "kung-pao-chicken",
+    "title": "大厨教你宫保鸡丁家常做法，步骤详细，糊辣酸甜，好吃解馋超下饭",
+    "author": "超子美食",
+    "authorId": "403940805",
+    "url": "https://www.bilibili.com/video/BV1ai4y1o7EL",
+    "platformVideoId": "BV1ai4y1o7EL",
+    "durationSec": 277,
+    "coverUrl": "https://i0.hdslb.com/bfs/archive/4892d9907e1114ed5c97daf740a6d2d5daaa53c4.jpg",
+    "publishedAt": "2021-11-24T03:41:32.000Z",
+    "stats": {
+      "view": 410556,
+      "like": 7038
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:27:57.980Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「宫保鸡丁」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1md3NzzEnF",
+    "platform": "bilibili",
+    "recipeId": "mapo-tofu",
+    "title": "【麻婆豆腐保姆级教程】",
+    "author": "村驴",
+    "authorId": "417298480",
+    "url": "https://www.bilibili.com/video/BV1md3NzzEnF",
+    "platformVideoId": "BV1md3NzzEnF",
+    "durationSec": 209,
+    "coverUrl": "https://i2.hdslb.com/bfs/archive/fd10a81771091b3f659443d220a457db3f646106.jpg",
+    "publishedAt": "2025-06-30T01:43:18.000Z",
+    "stats": {
+      "view": 990734,
+      "like": 40502
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:27:59.588Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「麻婆豆腐」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV15gtKeBERk",
+    "platform": "bilibili",
+    "recipeId": "millet-pumpkin-porridge",
+    "title": "熬粥，最怕熬成一锅稀饭，没有粘稠度没有悬浮感，老师傅教你小米南瓜粥的做法~",
+    "author": "品诺美食开课啦",
+    "authorId": "352637817",
+    "url": "https://www.bilibili.com/video/BV15gtKeBERk",
+    "platformVideoId": "BV15gtKeBERk",
+    "durationSec": 174,
+    "coverUrl": "https://i1.hdslb.com/bfs/archive/66353c0991e368f07f3b1e3c491163fb9747e6d9.jpg",
+    "publishedAt": "2024-09-19T10:10:00.000Z",
+    "stats": {
+      "view": 251999,
+      "like": 9918
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:28:01.189Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「小米南瓜粥」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1FjQgYeEc6",
+    "platform": "bilibili",
+    "recipeId": "oat-milk-porridge",
+    "title": "口感丰富又营养的谷物燕麦牛奶粥，不用浸泡豆子，不用看火，直接用电饭锅煮，软糯可口，大人孩子孩子都爱吃#小喵麻麻甜品 #杂粮粥#电饭煲",
+    "author": "小喵麻麻来了",
+    "authorId": "2128112820",
+    "url": "https://www.bilibili.com/video/BV1FjQgYeEc6",
+    "platformVideoId": "BV1FjQgYeEc6",
+    "durationSec": 147,
+    "coverUrl": "https://i0.hdslb.com/bfs/archive/4213314a212878e2ab745b736e4ba4615f58f75c.jpg",
+    "publishedAt": "2025-03-14T01:38:16.000Z",
+    "stats": {
+      "view": 12607,
+      "like": 842
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:28:02.747Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「燕麦牛奶粥」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV12Ucvz8EFv",
+    "platform": "bilibili",
+    "recipeId": "oyster-sauce-lettuce",
+    "title": "蚝油生菜",
+    "author": "小鹏教做菜",
+    "authorId": "1695227461",
+    "url": "https://www.bilibili.com/video/BV12Ucvz8EFv",
+    "platformVideoId": "BV12Ucvz8EFv",
+    "durationSec": 139,
+    "coverUrl": "https://i0.hdslb.com/bfs/archive/4d8fa2a4e9224cb5c8e0e5b996b61c3a4407a956.jpg",
+    "publishedAt": "2026-02-12T08:40:51.000Z",
+    "stats": {
+      "view": 1126,
+      "like": 15
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:28:04.312Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「蚝油生菜」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1CR4y167GP",
+    "platform": "bilibili",
+    "recipeId": "pan-seared-salmon",
+    "title": "香煎三文鱼",
+    "author": "小铁日食记",
+    "authorId": "10549994",
+    "url": "https://www.bilibili.com/video/BV1CR4y167GP",
+    "platformVideoId": "BV1CR4y167GP",
+    "durationSec": 60,
+    "coverUrl": "https://i1.hdslb.com/bfs/archive/6f574167d40e28f47a6d0175c55118b58965a5dd.jpg",
+    "publishedAt": "2022-12-23T03:25:52.000Z",
+    "stats": {
+      "view": 55593,
+      "like": 947
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:27:06.055Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「香煎三文鱼」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1Wsem6cExe",
+    "platform": "bilibili",
+    "recipeId": "potato-rib-stew",
+    "title": "土豆炖排骨保姆级教程",
+    "author": "大庆是个厨",
+    "authorId": "1376187314",
+    "url": "https://www.bilibili.com/video/BV1Wsem6cExe",
+    "platformVideoId": "BV1Wsem6cExe",
+    "durationSec": 324,
+    "coverUrl": "https://i0.hdslb.com/bfs/archive/a56f722d9b2a02088341e921c8d4dc3e3aea85f2.jpg",
+    "publishedAt": "2026-09-18T10:57:33.000Z",
+    "stats": {
+      "view": 7467,
+      "like": 352
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:28:05.923Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「土豆炖排骨」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1rnQ2YiEKE",
+    "platform": "bilibili",
+    "recipeId": "scallion-oil-noodles",
+    "title": "教程丨厨者王波·认真做菜 葱油拌面！全网最详细教程！毫无保留，拿去开店都ok！真正在家也能实现葱油拌面自由啦！",
+    "author": "厨者王波",
+    "authorId": "3546728118618546",
+    "url": "https://www.bilibili.com/video/BV1rnQ2YiEKE",
+    "platformVideoId": "BV1rnQ2YiEKE",
+    "durationSec": 409,
+    "coverUrl": "https://i0.hdslb.com/bfs/archive/d5000a16fb0256d41b5bb0b5cbc2a038b970a9f7.jpg",
+    "publishedAt": "2025-03-15T08:28:57.000Z",
+    "stats": {
+      "view": 133842,
+      "like": 4808
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:28:07.640Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「葱油拌面」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1oytPeiE8N",
+    "platform": "bilibili",
+    "recipeId": "steamed-seabass",
+    "title": "为啥广东人做的清蒸鲈鱼那么好吃？大厨教你正确做法，鲜嫩无腥味",
+    "author": "天天相见厨房阿鹏",
+    "authorId": "1677299710",
+    "url": "https://www.bilibili.com/video/BV1oytPeiE8N",
+    "platformVideoId": "BV1oytPeiE8N",
+    "durationSec": 482,
+    "coverUrl": "https://i1.hdslb.com/bfs/archive/bff022a660f40d08204564ab7942ee5ddd9ae059.jpg",
+    "publishedAt": "2024-09-14T10:00:00.000Z",
+    "stats": {
+      "view": 489643,
+      "like": 5906
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:28:09.231Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「清蒸鲈鱼」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1eT4y1o7Yv",
+    "platform": "bilibili",
+    "recipeId": "teriyaki-chicken-rice",
+    "title": "【保姆级教程】如何做出超越吉野家的照烧鸡腿饭？",
+    "author": "简简厨房",
+    "authorId": "1610203585",
+    "url": "https://www.bilibili.com/video/BV1eT4y1o7Yv",
+    "platformVideoId": "BV1eT4y1o7Yv",
+    "durationSec": 674,
+    "coverUrl": "https://i2.hdslb.com/bfs/archive/01e7e4a5ec3268df201500c9e43bff9e0cebc71d.jpg",
+    "publishedAt": "2021-10-21T11:08:07.000Z",
+    "stats": {
+      "view": 584775,
+      "like": 21968
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:28:10.773Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「照烧鸡腿饭」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1nr4y1W724",
+    "platform": "bilibili",
+    "recipeId": "three-fresh-dumplings",
+    "title": "素三鲜水饺 一口邂逅虾 再口喜家得 接着会想家",
+    "author": "xiaoyu小魚来了",
+    "authorId": "486974664",
+    "url": "https://www.bilibili.com/video/BV1nr4y1W724",
+    "platformVideoId": "BV1nr4y1W724",
+    "durationSec": 352,
+    "coverUrl": "https://i0.hdslb.com/bfs/archive/60db0093804b1ea4325b92c5f541a7a7ddb50609.jpg",
+    "publishedAt": "2022-03-25T11:53:46.000Z",
+    "stats": {
+      "view": 4125,
+      "like": 80
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:28:12.329Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「三鲜水饺」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1AmamzBEvy",
+    "platform": "bilibili",
+    "recipeId": "tomato-beef-brisket",
+    "title": "全程不加一滴水！番茄牛腩保姆级超详细教程",
+    "author": "袁锐-萌新的圆",
+    "authorId": "48474560",
+    "url": "https://www.bilibili.com/video/BV1AmamzBEvy",
+    "platformVideoId": "BV1AmamzBEvy",
+    "durationSec": 290,
+    "coverUrl": "https://i2.hdslb.com/bfs/archive/6caffed65ff41ee861d41f880a89f00c71b19b1c.jpg",
+    "publishedAt": "2025-09-04T08:58:55.000Z",
+    "stats": {
+      "view": 449697,
+      "like": 11464
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:28:13.883Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「番茄牛腩」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1YFuR6PEYh",
+    "platform": "bilibili",
+    "recipeId": "tomato-beef-noodle",
+    "title": "随便吃个番茄牛肉面",
+    "author": "想长胖滴小猪猪",
+    "authorId": "3546960852158871",
+    "url": "https://www.bilibili.com/video/BV1YFuR6PEYh",
+    "platformVideoId": "BV1YFuR6PEYh",
+    "durationSec": 204,
+    "coverUrl": "https://i2.hdslb.com/bfs/archive/28b5071be2b45656b6ded190c08eddb3860aa8d0.jpg",
+    "publishedAt": "2026-08-10T08:00:00.000Z",
+    "stats": {
+      "view": 554554,
+      "like": 21198
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:28:15.479Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「番茄牛肉面」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1yTn36fEXd",
+    "platform": "bilibili",
+    "recipeId": "tomato-scrambled-egg",
+    "title": "番茄炒蛋",
+    "author": "番茄马自达",
+    "authorId": "27680333",
+    "url": "https://www.bilibili.com/video/BV1yTn36fEXd",
+    "platformVideoId": "BV1yTn36fEXd",
+    "durationSec": 178,
+    "coverUrl": "https://i0.hdslb.com/bfs/archive/6a9cea4def54ce0a337dadaaebefaec037f88d8f.jpg",
+    "publishedAt": "2026-10-18T11:52:19.000Z",
+    "stats": {
+      "view": 39,
+      "like": 1
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:27:08.304Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「番茄炒蛋」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  },
+  {
+    "id": "bili-BV1H34y1J7EZ",
+    "platform": "bilibili",
+    "recipeId": "winter-melon-meatball-soup",
+    "title": "三伏天喝“冬瓜丸子汤”，不用料酒不用淀粉，丸子嫩如豆腐不松散",
+    "author": "周妈妈美食",
+    "authorId": "483147378",
+    "url": "https://www.bilibili.com/video/BV1H34y1J7EZ",
+    "platformVideoId": "BV1H34y1J7EZ",
+    "durationSec": 208,
+    "coverUrl": "https://i1.hdslb.com/bfs/archive/48dc614649f9618ad04514f47ddbf384b7e94c92.jpg",
+    "publishedAt": "2022-07-13T10:51:53.000Z",
+    "stats": {
+      "view": 58232,
+      "like": 1237
+    },
+    "verification": {
+      "status": "verified",
+      "checkedAt": "2026-10-19T07:28:17.040Z",
+      "method": "bilibili-view-api + video-page-http",
+      "matchBasis": "title-keyword",
+      "note": "view 接口可访问，标题包含菜名「冬瓜丸子汤」；视频详情页 HTTP 200。相关性基于标题关键词与搜索排序，未逐帧核对做法。"
+    }
+  }
+]

@@ -1,0 +1,154 @@
+{
+  "id": "scallion-oil-noodles",
+  "name": "葱油拌面",
+  "subtitle": "葱香浓郁的上海味道",
+  "intro": "小葱擦干水分，冷油下锅慢慢熬到焦黄，葱香全部留在油里，再倒入生抽老抽调成的酱汁。面条煮到八分熟就捞，拌上两勺葱油，酱色均匀、葱香扑鼻。适合早餐或不想做菜的午餐，一碗就够。",
+  "cuisine": "江浙",
+  "tastes": ["咸鲜", "酱香"],
+  "mealTypes": ["breakfast", "lunch"],
+  "baseServings": 2,
+  "prepMinutes": 12,
+  "cookMinutes": 16,
+  "difficulty": 2,
+  "image": {
+    "src": "/images/recipes/scallion-oil-noodles.png",
+    "alt": "葱油拌面成品示意图：酱色面条盘在碗中，上面摆着焦黄葱段",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["面条", "小葱", "生抽"],
+  "allergenTags": ["麸质", "大豆"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "noodles", "name": "细面条", "amount": 200, "unit": "克", "scalable": true, "note": "碱水面或阳春面" },
+        { "id": "scallion", "name": "小葱", "amount": 8, "unit": "根", "scalable": true, "note": "约 100 克，葱白葱绿分开" },
+        { "id": "cooking-oil", "name": "食用油", "amount": 80, "unit": "毫升", "scalable": true, "note": "熬葱油用，剩下的可冷藏留用" },
+        { "id": "light-soy", "name": "生抽", "amount": 3, "unit": "勺", "scalable": true, "note": "约 45 毫升" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "dark-soy", "name": "老抽", "amount": 1, "unit": "勺", "scalable": true, "note": "上色，可省略" },
+        { "id": "sugar", "name": "白糖", "amount": 1, "unit": "茶匙", "scalable": true, "note": "提鲜，不放会偏咸" },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "克", "display": "少许（煮面用）", "scalable": false },
+        { "id": "lard", "name": "猪油", "amount": 1, "unit": "茶匙", "scalable": true, "note": "可选，增香" }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "小葱洗净彻底擦干",
+      "text": "小葱择掉黄叶，连根洗净，用厨房纸把水彻底吸干，再摊开晾 10 分钟。带水下锅会炸油，也会让葱段软塌不脆。",
+      "image": {
+        "src": "/images/recipes/scallion-oil-noodles-step-1.png",
+        "alt": "步骤 1 示意图：厨房纸上摊开的小葱，水珠已被吸干",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 10 分钟"
+    },
+    {
+      "index": 2,
+      "title": "葱白葱绿切长段",
+      "text": "葱白切成 5 厘米长的段，葱绿切成同样长度，分开放；葱白耐熬先下锅，葱绿后放，这样两段都能焦而不糊。",
+      "image": {
+        "src": "/images/recipes/scallion-oil-noodles-step-2.png",
+        "alt": "步骤 2 示意图：案板上分开放置的葱白段与葱绿段",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 3 分钟"
+    },
+    {
+      "index": 3,
+      "title": "冷油下葱小火慢熬",
+      "text": "锅里倒 80 毫升食用油，放入葱白，开小火，油面刚起小泡时开始计时。保持小火熬 6 分钟，中途翻动两次，让葱段受热均匀。",
+      "image": {
+        "src": "/images/recipes/scallion-oil-noodles-step-3.png",
+        "alt": "步骤 3 示意图：葱白段在冷油中慢慢冒泡，边缘开始泛黄",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "小火",
+      "timeHint": "约 6 分钟"
+    },
+    {
+      "index": 4,
+      "title": "葱段焦黄后下酱汁",
+      "text": "葱白变成浅褐色时放入葱绿，再熬 2 分钟至葱段干瘪焦黄，用筷子夹出。关火等油温降到不冒烟，倒入生抽、老抽和白糖，再开小火搅到糖化。",
+      "image": {
+        "src": "/images/recipes/scallion-oil-noodles-step-4.png",
+        "alt": "步骤 4 示意图：锅中葱段焦黄，酱油正倒入油中泛起细泡",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "小火",
+      "timeHint": "约 3 分钟"
+    },
+    {
+      "index": 5,
+      "title": "另起一锅煮面条",
+      "text": "另取一锅水烧开，加一小撮盐，下 200 克面条，用筷子挑散。煮到面条中间还有一点白芯就捞出，留半碗面汤备用。",
+      "image": {
+        "src": "/images/recipes/scallion-oil-noodles-step-5.png",
+        "alt": "步骤 5 示意图：沸水锅中面条散开，筷子正在挑动",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "大火",
+      "timeHint": "约 3 分钟"
+    },
+    {
+      "index": 6,
+      "title": "趁热拌油再淋酱",
+      "text": "面条沥干后趁热倒入两勺葱油，快速拌匀抖散；再按口味淋酱汁，加一勺面汤把酱化开，最后铺上葱段。",
+      "image": {
+        "src": "/images/recipes/scallion-oil-noodles-step-6.png",
+        "alt": "步骤 6 示意图：面条在碗中被拌成酱色，葱段铺在表面",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "关火",
+      "timeHint": "约 2 分钟"
+    }
+  ],
+  "tips": [
+    "葱一定擦干再下锅，带水会溅油，葱段也炸不脆。",
+    "全程小火，油温太高葱一下就黑，苦味会盖住香味。",
+    "酱汁要在关火后倒入，高温直接倒生抽容易糊锅发苦。"
+  ],
+  "substitutions": [
+    "没有小葱可用红葱头 6 颗代替，切薄片熬，香气更甜。",
+    "生抽可用薄盐生抽，老抽可省略，颜色会浅一些。",
+    "猪油可换成等量葱油，素食版本不加即可。"
+  ],
+  "failures": [
+    "葱发黑发苦：火太大或葱没擦干；冷油下锅、全程小火。",
+    "面坨成块：煮好没趁热拌油；捞出后立刻拌油抖散，动作要快。",
+    "太咸：生抽本身有盐，煮面时盐要少放，酱汁分两次淋。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

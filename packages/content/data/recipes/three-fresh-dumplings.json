@@ -1,0 +1,159 @@
+{
+  "id": "three-fresh-dumplings",
+  "name": "三鲜水饺",
+  "subtitle": "猪肉虾仁韭菜的经典馅",
+  "intro": "三鲜馅的关键是肉馅先打水，再拌入虾仁和鸡蛋碎，煮出来咬开有汤汁，虾仁还带着弹性。用现成的饺子皮能省下和面的时间，一次包四十个，冻一半留给下一个工作日当午饭。",
+  "cuisine": "北方",
+  "tastes": ["咸鲜", "鲜香"],
+  "mealTypes": ["lunch"],
+  "baseServings": 3,
+  "prepMinutes": 40,
+  "cookMinutes": 15,
+  "difficulty": 3,
+  "image": {
+    "src": "/images/recipes/three-fresh-dumplings.png",
+    "alt": "三鲜水饺成品示意图：白瓷盘中摆着月牙形水饺，旁配一小碟醋",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["猪肉馅", "虾仁", "鸡蛋", "韭菜", "饺子皮"],
+  "allergenTags": ["麸质", "甲壳类", "鸡蛋", "猪肉"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "pork-mince", "name": "猪肉馅", "amount": 300, "unit": "克", "scalable": true, "note": "肥三瘦七" },
+        { "id": "shrimp", "name": "虾仁", "amount": 150, "unit": "克", "scalable": true, "note": "去虾线，切小丁" },
+        { "id": "egg", "name": "鸡蛋", "amount": 2, "unit": "个", "scalable": true, "note": "1 个炒碎、1 个留作他用" },
+        { "id": "chive", "name": "韭菜", "amount": 150, "unit": "克", "scalable": true, "note": "洗净晾干后切碎" },
+        { "id": "dumpling-wrapper", "name": "现成饺子皮", "amount": 40, "unit": "张", "scalable": true, "note": "买中厚型的" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "light-soy", "name": "生抽", "amount": 20, "unit": "毫升", "scalable": true },
+        { "id": "cooking-wine", "name": "料酒", "amount": 10, "unit": "毫升", "scalable": true },
+        { "id": "sesame-oil", "name": "香油", "amount": 10, "unit": "毫升", "scalable": true, "note": "最后拌入锁水" },
+        { "id": "cooking-oil", "name": "食用油", "amount": 15, "unit": "毫升", "scalable": true, "note": "炒蛋和拌馅用" },
+        { "id": "ginger-mince", "name": "姜末", "amount": null, "unit": "", "display": "约 5 克", "scalable": false },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "", "display": "约 5 克（分两次用）", "scalable": false },
+        { "id": "white-pepper", "name": "白胡椒粉", "amount": null, "unit": "", "display": "少许", "scalable": false },
+        { "id": "water", "name": "清水", "amount": 50, "unit": "毫升", "scalable": true, "note": "打馅用" }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "虾仁改刀炒鸡蛋",
+      "text": "虾仁挑去虾线，用厨房纸吸干水分后切成小丁。鸡蛋打散，热锅少油炒成碎蛋花，盛出摊凉，炒得碎一点后面更好拌。",
+      "image": {
+        "src": "/images/recipes/three-fresh-dumplings-step-1.png",
+        "alt": "步骤 1 示意图：砧板上切好的虾仁丁，旁边碗里是金黄的碎蛋花",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 5 分钟",
+      "heat": "中火"
+    },
+    {
+      "index": 2,
+      "title": "肉馅调味打上劲",
+      "text": "猪肉馅里加生抽、料酒、姜末和一半的盐，分三次加入五十毫升清水，始终顺着一个方向搅，直到肉馅发黏、能抱成团。",
+      "image": {
+        "src": "/images/recipes/three-fresh-dumplings-step-2.png",
+        "alt": "步骤 2 示意图：盆中肉馅被筷子顺同一方向搅出纹路，表面发亮",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 5 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 3,
+      "title": "拌入三鲜馅料",
+      "text": "把虾仁丁、碎蛋花和切碎的韭菜拌进肉馅，淋香油和食用油，撒剩下的盐和白胡椒粉，轻轻翻拌均匀，不要过度搅打。",
+      "image": {
+        "src": "/images/recipes/three-fresh-dumplings-step-3.png",
+        "alt": "步骤 3 示意图：绿色韭菜、粉色虾仁和黄色蛋碎拌进肉馅中",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 4 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 4,
+      "title": "捏褶包成月牙饺",
+      "text": "取一张饺子皮放在手心，中间放约十五克馅，边缘蘸一圈清水。对折后从一端捏起，捏出三到四个褶，最后把收口压紧。",
+      "image": {
+        "src": "/images/recipes/three-fresh-dumplings-step-4.png",
+        "alt": "步骤 4 示意图：手指正在饺子皮边缘捏出褶子，旁边排着包好的饺子",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 15 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 5,
+      "title": "三次点水煮饺子",
+      "text": "锅中水烧开，下饺子后用勺背沿锅底推一圈防止粘底。水再次沸腾时点一小碗冷水，重复两次，饺子全部浮起、肚子鼓起即可。",
+      "image": {
+        "src": "/images/recipes/three-fresh-dumplings-step-5.png",
+        "alt": "步骤 5 示意图：锅中饺子浮在沸水上，旁边一碗冷水正被倒入",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 8 分钟",
+      "heat": "大火"
+    },
+    {
+      "index": 6,
+      "title": "捞出配醋蒜上桌",
+      "text": "用漏勺把饺子捞出沥干水装盘，趁热吃。蘸料用香醋加蒜末调开，喜欢辣的再加一勺辣椒油，配一碗饺子汤一起上桌。",
+      "image": {
+        "src": "/images/recipes/three-fresh-dumplings-step-6.png",
+        "alt": "步骤 6 示意图：漏勺捞出饺子装盘，旁边小碟里是醋和蒜末",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 2 分钟",
+      "heat": "关火"
+    }
+  ],
+  "tips": [
+    "打水要分次加，一次倒太多馅会澥，搅到水分完全吸收再添下一次。",
+    "韭菜最后拌，拌好立刻包，放久了出水，饺子容易破皮。",
+    "煮饺子点冷水是让皮和馅同步受热，不点水容易皮破馅生。"
+  ],
+  "substitutions": [
+    "没有现成饺子皮，可用 300 克中筋面粉加 150 毫升水和面，醒三十分钟后擀皮。",
+    "虾仁可换成同等重量的鲜贝或鱿鱼丁，都要切成小粒。",
+    "不吃猪肉可换成鸡肉馅，需多加 10 毫升食用油防止发干。"
+  ],
+  "failures": [
+    "饺子破皮：馅里水分太多或收口没捏紧；拌好的馅要能抱团，包之前把边缘蘸水捏实。",
+    "馅发柴：肉馅没打水或全用瘦肉；选肥三瘦七的肉馅并分次加水。",
+    "煮成一锅粥：水没开就下饺子或一直大火滚；水沸下锅，点两次冷水保持微沸。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

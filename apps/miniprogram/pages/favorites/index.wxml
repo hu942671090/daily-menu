@@ -1,0 +1,21 @@
+<import src="/templates/card.wxml" />
+
+<view class="container">
+  <view class="section-head" style="margin-top: 8rpx;">
+    <text class="section-title">我的收藏</text>
+    <text class="section-sub">{{count}} 道</text>
+  </view>
+  <text class="tiny" style="display: block; margin-bottom: 20rpx;">收藏保存在当前微信账号的本机缓存中，不会随周菜单重新生成而变化。</text>
+
+  <block wx:if="{{recipes.length > 0}}">
+    <block wx:for="{{recipes}}" wx:for-item="card" wx:key="id">
+      <template is="recipeCard" data="{{...card}}" />
+    </block>
+  </block>
+  <view wx:else class="empty-state">
+    <text class="empty-emoji">💛</text>
+    <text class="empty-title">还没有收藏的菜</text>
+    <text class="empty-desc">在首页、发现页或菜谱详情点一下收藏，常做的菜就会出现在这里。</text>
+    <button class="btn btn-primary" style="margin-top: 24rpx;" bindtap="goDiscover">去发现菜谱</button>
+  </view>
+</view>

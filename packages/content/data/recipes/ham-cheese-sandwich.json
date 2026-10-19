@@ -1,0 +1,140 @@
+{
+  "id": "ham-cheese-sandwich",
+  "name": "火腿芝士三明治",
+  "subtitle": "平底锅压出的热三明治",
+  "intro": "两片吐司夹火腿和芝士，用平底锅压着煎到两面焦脆、芝士刚好化开，切开时还会拉丝。不需要烤箱和三明治机，十分钟内就能做好一份，适合忙碌的工作日早餐，也适合装进便当盒带走。",
+  "cuisine": "西式",
+  "tastes": ["奶香", "咸鲜"],
+  "mealTypes": ["breakfast"],
+  "baseServings": 1,
+  "prepMinutes": 5,
+  "cookMinutes": 5,
+  "difficulty": 1,
+  "image": {
+    "src": "/images/recipes/ham-cheese-sandwich.png",
+    "alt": "火腿芝士三明治成品示意图：对角切开的吐司露出火腿、芝士和生菜",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["吐司", "火腿片", "芝士片", "生菜", "番茄"],
+  "allergenTags": ["乳制品", "麸质", "猪肉"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "toast", "name": "吐司", "amount": 2, "unit": "片", "scalable": true, "note": "厚切或方包均可" },
+        { "id": "ham", "name": "火腿片", "amount": 2, "unit": "片", "scalable": true, "note": "约 40 克" },
+        { "id": "cheese", "name": "芝士片", "amount": 1, "unit": "片", "scalable": true, "note": "切达或马苏里拉" },
+        { "id": "lettuce", "name": "生菜", "amount": 2, "unit": "片", "scalable": true, "note": "洗净后甩干水" },
+        { "id": "tomato", "name": "番茄", "amount": 0.5, "unit": "个", "scalable": true, "note": "切薄片，用厨房纸吸干" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "butter", "name": "黄油", "amount": 10, "unit": "克", "scalable": true, "note": "煎锅用，增香防粘" },
+        { "id": "mayonnaise", "name": "蛋黄酱", "amount": 1, "unit": "勺", "scalable": true, "note": "涂在吐司内侧，可省略" },
+        { "id": "black-pepper", "name": "黑胡椒", "amount": null, "unit": "克", "display": "少许", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "吐司内侧涂薄酱",
+      "text": "两片吐司平放，内侧各抹半勺蛋黄酱，边缘留出 1 厘米不涂，免得煎的时候酱汁流到锅里发黑。喜欢清淡的可以只抹黄油。",
+      "image": {
+        "src": "/images/recipes/ham-cheese-sandwich-step-1.png",
+        "alt": "步骤 1 示意图：两片吐司内侧正被抹上薄薄一层蛋黄酱",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 1 分钟"
+    },
+    {
+      "index": 2,
+      "title": "夹入火腿与芝士",
+      "text": "在第一片吐司上依次铺生菜、火腿片、芝士片和番茄片，番茄片用厨房纸吸过水再放；盖上另一片吐司，用手掌轻轻压平。",
+      "image": {
+        "src": "/images/recipes/ham-cheese-sandwich-step-2.png",
+        "alt": "步骤 2 示意图：吐司上依次叠放生菜、火腿片、芝士片与番茄片",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 2 分钟"
+    },
+    {
+      "index": 3,
+      "title": "黄油热锅放三明治",
+      "text": "平底锅小火加热，放 10 克黄油化开，晃锅让油铺满锅底；把三明治放进去，用锅铲或小盘子压住，让底面均匀受热。",
+      "image": {
+        "src": "/images/recipes/ham-cheese-sandwich-step-3.png",
+        "alt": "步骤 3 示意图：黄油在平底锅中化开，三明治正被锅铲压住",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "小火",
+      "timeHint": "约 1 分钟"
+    },
+    {
+      "index": 4,
+      "title": "压煎两面至焦脆",
+      "text": "保持小火压煎 2 分钟，底面呈金黄色后翻面，继续压 1 分半，直到两片吐司都变脆、芝士从边缘微微溢出。",
+      "image": {
+        "src": "/images/recipes/ham-cheese-sandwich-step-4.png",
+        "alt": "步骤 4 示意图：三明治在锅中压煎，芝士从面包边缘微微流出",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "小火",
+      "timeHint": "约 4 分钟"
+    },
+    {
+      "index": 5,
+      "title": "对角切开装盘",
+      "text": "出锅放在案板上静置 30 秒，让芝士稍微定形，再沿对角线切开；撒一点黑胡椒，配一杯牛奶或黑咖啡。",
+      "image": {
+        "src": "/images/recipes/ham-cheese-sandwich-step-5.png",
+        "alt": "步骤 5 示意图：三明治沿对角线切开，横截面露出火腿与芝士",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "关火",
+      "timeHint": "约 1 分钟"
+    }
+  ],
+  "tips": [
+    "全程小火，黄油焦了吐司还没热；看到黄油起小泡就下三明治。",
+    "番茄和生菜一定要吸干水，否则面包吸湿变软，压不出脆壳。",
+    "用锅铲压的时候力度均匀，芝士才会贴着火腿化开。"
+  ],
+  "substitutions": [
+    "火腿片可换成煎过的鸡胸肉片，或沥干油的金枪鱼罐头。",
+    "芝士片可换成 30 克马苏里拉碎，拉丝效果更好。",
+    "不吃猪肉可换成火鸡胸片，注意查看包装配料表。"
+  ],
+  "failures": [
+    "面包焦了芝士还没化：火太大；改小火，盖上锅盖焖 30 秒。",
+    "三明治散开：夹的馅太多或没压紧；控制在两片火腿、一片芝士，组装后压平。",
+    "底部湿软：生菜和番茄没擦干；洗净甩水后，再用厨房纸吸一遍。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

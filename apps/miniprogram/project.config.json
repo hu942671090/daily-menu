@@ -1,0 +1,33 @@
+{
+  "description": "今天吃什么 · 微信小程序演示工程",
+  "packOptions": {
+    "ignore": [
+      { "type": "file", "value": "scripts/build-data.mjs" },
+      { "type": "file", "value": "scripts/generate-icons.py" },
+      { "type": "folder", "value": "scripts" }
+    ]
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": false,
+    "newFeature": true,
+    "coverView": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.5.4",
+  "appid": "touristappid",
+  "projectname": "daily-menu",
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

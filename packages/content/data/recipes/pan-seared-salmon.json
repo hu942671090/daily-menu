@@ -1,0 +1,126 @@
+{
+  "id": "pan-seared-salmon",
+  "name": "香煎三文鱼",
+  "subtitle": "外皮焦脆，内里粉嫩",
+  "intro": "三文鱼本身油脂丰富，煎的时候不需要太多油。鱼皮朝下先用中大火定型，翻面后用黄油把香气淋上去，出锅静置两分钟再切，中心刚好粉嫩。配柠檬角和煎芦笋，就是一顿不费力的晚餐。",
+  "cuisine": "西式",
+  "tastes": ["清淡", "鲜香"],
+  "mealTypes": ["dinner"],
+  "baseServings": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "difficulty": 1,
+  "image": {
+    "src": "/images/recipes/pan-seared-salmon.png",
+    "alt": "香煎三文鱼成品示意图：白盘中鱼排皮面金黄，旁配芦笋和柠檬角",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["三文鱼排", "柠檬", "芦笋", "大蒜"],
+  "allergenTags": ["鱼", "乳制品"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "salmon", "name": "三文鱼排", "amount": 2, "unit": "块", "scalable": true, "note": "带皮，每块约 150 克" },
+        { "id": "lemon", "name": "柠檬", "amount": 0.5, "unit": "个", "scalable": true, "note": "切角，吃前挤汁" },
+        { "id": "asparagus", "name": "芦笋", "amount": 150, "unit": "克", "scalable": true, "note": "去掉老根" },
+        { "id": "garlic", "name": "大蒜", "amount": 2, "unit": "瓣", "scalable": true, "note": "拍扁，不必切碎" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "butter", "name": "黄油", "amount": 15, "unit": "克", "scalable": true, "note": "可换成等量橄榄油" },
+        { "id": "olive-oil", "name": "橄榄油", "amount": 10, "unit": "毫升", "scalable": true, "note": "煎鱼用" },
+        { "id": "sea-salt", "name": "海盐", "amount": null, "unit": "", "display": "约 2 克（按口味）", "scalable": false },
+        { "id": "black-pepper", "name": "黑胡椒", "amount": null, "unit": "", "display": "少许", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "鱼排回温擦干水",
+      "text": "三文鱼从冰箱取出回温十五分钟，用厨房纸把两面和鱼皮彻底吸干。两面撒海盐和黑胡椒，静置五分钟入味。",
+      "image": {
+        "src": "/images/recipes/pan-seared-salmon-step-1.png",
+        "alt": "步骤 1 示意图：厨房纸上放着两块三文鱼排，表面已撒上盐和黑胡椒",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 15 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 2,
+      "title": "皮朝下煎至酥脆",
+      "text": "平底锅大火烧热，倒橄榄油，鱼皮朝下放入，用铲子轻压三十秒让鱼皮贴紧锅底。转中大火煎四分钟，期间不要翻动。",
+      "image": {
+        "src": "/images/recipes/pan-seared-salmon-step-2.png",
+        "alt": "步骤 2 示意图：平底锅中鱼皮朝下煎，铲子压住鱼排，锅边有油烟",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 5 分钟",
+      "heat": "中大火"
+    },
+    {
+      "index": 3,
+      "title": "翻面黄油淋香",
+      "text": "翻面后转中火，放入黄油和拍扁的蒜瓣。黄油融化后用勺子反复把油淋在鱼身上，煎两分钟至中心刚变色。",
+      "image": {
+        "src": "/images/recipes/pan-seared-salmon-step-3.png",
+        "alt": "步骤 3 示意图：黄油在锅中融化起泡，勺子正把黄油淋在鱼排上",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 2 分钟",
+      "heat": "中火"
+    },
+    {
+      "index": 4,
+      "title": "静置挤柠檬汁",
+      "text": "鱼排出锅静置两分钟，让肉汁回流。芦笋用锅里剩下的黄油煎一分钟，和柠檬角一起摆盘，吃前挤上柠檬汁。",
+      "image": {
+        "src": "/images/recipes/pan-seared-salmon-step-4.png",
+        "alt": "步骤 4 示意图：盘中鱼排旁摆着煎好的芦笋和柠檬角，热气升腾",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 3 分钟",
+      "heat": "中火"
+    }
+  ],
+  "tips": [
+    "鱼皮必须擦干、锅要够热，下锅后压住三十秒，皮才会平整酥脆。",
+    "煎鱼只翻一次面，反复翻动鱼肉容易散。",
+    "中心刚变粉白就出锅，静置两分钟余温会让它继续熟成。"
+  ],
+  "substitutions": [
+    "黄油可换成橄榄油，风味更清爽，也适合乳糖不耐的人。",
+    "三文鱼可换成银鳕鱼或鲈鱼排，煎制时间按厚度调整。",
+    "芦笋可换成小番茄或口蘑，同样用锅里的余油煎熟。"
+  ],
+  "failures": [
+    "鱼皮粘锅：锅不够热或鱼皮有水；锅冒烟再下鱼，下锅后别急着动。",
+    "鱼肉发干：煎过头或火太大；中大火每面四分钟以内，出锅静置。",
+    "黄油焦糊：黄油下得太早；翻面后再放，融化后立刻转小火。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

@@ -1,0 +1,138 @@
+{
+  "id": "oat-milk-porridge",
+  "name": "燕麦牛奶粥",
+  "subtitle": "五分钟出锅的奶香早餐",
+  "intro": "即食燕麦片加牛奶，小火煮到锅边微微冒泡就关火，前后不到五分钟。燕麦吸饱牛奶后软糯，表面铺几片香蕉、淋一点蜂蜜，甜度刚好。适合工作日起晚了又想吃口热的早晨，一个奶锅就能搞定。",
+  "cuisine": "轻食",
+  "tastes": ["奶香", "微甜"],
+  "mealTypes": ["breakfast"],
+  "baseServings": 1,
+  "prepMinutes": 2,
+  "cookMinutes": 4,
+  "difficulty": 1,
+  "image": {
+    "src": "/images/recipes/oat-milk-porridge.png",
+    "alt": "燕麦牛奶粥成品示意图：奶白色粥盛在碗中，表面铺着香蕉片",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["即食燕麦片", "牛奶", "香蕉"],
+  "allergenTags": ["乳制品", "麸质"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "instant-oats", "name": "即食燕麦片", "amount": 40, "unit": "克", "scalable": true, "note": "不要用需要久煮的钢切燕麦" },
+        { "id": "milk", "name": "牛奶", "amount": 200, "unit": "毫升", "scalable": true, "note": "全脂更香，可用无乳糖牛奶代替" },
+        { "id": "banana", "name": "香蕉", "amount": 0.5, "unit": "根", "scalable": true, "note": "切薄片，留几片铺面" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "honey", "name": "蜂蜜", "amount": 1, "unit": "茶匙", "scalable": true, "note": "按香蕉甜度增减" },
+        { "id": "cinnamon", "name": "肉桂粉", "amount": null, "unit": "克", "display": "一小撮（可省略）", "scalable": false },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "克", "display": "指尖一小撮", "scalable": false, "note": "提奶香，可省略" }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "量好燕麦与牛奶",
+      "text": "碗里倒入 40 克即食燕麦片，加 200 毫升牛奶，用勺子搅一下，让每片燕麦都沾到牛奶，静置 1 分钟吸水。",
+      "image": {
+        "src": "/images/recipes/oat-milk-porridge-step-1.png",
+        "alt": "步骤 1 示意图：碗中燕麦片被牛奶浸没，旁边放着量勺",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 1 分钟"
+    },
+    {
+      "index": 2,
+      "title": "香蕉切片、备好蜂蜜",
+      "text": "香蕉剥皮，先切 4 到 5 片薄片留着铺面，剩下的切成小丁；蜂蜜量好放在小碟里，免得煮的时候手忙脚乱。",
+      "image": {
+        "src": "/images/recipes/oat-milk-porridge-step-2.png",
+        "alt": "步骤 2 示意图：案板上切好的香蕉片与一小碟蜂蜜",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 1 分钟"
+    },
+    {
+      "index": 3,
+      "title": "小火加热不停搅拌",
+      "text": "把燕麦牛奶倒进小奶锅，开小火，用硅胶铲贴着锅底不停画圈。锅边刚冒小泡、粥体开始变稠时立刻调最小火，不要煮到翻滚。",
+      "image": {
+        "src": "/images/recipes/oat-milk-porridge-step-3.png",
+        "alt": "步骤 3 示意图：小奶锅中燕麦粥微沸，硅胶铲正在搅动",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "小火",
+      "timeHint": "约 2 分钟"
+    },
+    {
+      "index": 4,
+      "title": "关火拌入蜂蜜",
+      "text": "关火后等 20 秒再放蜂蜜，太烫会盖住奶香；搅匀后尝一口，香蕉本身够甜的话蜂蜜可以只放半茶匙。",
+      "image": {
+        "src": "/images/recipes/oat-milk-porridge-step-4.png",
+        "alt": "步骤 4 示意图：蜂蜜淋入锅中燕麦粥，铲子准备搅拌",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "关火",
+      "timeHint": "约 1 分钟"
+    },
+    {
+      "index": 5,
+      "title": "盛碗后铺上香蕉片",
+      "text": "把粥盛进碗里，静置 30 秒让它再稠一点，表面铺香蕉片，撒一小撮肉桂粉。喜欢稀的可以补 30 毫升温牛奶调开。",
+      "image": {
+        "src": "/images/recipes/oat-milk-porridge-step-5.png",
+        "alt": "步骤 5 示意图：盛好的燕麦粥表面摆着香蕉片并撒了肉桂粉",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "关火",
+      "timeHint": "约 1 分钟"
+    }
+  ],
+  "tips": [
+    "牛奶不要煮沸，锅边冒小泡就关火，煮滚后容易起奶皮、糊底。",
+    "用即食燕麦片，下锅 2 分钟就能软；钢切燕麦需要提前浸泡 20 分钟。",
+    "想让粥更稠，关火后静置半分钟，燕麦会继续吸水。"
+  ],
+  "substitutions": [
+    "牛奶可换成无糖豆奶或燕麦奶，奶香会淡一些，可多加半茶匙蜂蜜。",
+    "香蕉可以换成 6 颗对半切的草莓或半小把蓝莓，酸味重的补一点蜂蜜。",
+    "蜂蜜可换成 1 茶匙枫糖浆，风味更清淡。"
+  ],
+  "failures": [
+    "糊底：火太大或没有搅拌；全程小火并贴着锅底画圈，一冒泡就调小。",
+    "太稀或太干：燕麦与牛奶比例不对，40 克燕麦配 200 毫升牛奶是基准，喜欢稠的减 20 毫升牛奶。",
+    "起奶皮、有腥味：加热时间过长；关火后不要盖严，趁热喝。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

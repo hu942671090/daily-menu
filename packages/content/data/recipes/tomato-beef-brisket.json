@@ -1,0 +1,158 @@
+{
+  "id": "tomato-beef-brisket",
+  "name": "番茄牛腩",
+  "subtitle": "番茄分两次下，汤浓肉烂",
+  "intro": "牛腩耐炖，和番茄是很稳的搭配。一半番茄炒成浓稠的底，另一半留到最后十分钟下锅，既有厚实的汤感，又能吃到完整的果肉。炖足一个半小时，牛腩筋膜变得软糯，拌饭或配馒头都合适。",
+  "cuisine": "家常菜",
+  "tastes": ["酸甜", "咸鲜"],
+  "mealTypes": ["dinner"],
+  "baseServings": 3,
+  "prepMinutes": 20,
+  "cookMinutes": 90,
+  "difficulty": 3,
+  "image": {
+    "src": "/images/recipes/tomato-beef-brisket.png",
+    "alt": "番茄牛腩成品示意图：白碗中红汤里沉着牛腩块与番茄块，点缀葱花",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["牛腩", "番茄", "洋葱", "姜"],
+  "allergenTags": ["牛肉", "大豆"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "beef-brisket", "name": "牛腩", "amount": 700, "unit": "克", "scalable": true, "note": "切 3 厘米块" },
+        { "id": "tomato", "name": "番茄", "amount": 500, "unit": "克", "scalable": true, "note": "约 4 个，去皮后分两份" },
+        { "id": "onion", "name": "洋葱", "amount": 0.5, "unit": "个", "scalable": true, "note": "切粗丝" },
+        { "id": "ginger", "name": "姜", "amount": 4, "unit": "片", "scalable": true }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "tomato-paste", "name": "番茄酱", "amount": 40, "unit": "克", "scalable": true, "note": "让汤底更厚" },
+        { "id": "light-soy", "name": "生抽", "amount": 20, "unit": "毫升", "scalable": true },
+        { "id": "cooking-wine", "name": "料酒", "amount": 20, "unit": "毫升", "scalable": true, "note": "焯水用" },
+        { "id": "sugar", "name": "白糖", "amount": 8, "unit": "克", "scalable": true, "note": "平衡酸味" },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "", "display": "约 3 克（按口味调整）", "scalable": false },
+        { "id": "star-anise", "name": "八角", "amount": 1, "unit": "个", "scalable": true },
+        { "id": "cooking-oil", "name": "食用油", "amount": 20, "unit": "毫升", "scalable": true },
+        { "id": "hot-water", "name": "热水", "amount": 1200, "unit": "毫升", "scalable": true, "note": "一次加够" }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "牛腩切块泡水",
+      "text": "牛腩切成三厘米见方的块，放进冷水里泡三十分钟，中途换两次水，泡到水色变浅。姜切片，洋葱切粗丝备用。",
+      "image": {
+        "src": "/images/recipes/tomato-beef-brisket-step-1.png",
+        "alt": "步骤 1 示意图：盆中清水泡着牛腩块，旁边放着切好的洋葱丝和姜片",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 30 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 2,
+      "title": "冷水下锅焯透",
+      "text": "牛腩冷水下锅，加姜片和料酒，大火煮开后撇净浮沫，继续煮三分钟。捞出后用温水冲洗，别用冷水，肉会收紧。",
+      "image": {
+        "src": "/images/recipes/tomato-beef-brisket-step-2.png",
+        "alt": "步骤 2 示意图：锅中牛腩焯水，汤面浮沫被撇到一边，漏勺捞出肉块",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 8 分钟",
+      "heat": "大火"
+    },
+    {
+      "index": 3,
+      "title": "番茄烫皮切两样",
+      "text": "番茄顶部划十字，开水烫一分钟后去皮，去蒂。一半切成小丁，用来炒底；另一半切成大块，分别装碗放着。",
+      "image": {
+        "src": "/images/recipes/tomato-beef-brisket-step-3.png",
+        "alt": "步骤 3 示意图：砧板上两个碗，分别装着番茄小丁和番茄大块",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 8 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 4,
+      "title": "炒出番茄浓底",
+      "text": "锅中倒油，中火先炒洋葱到透明，再下番茄丁翻炒，用铲子压到化成糊状，加番茄酱炒出红油，闻到酸甜香即可。",
+      "image": {
+        "src": "/images/recipes/tomato-beef-brisket-step-4.png",
+        "alt": "步骤 4 示意图：锅中番茄与洋葱炒成浓稠红色糊状，铲子正在翻压",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 6 分钟",
+      "heat": "中火"
+    },
+    {
+      "index": 5,
+      "title": "加水小火焖牛腩",
+      "text": "放入牛腩和八角翻匀，加生抽和热水，大火烧开后转小火，盖盖焖七十分钟，直到筷子能轻松插透牛腩。",
+      "image": {
+        "src": "/images/recipes/tomato-beef-brisket-step-5.png",
+        "alt": "步骤 5 示意图：炖锅中红汤没过牛腩，水面冒着细小气泡",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 70 分钟",
+      "heat": "小火"
+    },
+    {
+      "index": 6,
+      "title": "下番茄块调味收汁",
+      "text": "放入剩下的大块番茄，再炖十分钟，加盐和白糖调味。开盖转中火收五分钟，汤汁变浓、能挂在牛腩上即可关火。",
+      "image": {
+        "src": "/images/recipes/tomato-beef-brisket-step-6.png",
+        "alt": "步骤 6 示意图：锅中加入大块番茄同炖，汤汁浓稠泛着红光",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 15 分钟",
+      "heat": "中火"
+    }
+  ],
+  "tips": [
+    "番茄分两次下，先下的负责出汤，后下的保留果肉和清爽的酸味。",
+    "牛腩焯水后用温水冲，冷水会让表面蛋白质骤缩，炖不烂。",
+    "盐最后放，过早加盐会让牛肉失水，口感变硬。"
+  ],
+  "substitutions": [
+    "牛腩可换成牛腱子或牛肋条，焖煮时间增加二十分钟。",
+    "番茄酱可以省略，需多加一个番茄并把底炒得更久。",
+    "洋葱可省略，用一根大葱的葱白部分替代。"
+  ],
+  "failures": [
+    "牛腩咬不动：焖煮时间不足或一直大火翻滚；小火保持微沸，至少七十分钟。",
+    "汤味寡淡：番茄底没炒透就加水；要炒到番茄完全化开、油色发红。",
+    "汤发酸：后放的番茄块煮太久或糖不足；最后十分钟再下，并补少量糖。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

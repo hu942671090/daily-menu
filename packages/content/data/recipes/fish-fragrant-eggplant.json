@@ -1,0 +1,159 @@
+{
+  "id": "fish-fragrant-eggplant",
+  "name": "鱼香茄子",
+  "subtitle": "不油炸也入味的茄子",
+  "intro": "茄子切条后撒盐腌一会儿，挤掉水分再煎，既能少吃油，也不容易吸成油坨。鱼香汁用糖、醋、生抽和淀粉调好，下锅一收就亮。茄子软糯、汁水酸甜带辣，是很下饭的一道家常川味。",
+  "cuisine": "川湘",
+  "tastes": ["酸甜", "香辣"],
+  "mealTypes": ["lunch", "dinner"],
+  "baseServings": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 10,
+  "difficulty": 2,
+  "image": {
+    "src": "/images/recipes/fish-fragrant-eggplant.png",
+    "alt": "鱼香茄子成品示意图：深紫色茄条裹着红亮酱汁，撒有葱花",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["长茄子", "猪肉末", "泡椒"],
+  "allergenTags": ["猪肉", "大豆"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "eggplant", "name": "长茄子", "amount": 400, "unit": "克", "scalable": true, "note": "约 2 根，切条" },
+        { "id": "minced-pork", "name": "猪肉末", "amount": 80, "unit": "克", "scalable": true, "note": "肥瘦三七" },
+        { "id": "pickled-chili", "name": "泡椒", "amount": 3, "unit": "个", "scalable": true, "note": "切碎" },
+        { "id": "scallion", "name": "小葱", "amount": 1, "unit": "根", "scalable": true, "note": "切葱花" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "light-soy", "name": "生抽", "amount": 2, "unit": "茶匙", "scalable": true },
+        { "id": "black-vinegar", "name": "香醋", "amount": 2, "unit": "茶匙", "scalable": true },
+        { "id": "sugar", "name": "白糖", "amount": 2, "unit": "茶匙", "scalable": true },
+        { "id": "starch", "name": "淀粉", "amount": 2, "unit": "茶匙", "scalable": true, "note": "1 茶匙调汁，1 茶匙备用" },
+        { "id": "doubanjiang", "name": "豆瓣酱", "amount": 1, "unit": "茶匙", "scalable": true, "note": "剁细，可省略" },
+        { "id": "ginger", "name": "姜", "amount": 1, "unit": "块", "scalable": true, "note": "切末" },
+        { "id": "garlic", "name": "大蒜", "amount": 3, "unit": "瓣", "scalable": true, "note": "切末" },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "克", "display": "约 2 克（腌茄子用）", "scalable": false },
+        { "id": "cooking-oil", "name": "食用油", "amount": 40, "unit": "毫升", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "茄子切条撒盐腌",
+      "text": "长茄子去蒂，切成 1 厘米粗、6 厘米长的条，撒 2 克盐抓匀，静置 10 分钟；等表面渗出水，用手轻轻挤干，再用厨房纸吸一遍。",
+      "image": {
+        "src": "/images/recipes/fish-fragrant-eggplant-step-1.png",
+        "alt": "步骤 1 示意图：撒了盐的茄条静置在盆中，表面渗出细密水珠",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 12 分钟"
+    },
+    {
+      "index": 2,
+      "title": "小碗兑好鱼香汁",
+      "text": "小碗里倒 2 茶匙生抽、2 茶匙香醋，加 2 茶匙白糖、1 茶匙淀粉和 4 勺清水，用筷子搅到没有干粉和糖粒。",
+      "image": {
+        "src": "/images/recipes/fish-fragrant-eggplant-step-2.png",
+        "alt": "步骤 2 示意图：小碗中的鱼香汁被筷子搅匀，碗边摆着糖与醋",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 2 分钟"
+    },
+    {
+      "index": 3,
+      "title": "少油煎软茄子",
+      "text": "平底锅倒 30 毫升油，中火烧热后铺入茄子条，煎 3 分钟再翻面，煎到两面微黄、用筷子能轻松戳透，盛出控油。",
+      "image": {
+        "src": "/images/recipes/fish-fragrant-eggplant-step-3.png",
+        "alt": "步骤 3 示意图：平底锅中茄条一面煎至微黄，筷子正试探软硬",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "中火",
+      "timeHint": "约 5 分钟"
+    },
+    {
+      "index": 4,
+      "title": "炒散肉末下泡椒",
+      "text": "锅里留 10 毫升油，下猪肉末中火炒散，炒到肉末发白出油，加泡椒碎、姜蒜末和豆瓣酱，炒出红色油光。",
+      "image": {
+        "src": "/images/recipes/fish-fragrant-eggplant-step-4.png",
+        "alt": "步骤 4 示意图：锅中肉末与泡椒碎同炒，油色渐渐泛红",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "中火",
+      "timeHint": "约 2 分钟"
+    },
+    {
+      "index": 5,
+      "title": "茄子回锅裹酱",
+      "text": "把煎好的茄子倒回锅里，转大火翻炒 30 秒，让每根茄子都裹上肉末和酱料；太干可以沿锅边淋两勺清水。",
+      "image": {
+        "src": "/images/recipes/fish-fragrant-eggplant-step-5.png",
+        "alt": "步骤 5 示意图：茄条回锅与肉末同炒，酱色逐渐裹匀",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "大火",
+      "timeHint": "约 1 分钟"
+    },
+    {
+      "index": 6,
+      "title": "淋汁收浓撒葱花",
+      "text": "鱼香汁再搅一下，沿锅边淋入，大火翻到汁水变亮、均匀挂在茄子上，关火撒葱花，趁热装盘。",
+      "image": {
+        "src": "/images/recipes/fish-fragrant-eggplant-step-6.png",
+        "alt": "步骤 6 示意图：鱼香汁在锅中收亮，葱花撒在茄条表面",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "大火",
+      "timeHint": "约 1 分钟"
+    }
+  ],
+  "tips": [
+    "茄子先用盐腌出水再煎，能少吸一半油，口感也更紧实。",
+    "煎茄子时不要频繁翻动，一面定型再翻，否则容易碎。",
+    "鱼香汁的糖醋比例按 1:1 起步，尝过再微调，醋最后下锅香味才不散。"
+  ],
+  "substitutions": [
+    "长茄子可换成圆茄子，切条后腌 15 分钟，煎的时间延长 1 分钟。",
+    "猪肉末可省略，做成素鱼香茄子，豆瓣酱加到 2 茶匙。",
+    "泡椒可换成剁椒 1 茶匙，辣度更高，糖可多加半茶匙。"
+  ],
+  "failures": [
+    "茄子吸油成坨：没腌没挤水，或油温太低；腌后挤干，中火煎。",
+    "茄子发黑：切开后放置太久氧化；切好立刻撒盐，或泡在淡盐水里。",
+    "味道只有酸或只有甜：糖醋比例失衡；按 1:1 调，出锅前尝味再补。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

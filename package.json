@@ -1,0 +1,50 @@
+{
+  "name": "daily-menu",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "今天吃什么 —— 每日菜谱与每周菜单推荐应用（PC / H5 / 微信小程序）",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "data:build": "node packages/content/scripts/compile-data.mjs",
+    "data:validate": "node packages/content/scripts/validate-content.mjs",
+    "data:images": "python packages/content/scripts/generate_images.py",
+    "videos:verify": "node packages/content/scripts/verify-videos.mjs",
+    "dev": "node scripts/dev.mjs",
+    "dev:api": "tsx apps/server/src/index.ts",
+    "dev:web": "vite --config apps/web/vite.config.ts",
+    "build:web": "vite build --config apps/web/vite.config.ts",
+    "build:server": "node scripts/build-server.mjs",
+    "build:miniprogram": "node apps/miniprogram/scripts/build-data.mjs",
+    "build:static": "node scripts/build-static.mjs",
+    "build": "npm run data:build && npm run build:web && npm run build:server && npm run build:miniprogram",
+    "start": "node apps/server/dist/index.js",
+    "typecheck": "tsc -p apps/web/tsconfig.json --noEmit && tsc -p apps/server/tsconfig.json --noEmit",
+    "test": "node --import tsx --test packages/shared/test/*.test.ts",
+    "verify:mp": "node apps/miniprogram/scripts/check-miniprogram.mjs",
+    "verify:e2e": "node scripts/e2e-check.mjs",
+    "docs:capture": "node scripts/capture-docs.mjs",
+    "verify": "npm run data:validate && npm test && npm run typecheck && npm run verify:mp",
+    "check": "npm run data:validate && npm run typecheck && npm test && npm run verify:mp"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "esbuild": "^0.24.2",
+    "playwright-core": "^1.49.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "teriyaki-chicken-rice",
+  "name": "照烧鸡腿饭",
+  "subtitle": "皮脆肉嫩的日式盖饭",
+  "intro": "照烧汁只用生抽、蜂蜜和料酒就能调出来，鸡皮朝下煎到金黄酥脆，再用酱汁慢慢收浓裹在鸡肉上，甜咸适口、油亮不腻。配一碗热米饭和几根焯青菜，就是一份完整的工作日午餐，也很适合装进便当带走。",
+  "cuisine": "日韩",
+  "tastes": ["咸鲜", "微甜"],
+  "mealTypes": ["lunch"],
+  "baseServings": 2,
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "difficulty": 2,
+  "image": {
+    "src": "/images/recipes/teriyaki-chicken-rice.png",
+    "alt": "照烧鸡腿饭成品示意图：切条鸡腿肉铺在白米饭上，旁配绿色西兰花",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["鸡腿肉", "米饭", "西兰花"],
+  "allergenTags": ["鸡肉", "大豆", "麸质"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "chicken-thigh", "name": "去骨鸡腿肉", "amount": 400, "unit": "克", "scalable": true, "note": "2 块，带皮" },
+        { "id": "rice", "name": "米饭", "amount": 400, "unit": "克", "scalable": true, "note": "约 2 碗，提前煮好" },
+        { "id": "broccoli", "name": "西兰花", "amount": 150, "unit": "克", "scalable": true, "note": "掰小朵，焯水备用" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "light-soy", "name": "生抽", "amount": 30, "unit": "毫升", "scalable": true, "note": "调照烧汁" },
+        { "id": "dark-soy", "name": "老抽", "amount": 5, "unit": "毫升", "scalable": true, "note": "补色，可省略" },
+        { "id": "honey", "name": "蜂蜜", "amount": 20, "unit": "克", "scalable": true, "note": "提供甜味和亮泽" },
+        { "id": "cooking-wine", "name": "料酒", "amount": 20, "unit": "毫升", "scalable": true },
+        { "id": "water", "name": "清水", "amount": 60, "unit": "毫升", "scalable": true, "note": "调汁用" },
+        { "id": "cooking-oil", "name": "食用油", "amount": 10, "unit": "毫升", "scalable": true, "note": "只需薄薄一层" },
+        { "id": "sesame", "name": "白芝麻", "amount": 3, "unit": "克", "scalable": true, "note": "熟的，最后撒面" }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "鸡腿去骨调照烧汁",
+      "text": "鸡腿肉用剪刀沿骨头剪开，去骨后把厚的地方片薄，皮面朝上用刀背轻拍平整。取小碗放入生抽、老抽、蜂蜜、料酒和清水，搅匀成照烧汁备用。",
+      "image": {
+        "src": "/images/recipes/teriyaki-chicken-rice-step-1.png",
+        "alt": "步骤 1 示意图：去骨鸡腿皮面朝上放在砧板上，旁边是一小碗调好的酱汁",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 5 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 2,
+      "title": "鸡皮朝下煎出油",
+      "text": "平底锅烧热后倒少许油，鸡腿皮朝下放入，用铲子压住让鸡皮全面接触锅底。中火煎四到五分钟，听到持续的滋滋声、鸡皮变成金黄焦脆再翻面。",
+      "image": {
+        "src": "/images/recipes/teriyaki-chicken-rice-step-2.png",
+        "alt": "步骤 2 示意图：平底锅中鸡腿皮朝下煎至金黄，铲子压住鸡腿",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 5 分钟",
+      "heat": "中火"
+    },
+    {
+      "index": 3,
+      "title": "翻面煎至七成熟",
+      "text": "翻面后继续煎两分钟，鸡肉表面变白、按下去有弹性即可。煎出的鸡油如果太多，可以倒掉一部分，避免后面酱汁过于油腻。",
+      "image": {
+        "src": "/images/recipes/teriyaki-chicken-rice-step-3.png",
+        "alt": "步骤 3 示意图：鸡腿翻面后锅中冒着热气，鸡皮已呈焦黄色",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 2 分钟",
+      "heat": "中火"
+    },
+    {
+      "index": 4,
+      "title": "倒入照烧汁收浓",
+      "text": "把调好的照烧汁倒入锅中，转中小火让酱汁在鸡肉周围冒小泡。用勺子不断把酱汁浇在鸡肉上，收到汁液变稠、能挂在肉表面就关火。",
+      "image": {
+        "src": "/images/recipes/teriyaki-chicken-rice-step-4.png",
+        "alt": "步骤 4 示意图：锅中酱汁冒泡变稠，勺子正把酱汁淋在鸡腿肉上",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 4 分钟",
+      "heat": "中小火"
+    },
+    {
+      "index": 5,
+      "title": "切条铺饭配时蔬",
+      "text": "鸡肉取出静置一分钟再切成一厘米宽的条，铺在盛好的米饭上，淋上锅里剩下的酱汁。旁边摆焯过水的西兰花，最后撒白芝麻即可。",
+      "image": {
+        "src": "/images/recipes/teriyaki-chicken-rice-step-5.png",
+        "alt": "步骤 5 示意图：切条鸡腿肉铺在米饭上并淋汁，旁边摆西兰花",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 3 分钟",
+      "heat": "关火"
+    }
+  ],
+  "tips": [
+    "鸡皮下锅前一定要擦干，带水下锅会爆油，皮也煎不脆。",
+    "照烧汁收到能挂住勺子就够了，收过头会发苦、发黏。",
+    "鸡肉煎好后静置一分钟再切，肉汁不会流失到砧板上。"
+  ],
+  "substitutions": [
+    "没有蜂蜜可用 12 克白糖加 5 毫升清水代替，成品色泽会稍浅。",
+    "西兰花可换成焯水的荷兰豆或小油菜，焯水时间都控制在半分钟。",
+    "去骨鸡腿可换成鸡胸肉，需缩短煎制时间，并在酱汁里多加 10 毫升水。"
+  ],
+  "failures": [
+    "鸡皮不脆：下锅前没擦干或火太小，鸡皮在油里被焖软；应中火皮朝下先煎足四分钟。",
+    "酱汁发苦：蜂蜜或糖在锅里收得太久焦化；汁一变稠就关火，余温还会继续收。",
+    "鸡肉发柴：煎制时间过长或反复翻面；每面只翻一次，中心刚变白即可。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

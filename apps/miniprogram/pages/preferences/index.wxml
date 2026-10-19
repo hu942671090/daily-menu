@@ -1,0 +1,165 @@
+<view class="container">
+  <view class="card card-pad" style="margin-bottom: 18rpx;">
+    <view class="row row-between">
+      <view class="col">
+        <text class="section-title">偏好设置</text>
+        <text class="tiny">先排除不吃的，再考虑口味与时间</text>
+      </view>
+      <text wx:if="{{dirty}}" class="badge badge-warn">未保存</text>
+      <text wx:else class="badge badge-green">已保存</text>
+    </view>
+    <text class="tiny" style="display: block; margin-top: 12rpx; line-height: 1.8;">
+      偏好只影响之后生成或重新生成的菜单，不会直接改动已保存的周菜单。
+    </text>
+  </view>
+
+  <view class="card card-pad" style="margin-bottom: 18rpx;">
+    <text class="section-title">基础信息</text>
+
+    <view class="row row-between" style="margin-top: 20rpx;">
+      <view class="col">
+        <text class="strong">用餐人数</text>
+        <text class="tiny">用于食材用量与推荐份量</text>
+      </view>
+      <view class="stepper">
+        <text class="stepper-btn" data-delta="-1" bindtap="changeServings">−</text>
+        <text class="stepper-value">{{servings}} 人</text>
+        <text class="stepper-btn" data-delta="1" bindtap="changeServings">+</text>
+      </view>
+    </view>
+
+    <view class="field" style="margin-top: 26rpx; margin-bottom: 0;">
+      <view class="field-label">
+        <text>时区</text>
+        <text class="field-hint">决定「今天 / 本周」</text>
+      </view>
+      <picker mode="selector" range="{{timezones}}" range-key="label" value="{{timezoneIndex}}" bindchange="changeTimezone">
+        <view class="input">{{timezones[timezoneIndex].label}}</view>
+      </picker>
+      <text class="tiny" style="display: block; margin-top: 8rpx;">默认北京时间；切换后首页日期会按新时区计算。</text>
+    </view>
+  </view>
+
+  <view class="card card-pad" style="margin-bottom: 18rpx;">
+    <text class="section-title">口味偏好</text>
+    <text class="tiny" style="display: block; margin: 6rpx 0 16rpx;">可多选，留空表示不限；只影响排序，不会排除菜谱。</text>
+
+    <view class="field">
+      <text class="field-label">喜欢的菜系</text>
+      <view class="chip-select">
+        <text
+          wx:for="{{cuisines}}"
+          wx:key="label"
+          class="chip-toggle {{item.selected ? 'selected' : ''}}"
+          data-index="{{index}}"
+          bindtap="toggleCuisine"
+        >{{item.label}}</text>
+      </view>
+    </view>
+
+    <view class="field" style="margin-bottom: 0;">
+      <text class="field-label">喜欢的口味</text>
+      <view class="chip-select">
+        <text
+          wx:for="{{tastes}}"
+          wx:key="label"
+          class="chip-toggle {{item.selected ? 'selected' : ''}}"
+          data-index="{{index}}"
+          bindtap="toggleTaste"
+        >{{item.label}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="card card-pad" style="margin-bottom: 18rpx;">
+    <text class="section-title">不吃的食材</text>
+    <text class="tiny" style="display: block; margin: 6rpx 0 16rpx;">过敏原优先级最高，命中后不会因放宽限制而恢复。</text>
+
+    <view class="field">
+      <text class="field-label">忌口</text>
+      <view class="row">
+        <input class="input" style="flex: 1;" placeholder="例如：猪肉、动物内脏" value="{{avoidInput}}" data-field="avoidInput" bindinput="onInput" />
+        <button class="btn btn-soft btn-sm" data-type="avoid" bindtap="addTag">添加</button>
+      </view>
+      <view class="row" style="margin-top: 12rpx;">
+        <text wx:for="{{quickTags.avoid}}" wx:key="*this" class="chip-toggle" data-type="avoid" data-value="{{item}}" bindtap="quickAdd">{{item}}</text>
+      </view>
+      <view class="row" style="flex-wrap: wrap; margin-top: 8rpx;">
+        <text wx:for="{{avoidIngredients}}" wx:key="*this" class="chip chip-orange" data-type="avoid" data-value="{{item}}" bindtap="removeTag">{{item}} ×</text>
+      </view>
+    </view>
+
+    <view class="field">
+      <text class="field-label">过敏原</text>
+      <view class="row">
+        <input class="input" style="flex: 1;" placeholder="例如：花生、虾、牛奶" value="{{allergensInput}}" data-field="allergensInput" bindinput="onInput" />
+        <button class="btn btn-soft btn-sm" data-type="allergen" bindtap="addTag">添加</button>
+      </view>
+      <view class="row" style="margin-top: 12rpx; flex-wrap: wrap;">
+        <text wx:for="{{quickTags.allergen}}" wx:key="*this" class="chip-toggle" data-type="allergen" data-value="{{item}}" bindtap="quickAdd">{{item}}</text>
+      </view>
+      <view class="row" style="flex-wrap: wrap; margin-top: 8rpx;">
+        <text wx:for="{{allergens}}" wx:key="*this" class="chip chip-orange" data-type="allergen" data-value="{{item}}" bindtap="removeTag">{{item}} ×</text>
+      </view>
+    </view>
+
+    <view class="field" style="margin-bottom: 0;">
+      <text class="field-label">不喜欢的食材</text>
+      <view class="row">
+        <input class="input" style="flex: 1;" placeholder="例如：香菜、葱、姜" value="{{dislikedInput}}" data-field="dislikedInput" bindinput="onInput" />
+        <button class="btn btn-soft btn-sm" data-type="dislike" bindtap="addTag">添加</button>
+      </view>
+      <view class="row" style="margin-top: 12rpx; flex-wrap: wrap;">
+        <text wx:for="{{quickTags.dislike}}" wx:key="*this" class="chip-toggle" data-type="dislike" data-value="{{item}}" bindtap="quickAdd">{{item}}</text>
+      </view>
+      <view class="row" style="flex-wrap: wrap; margin-top: 8rpx;">
+        <text wx:for="{{dislikedIngredients}}" wx:key="*this" class="chip" data-type="dislike" data-value="{{item}}" bindtap="removeTag">{{item}} ×</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="card card-pad" style="margin-bottom: 18rpx;">
+    <text class="section-title">时间与难度</text>
+    <text class="tiny" style="display: block; margin: 6rpx 0 16rpx;">按「准备 + 烹饪」的总时长计算。</text>
+
+    <view class="field">
+      <text class="field-label">可接受的烹饪总时长</text>
+      <view class="chip-select">
+        <text wx:for="{{timeOptions}}" wx:key="value" class="chip-toggle {{item.selected ? 'selected' : ''}}" data-value="{{item.value}}" bindtap="selectTime">≤ {{item.value}} 分钟</text>
+      </view>
+    </view>
+
+    <view class="field" style="margin-bottom: 0;">
+      <text class="field-label">可接受的难度</text>
+      <view class="chip-select">
+        <text wx:for="{{difficulties}}" wx:key="value" class="chip-toggle {{item.selected ? 'selected' : ''}}" data-index="{{index}}" bindtap="toggleDifficulty">{{item.label}}</text>
+      </view>
+      <text class="tiny" style="display: block; margin-top: 8rpx;">留空表示不限难度。</text>
+    </view>
+  </view>
+
+  <view class="card card-pad" style="margin-bottom: 18rpx;">
+    <text class="section-title">账号与数据</text>
+    <view class="row" style="margin-top: 14rpx;">
+      <view style="width: 76rpx; height: 76rpx; border-radius: 50%; background: #e7f1e9; color: #235f43; display: flex; align-items: center; justify-content: center; font-weight: 700;">客</view>
+      <view class="col" style="margin-left: 12rpx;">
+        <text class="strong">游客模式</text>
+        <text class="tiny">数据仅保存在本机缓存</text>
+      </view>
+    </view>
+    <text class="tiny" style="display: block; margin-top: 14rpx; line-height: 1.8;">
+      账号体系与跨端同步接口已在共享层预留（packages/shared/src/sync.ts），首版未启用。
+      当前共 {{stats.recipeCount}} 道菜谱、{{stats.verifiedVideoCount}} 条已核验视频，内容版本 {{version}}。
+    </text>
+    <button class="btn btn-ghost btn-block" style="margin-top: 16rpx;" disabled>登录同步（后续版本）</button>
+    <button class="btn btn-ghost btn-block" style="margin-top: 12rpx;" bindtap="onReset">重置本地数据</button>
+  </view>
+
+  <button class="btn btn-primary btn-block" bindtap="onSave">保存偏好</button>
+  <button class="btn btn-soft btn-block" style="margin-top: 14rpx;" bindtap="onSaveAndRegenerate">保存并重新生成本周</button>
+
+  <view class="footnote">
+    菜谱文字为本项目原创整理，配图为脚本生成的示意图（非实拍）。
+    本项目为演示工程，尚未上线发布，也未提交微信小程序审核。
+  </view>
+</view>

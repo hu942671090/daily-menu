@@ -1,0 +1,127 @@
+{
+  "id": "oyster-sauce-lettuce",
+  "name": "蚝油生菜",
+  "subtitle": "三十秒焯水，脆嫩不出水",
+  "intro": "生菜最怕炒久，一软就出水。改成先焯后浇汁：沸水里加盐和几滴油，生菜烫二十秒立刻捞出，保持翠绿脆嫩；再浇上用蚝油和蒜末勾好的薄芡。十分钟就能端上桌，很适合当晚餐的配菜。",
+  "cuisine": "粤式",
+  "tastes": ["咸鲜", "蒜香"],
+  "mealTypes": ["dinner"],
+  "baseServings": 2,
+  "prepMinutes": 10,
+  "cookMinutes": 5,
+  "difficulty": 1,
+  "image": {
+    "src": "/images/recipes/oyster-sauce-lettuce.png",
+    "alt": "蚝油生菜成品示意图：白盘中翠绿生菜叶上淋着褐色蚝油芡汁与蒜末",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["生菜", "大蒜"],
+  "allergenTags": ["贝类", "大豆"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "lettuce", "name": "生菜", "amount": 400, "unit": "克", "scalable": true, "note": "约 1 颗，掰片洗净" },
+        { "id": "garlic", "name": "大蒜", "amount": 3, "unit": "瓣", "scalable": true, "note": "切末" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "oyster-sauce", "name": "蚝油", "amount": 20, "unit": "克", "scalable": true, "note": "调味主体" },
+        { "id": "light-soy", "name": "生抽", "amount": 10, "unit": "毫升", "scalable": true },
+        { "id": "sugar", "name": "白糖", "amount": 3, "unit": "克", "scalable": true, "note": "平衡咸味" },
+        { "id": "cornstarch", "name": "玉米淀粉", "amount": 5, "unit": "克", "scalable": true, "note": "加水调成芡汁" },
+        { "id": "water", "name": "清水", "amount": 60, "unit": "毫升", "scalable": true, "note": "调芡汁用" },
+        { "id": "cooking-oil", "name": "食用油", "amount": 15, "unit": "毫升", "scalable": true, "note": "炒蒜末用" },
+        { "id": "salt", "name": "盐", "amount": null, "unit": "", "display": "约 1 克（焯水用）", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "生菜掰片泡洗",
+      "text": "生菜一片片掰开，切掉根部发硬的部分，用淡盐水泡五分钟，再冲洗两遍。捞出后竖着控干，叶缝里的水要甩干净。",
+      "image": {
+        "src": "/images/recipes/oyster-sauce-lettuce-step-1.png",
+        "alt": "步骤 1 示意图：盆中淡盐水泡着生菜叶，旁边是沥水篮",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 10 分钟",
+      "heat": "暂不开火"
+    },
+    {
+      "index": 2,
+      "title": "沸水焯烫三十秒",
+      "text": "锅中烧大半锅水，水开后加盐和几滴食用油。把生菜分批下锅，烫二十到三十秒，叶子刚变软就立刻捞出，铺在盘中。",
+      "image": {
+        "src": "/images/recipes/oyster-sauce-lettuce-step-2.png",
+        "alt": "步骤 2 示意图：沸水中生菜叶变软发亮，漏勺正准备捞出",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 3 分钟",
+      "heat": "大火"
+    },
+    {
+      "index": 3,
+      "title": "小火炒香蒜蓉",
+      "text": "蒜切末。小碗里放蚝油、生抽、白糖、玉米淀粉和清水，搅匀成碗汁。锅中倒油，小火爆香蒜末后倒入碗汁。",
+      "image": {
+        "src": "/images/recipes/oyster-sauce-lettuce-step-3.png",
+        "alt": "步骤 3 示意图：小碗中调好的蚝油汁，旁边锅中蒜末在油里冒泡",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 2 分钟",
+      "heat": "小火"
+    },
+    {
+      "index": 4,
+      "title": "勾芡浇汁上桌",
+      "text": "边加热边搅动，汁一变透明浓稠立刻关火，趁热均匀浇在生菜上。这道菜要马上吃，放久了菜叶会出水、变黄。",
+      "image": {
+        "src": "/images/recipes/oyster-sauce-lettuce-step-4.png",
+        "alt": "步骤 4 示意图：浓稠的蚝油芡汁正被浇在盘中翠绿的生菜上",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "timeHint": "约 1 分钟",
+      "heat": "关火"
+    }
+  ],
+  "tips": [
+    "焯水时加油能在菜叶表面挂一层油膜，颜色更绿，也不易出水。",
+    "生菜焯水宁短勿长，二十秒就够，捞出后余温还会继续加热。",
+    "芡汁要薄，能流动又挂得住菜叶，太稠会糊成一团。"
+  ],
+  "substitutions": [
+    "生菜可换成油麦菜、菜心或芥蓝，芥蓝需先焯一分钟。",
+    "不吃蚝油可用生抽加 2 克白糖代替，风味会少一点海味。",
+    "蒜末可用 1 茶匙蒜粉替代，香气略淡。"
+  ],
+  "failures": [
+    "生菜发黄发软：焯水时间过长或水没开就下菜；水大滚、二十秒即捞。",
+    "盘底一汪水：菜没控干或芡汁太稀；焯后控水，淀粉与水约一比十二。",
+    "酱汁发苦：蒜末炒焦；小火炒到出香即可，不要等变黄。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}

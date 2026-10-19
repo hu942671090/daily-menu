@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build output
+dist/
+dist-static/
+build/
+*.tsbuildinfo
+apps/miniprogram/shared/generated/
+apps/web/public/images/
+apps/miniprogram/assets/images/
+
+# runtime data / logs
+.env
+.env.local
+*.log
+logs/
+.vite/
+coverage/
+
+# verification artifacts
+artifacts/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

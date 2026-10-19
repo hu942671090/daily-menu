@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/week/index",
+    "pages/discover/index",
+    "pages/favorites/index",
+    "pages/preferences/index",
+    "pages/detail/index",
+    "pages/shopping/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "今天吃什么",
+    "navigationBarBackgroundColor": "#FBF7F0",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FBF7F0",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#726B5F",
+    "selectedColor": "#2F7A57",
+    "backgroundColor": "#FFFDF8",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "今日",
+        "iconPath": "images/tab-home.png",
+        "selectedIconPath": "images/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/week/index",
+        "text": "本周",
+        "iconPath": "images/tab-week.png",
+        "selectedIconPath": "images/tab-week-active.png"
+      },
+      {
+        "pagePath": "pages/discover/index",
+        "text": "发现",
+        "iconPath": "images/tab-discover.png",
+        "selectedIconPath": "images/tab-discover-active.png"
+      },
+      {
+        "pagePath": "pages/favorites/index",
+        "text": "收藏",
+        "iconPath": "images/tab-favorites.png",
+        "selectedIconPath": "images/tab-favorites-active.png"
+      },
+      {
+        "pagePath": "pages/preferences/index",
+        "text": "我的",
+        "iconPath": "images/tab-preferences.png",
+        "selectedIconPath": "images/tab-preferences-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

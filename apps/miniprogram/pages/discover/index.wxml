@@ -1,0 +1,46 @@
+<import src="/templates/card.wxml" />
+
+<view class="container">
+  <view class="card card-pad">
+    <text class="section-title">按菜名或食材找一道菜</text>
+    <text class="tiny" style="display: block; margin-top: 8rpx;">搜索支持菜名与主要食材，可叠加餐次、耗时与难度筛选。</text>
+    <view class="row" style="margin-top: 18rpx;">
+      <input
+        class="input"
+        style="flex: 1;"
+        placeholder="例如：番茄、鸡蛋、豆腐"
+        value="{{keyword}}"
+        confirm-type="search"
+        bindinput="onInput"
+        bindconfirm="onConfirm"
+      />
+    </view>
+    <view class="row" style="margin-top: 16rpx;">
+      <text class="chip-toggle {{meals.includes(item.key) ? 'selected' : ''}}" wx:for="{{mealOptions}}" wx:key="key" data-key="{{item.key}}" bindtap="toggleMeal">{{item.label}}</text>
+    </view>
+    <view class="row" style="margin-top: 6rpx;">
+      <text class="chip-toggle {{maxMinutes === item ? 'selected' : ''}}" wx:for="{{timeOptions}}" wx:key="*this" data-value="{{item}}" bindtap="toggleTime">≤ {{item}} 分钟</text>
+    </view>
+    <view class="row" style="margin-top: 6rpx;">
+      <text class="chip-toggle {{difficulties.includes(item.value) ? 'selected' : ''}}" wx:for="{{difficultyOptions}}" wx:key="value" data-value="{{item.value}}" bindtap="toggleDifficulty">{{item.label}}</text>
+      <text wx:if="{{activeFilterCount > 0 || keyword}}" class="link-btn" style="margin-left: auto;" bindtap="onReset">重置</text>
+    </view>
+  </view>
+
+  <view class="row row-between" style="margin: 20rpx 4rpx 12rpx;">
+    <text class="small muted">找到 {{total}} 道菜</text>
+    <text class="tiny">内置示例内容库</text>
+  </view>
+
+  <block wx:if="{{results.length > 0}}">
+    <block wx:for="{{results}}" wx:for-item="card" wx:key="id">
+      <template is="recipeCard" data="{{...card}}" />
+    </block>
+  </block>
+  <view wx:else class="empty-state">
+    <text class="empty-emoji">🔍</text>
+    <text class="empty-title">{{keyword ? '没有找到匹配「' + keyword + '」的菜谱' : '没有符合筛选条件的菜谱'}}</text>
+    <text class="empty-desc">试试更换关键词，或减少筛选项。</text>
+    <button class="btn btn-soft" style="margin-top: 22rpx;" bindtap="onReset">重置筛选</button>
+  </view>
+</view>

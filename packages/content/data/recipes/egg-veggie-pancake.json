@@ -1,0 +1,140 @@
+{
+  "id": "egg-veggie-pancake",
+  "name": "蔬菜鸡蛋饼",
+  "subtitle": "一张饼里有蛋也有菜",
+  "intro": "面粉加鸡蛋调成能流动的面糊，拌进胡萝卜丝和葱花，中小火摊成薄饼，两面金黄就能出锅。饼皮软而有韧性，胡萝卜带一点清甜，咸淡可以自己调。适合两三个人的早餐，切成条也能当便当配菜。",
+  "cuisine": "家常菜",
+  "tastes": ["咸鲜", "鲜香"],
+  "mealTypes": ["breakfast"],
+  "baseServings": 2,
+  "prepMinutes": 12,
+  "cookMinutes": 8,
+  "difficulty": 1,
+  "image": {
+    "src": "/images/recipes/egg-veggie-pancake.png",
+    "alt": "蔬菜鸡蛋饼成品示意图：金黄色的薄饼切段叠放在盘中，可见胡萝卜丝与葱花",
+    "kind": "illustration",
+    "credit": "本项目原创示意图（脚本绘制，非实拍）",
+    "note": "示意图，非实拍"
+  },
+  "mainIngredients": ["鸡蛋", "面粉", "胡萝卜", "小葱"],
+  "allergenTags": ["鸡蛋", "麸质"],
+  "ingredientGroups": [
+    {
+      "id": "main",
+      "title": "主料",
+      "items": [
+        { "id": "egg", "name": "鸡蛋", "amount": 2, "unit": "个", "scalable": true, "note": "打散" },
+        { "id": "flour", "name": "中筋面粉", "amount": 100, "unit": "克", "scalable": true, "note": "过筛更细腻" },
+        { "id": "carrot", "name": "胡萝卜", "amount": 1, "unit": "根", "scalable": true, "note": "约 100 克，擦细丝" },
+        { "id": "scallion", "name": "小葱", "amount": 2, "unit": "根", "scalable": true, "note": "切葱花" },
+        { "id": "water", "name": "清水", "amount": 150, "unit": "毫升", "scalable": true, "note": "分次加入，调成可流动的面糊" }
+      ]
+    },
+    {
+      "id": "seasoning",
+      "title": "调料",
+      "items": [
+        { "id": "salt", "name": "盐", "amount": null, "unit": "克", "display": "约 2 克（按口味）", "scalable": false },
+        { "id": "white-pepper", "name": "白胡椒粉", "amount": null, "unit": "克", "display": "一小撮", "scalable": false },
+        { "id": "cooking-oil", "name": "食用油", "amount": 15, "unit": "毫升", "scalable": true, "note": "刷锅用" }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "index": 1,
+      "title": "胡萝卜擦丝、葱切花",
+      "text": "胡萝卜削皮，用擦丝器擦成细丝；小葱洗净甩干，切成葱花。胡萝卜丝太长的话用刀改两下，摊饼时不容易把面糊划破。",
+      "image": {
+        "src": "/images/recipes/egg-veggie-pancake-step-1.png",
+        "alt": "步骤 1 示意图：案板上擦好的胡萝卜丝与切好的葱花",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 4 分钟"
+    },
+    {
+      "index": 2,
+      "title": "调一碗顺滑面糊",
+      "text": "大碗里放 100 克面粉，先加 150 毫升清水，用筷子朝一个方向搅到没有干粉，再打入 2 个鸡蛋搅匀，面糊能挂住筷子又慢慢往下流。",
+      "image": {
+        "src": "/images/recipes/egg-veggie-pancake-step-2.png",
+        "alt": "步骤 2 示意图：碗中面糊被筷子挑起，缓缓向下流",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 3 分钟"
+    },
+    {
+      "index": 3,
+      "title": "拌入蔬菜和调味",
+      "text": "把胡萝卜丝、葱花倒进面糊，加盐和白胡椒粉，拌匀后静置 5 分钟，让面粉充分吸水；如果面糊变稠，补一到两勺清水。",
+      "image": {
+        "src": "/images/recipes/egg-veggie-pancake-step-3.png",
+        "alt": "步骤 3 示意图：胡萝卜丝与葱花拌入面糊，筷子正在搅动",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "暂不开火",
+      "timeHint": "约 5 分钟"
+    },
+    {
+      "index": 4,
+      "title": "中小火摊成薄饼",
+      "text": "平底锅烧热，刷一层薄油，舀一勺面糊倒进锅中间，立刻端起锅转圈，让面糊摊成薄薄一层；表面凝固、边缘翘起时就可以翻面。",
+      "image": {
+        "src": "/images/recipes/egg-veggie-pancake-step-4.png",
+        "alt": "步骤 4 示意图：平底锅中面糊摊开成圆饼，边缘微微翘起",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "中小火",
+      "timeHint": "约 2 分钟"
+    },
+    {
+      "index": 5,
+      "title": "两面煎黄卷起切段",
+      "text": "翻面后再煎 1 分钟，饼身鼓起、两面呈浅金黄即可出锅；卷起来切成两指宽的段，趁热吃，凉了会变软。",
+      "image": {
+        "src": "/images/recipes/egg-veggie-pancake-step-5.png",
+        "alt": "步骤 5 示意图：煎好的鸡蛋饼卷起后切成段，摆在小盘中",
+        "kind": "illustration",
+        "credit": "本项目原创示意图（脚本绘制，非实拍）",
+        "note": "示意图，非实拍"
+      },
+      "heat": "中小火",
+      "timeHint": "约 3 分钟"
+    }
+  ],
+  "tips": [
+    "面糊宁可稀一点，能流动才摊得薄；太稠摊不开，饼会又厚又硬。",
+    "每摊一张饼前把锅端离火口刷油，锅太热面糊一下锅就定形，转不开。",
+    "翻面前等边缘翘起、表面不再流动，急着翻容易破。"
+  ],
+  "substitutions": [
+    "胡萝卜可换成西葫芦丝或菠菜碎；菠菜要先焯水挤干，避免出水。",
+    "面粉可用一半全麦粉替代，需多补 20 毫升清水。",
+    "不吃鸡蛋可换成 100 克嫩豆腐压碎，饼的口感会偏软。"
+  ],
+  "failures": [
+    "饼一翻就破：面糊太稠或蔬菜丝太长；把面糊调稀，菜丝改短。",
+    "外焦里生：火太大；用中小火，等表面凝固再翻面。",
+    "饼发硬：面粉搅拌过度出筋，或煎的时间太长；拌到没有干粉即可，不要反复搅。"
+  ],
+  "source": {
+    "type": "original",
+    "label": "本项目原创整理",
+    "license": "CC BY 4.0（文字与示意图）",
+    "note": "基于家庭常见做法整理，非转载；图片为项目脚本生成的示意图。"
+  },
+  "completeness": "complete",
+  "createdAt": "2026-10-19T00:00:00.000Z",
+  "updatedAt": "2026-10-19T00:00:00.000Z"
+}
